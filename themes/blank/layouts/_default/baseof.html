@@ -3,17 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {{ hugo.Generator }}
+
 	<title>{{ .Title }}</title>
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+
+  {{ $sass := resources.Get "sass/style.scss" }}
+  {{ $style := $sass | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="/fonts/ArmWrestler.ttf" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 </head>
 <body>
 	{{ partial "header" . }}
-	{{ block "main" . }}{{ end }}
+    <div id="container">
+        <header>
+            <a href="index.html">
+                <h1>Mirroring Places</h1>
+            </a>
+
+        </header>
+
+      	{{ block "main" . }}{{ end }}
+
+        <footer>
+            <menu>
+                <a href="about.html"><img src="images/about.png"></a>
+                <a href="story.html"><img src="images/story.png"></a>
+                <a href="index.html"><img src="images/mapGreen.png"></a>
+            </menu>
+        </footer>
+    </div>
 	{{ partial "footer" . }}
 </body>
 </html>
