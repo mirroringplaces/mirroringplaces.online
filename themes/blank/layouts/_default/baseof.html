@@ -20,6 +20,9 @@
   <link href="/fonts/ArmWrestler.ttf" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+  {{ template "_internal/twitter_cards.html" . }}
+  {{ template "_internal/opengraph.html" . }}
+
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
@@ -31,19 +34,29 @@
             <a href="index.html">
                 <h1>Mirroring Places</h1>
             </a>
-
+            <select id="language-changer">
+            {{ range $.Site.Home.AllTranslations }}
+              <option value="{{ .Permalink }}"{{ if (eq .Site.LanguageCode .Language.LanguageCode) }} selected {{ end }}>{{ .Language.LanguageName }}</option>
+            {{ end }}
+            </select>
         </header>
 
       	{{ block "main" . }}{{ end }}
 
         <footer>
             <menu>
-                <a href="about.html"><img src="images/about.png"></a>
-                <a href="story.html"><img src="images/story.png"></a>
-                <a href="index.html"><img src="images/mapGreen.png"></a>
+                {{ $currentPage := . }}
+                {{ range .Site.Menus.nav }}
+                  {{ $atURL := absURL $currentPage.RelPermalink }}
+                  {{ $compURL := absURL .URL }}
+                  <a href="{{ .URL }}"{{ if (eq $atURL $compURL) }} class="active"{{ end }}><img src="{{ .Pre }}" alt="{{ .Name }}"></a>
+                {{ end }}
             </menu>
         </footer>
     </div>
 	{{ partial "footer" . }}
+	
+	<script type="text/javascript" src="/js/nav.js"></script>
+	
 </body>
 </html>

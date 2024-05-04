@@ -1,0 +1,64 @@
+baseURL: "https://mirroringplaces.online/"
+languageCode: "en-us"
+title: "Mirroring Places"
+theme: "blank"
+
+defaultContentLanguage: "en"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# See: https://gohugo.io/content-management/multilingual/
+languages:
+  da:
+    title: "Mirroring Places"
+    params:
+      description: "Mirroring places skins of memories emerges on the surfaces on the bodies."
+    weight: 2
+    # First Hugo looks in your post front matter for an images value (images: [""])
+    # Then Hugo searchs for image page resources with feature, cover or thumbnail in their name. These are images files under a directory that matches the post (e.g. content\posts\first-post)
+    # If no images are found, Hugo looks for images (images: [""]) in your site config
+    # If no image if found, then an image-less Twitter summary card is used instead of summary_large_image
+    # https://digitaldrummerj.me/hugo-preview-when-sharing-twitter/
+    params:
+      images: ["/images/some_card_da.png"]
+    LanguageName: Dansk
+    menu:
+      nav:
+      - name: "About"
+        url: "/about"
+        pre: "/images/about.png"
+        weight: 1
+      - name: "Story"
+        url: "/"
+        pre: "/images/story.png"
+        weight: 2
+      - name: "Map"
+        url: "/map"
+        pre: "/images/mapGreen.png"
+        weight: 3
+  en:
+    title: "Mirroring Places"
+    params:
+      description: "Mirroring places skins of memories emerges on the surfaces on the bodies."
+    weight: 1    
+    params:
+      images: ["/images/some_card_da.png"]
+    LanguageName: English
+    menu:
+      nav:
+      - name: "About"
+        url: "/about"
+        pre: "/images/about.png"
+        weight: 1
+      - name: "Story"
+        url: "/"
+        pre: "/images/story.png"
+        weight: 2
+      - name: "Map"
+        url: "/map"
+        pre: "/images/mapGreen.png"
+        weight: 3
+
