@@ -5,6 +5,7 @@ title: Scene 1.3
 
 params:
   bodyClass: "scenes"
+  containerClass: "containerScene"
 ---
 
 

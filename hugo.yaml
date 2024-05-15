@@ -32,7 +32,7 @@ languages:
         pre: "menu-about"
         weight: 1
       - name: "Story"
-        url: "/da/"
+        url: "/da/story/"
         pre: "menu-story"
         weight: 2
       - name: "Map"
@@ -54,7 +54,7 @@ languages:
         pre: "menu-about"
         weight: 1
       - name: "Story"
-        url: "/"
+        url: "/story/"
         pre: "menu-story"
         weight: 2
       - name: "Map"

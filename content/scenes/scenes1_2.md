@@ -5,7 +5,9 @@ title: Scene 1.2
 
 params:
   bodyClass: "scenes"
+  containerClass: "containerScene"
 ---
+
 ### Scene 1:
 
 <div id="container3D"></div>
