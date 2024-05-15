@@ -8,14 +8,11 @@ params:
 ---
 
 
-<div class="contentScene">
-   <h3>Scene &#9744;</h3>
-   
-   <div id="container3D"></div>
-   <p class="white sceneNav">2. 3D objekt</p>
-   <div class="sceneNav">
-       <p class="green"><a href="scenes1_2.html">&#8678;</a> <a href="../scenes.html">&#8680;</a></p>
-   </div>
+### Scene &#9744;
 
+<div id="container3D"></div>
+<p class="white sceneNav">2. 3D objekt</p>
+<div class="sceneNav">
+   <p class="green"><a href="/scenes/scenes1_2">&#8678;</a> <a href="/scenes">&#8680;</a></p>
 </div>
 
