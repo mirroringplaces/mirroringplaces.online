@@ -18,6 +18,16 @@ body {
     width: 100%;
 }
 
+body.about {
+    background-image: url('/images/background3.png');
+}
+
+body.scenes {
+    background-image: url('/images/background4.png');
+}
+
+
+
 #container {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -166,18 +176,41 @@ footer {
     z-index: 100;
     position: fixed;
     bottom: 30px;
+
+    menu {
+        display: table-row;
+        text-align: center;
+        li {
+            display: table-cell;
+            padding: 0 15px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            a {
+              text-align: center;
+              vertical-align: middle;
+              min-height: 50px;
+              line-height: 50px;
+              min-width: 100px;
+              display: inline-block;
+              padding: 10px;
+              min-width: 100px;
+              color: #fff;
+              text-transform: uppercase;
+            }
+        }
+        li.menu-about {
+          background-image: url("/images/about.svg");
+        }
+        li.menu-scenes {
+          background-image: url("/images/map.svg");
+        }
+        li.menu-story {
+          background-image: url("/images/story.svg");
+        }
+    }
 }
 
-menu {
-    display: inline-block;
-    text-align: center;
-}
-
-menu img {
-    display: inline-block;
-    margin-right: 15px;
-    width: 20%;
-}
 
 /* About page */
 

@@ -1,7 +1,7 @@
 baseURL: "https://mirroringplaces.online/"
 languageCode: "en-us"
 title: "Mirroring Places"
-theme: "blank"
+theme: "mirroringplaces"
 
 defaultContentLanguage: "en"
 
@@ -28,16 +28,16 @@ languages:
     menu:
       nav:
       - name: "About"
-        url: "/about"
-        pre: "/images/about.png"
+        url: "/da/about"
+        pre: "menu-about"
         weight: 1
       - name: "Story"
-        url: "/"
-        pre: "/images/story.png"
+        url: "/da/"
+        pre: "menu-story"
         weight: 2
       - name: "Map"
-        url: "/map"
-        pre: "/images/mapGreen.png"
+        url: "/da/scenes/"
+        pre: "menu-scenes"
         weight: 3
   en:
     title: "Mirroring Places"
@@ -51,14 +51,14 @@ languages:
       nav:
       - name: "About"
         url: "/about"
-        pre: "/images/about.png"
+        pre: "menu-about"
         weight: 1
       - name: "Story"
         url: "/"
-        pre: "/images/story.png"
+        pre: "menu-story"
         weight: 2
       - name: "Map"
-        url: "/map"
-        pre: "/images/mapGreen.png"
+        url: "/scenes/"
+        pre: "menu-scenes"
         weight: 3
 
