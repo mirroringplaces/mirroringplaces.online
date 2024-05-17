@@ -1,5 +1,5 @@
 
-document.getElementById("language-changer").addEventListener("change", (event) => {
+document.getElementsByClassName("languages")[0].addEventListener("change", (event) => {
     document.location.href=event.target.value;
   }
 );
