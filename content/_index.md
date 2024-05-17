@@ -2,12 +2,14 @@
 title: "Mirroring Places"
 date: "2024-05-03"
 draft: false
+
 ---
 
 English
 
 <div id="mapFolder">
 <img src="/images/mirroring_map_grey.png" id="map">
+
 <div id="prismaScenes">
     <p class="orange" id="prisma">&#9661;</p>
     <p class="orange">3 4</p>

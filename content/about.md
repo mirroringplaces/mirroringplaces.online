@@ -5,6 +5,9 @@ title: Om
 
 params:
   bodyClass: "about"
+  containerClass: "containerAbout"
+  footerClass: "footerAbout"
+  
 ---
 
 ### About

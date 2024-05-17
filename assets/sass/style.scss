@@ -13,6 +13,7 @@ menu {
     padding: 0;
 }
 
+/* BODY */
 body {
 
 
@@ -31,7 +32,7 @@ body.story {
     background-image: url('/images/background_story2.png');
 }
 
-
+/* INDEX CONTENT */
 .container {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -48,6 +49,8 @@ body.story {
     right: 0;
     position: relative;
 }
+
+
 
 header {
     display: block;
@@ -143,17 +146,25 @@ ul {
     list-style-type: square;
 }
 
-/* MAIN */
+/* LANGUAGE SELECTOR */
+.centerText {
+    text-align: center;
+    padding: 15px;
+    margin: 100px;
+    background-color: black;
+    color: rgb(0, 255, 0);
+    border: 1px solid rgb(0, 255, 0);
+    height: 35px;
+}
+
+/* INDEX/MAP PAGE */
 .content {
     padding: 10px;
     margin-top: 50px;
     margin-bottom: 70px;
     z-index: 70;
     position: relative;
-
 }
-
-#storyLine {}
 
 main h2 {
     color: white;
@@ -182,52 +193,6 @@ main h2 {
     height: 640px;
 }
 
-
-/* FOOTER */
-footer {
-    width: 360px;
-    height: 60px;
-    z-index: 100;
-    position: fixed;
-    bottom: 30px;
-
-    menu {
-        display: table-row;
-        text-align: center;
-        li {
-            display: table-cell;
-            padding: 0 15px;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-            a {
-              text-align: center;
-              vertical-align: middle;
-              min-height: 50px;
-              line-height: 50px;
-              min-width: 100px;
-              display: inline-block;
-              padding: 10px;
-              min-width: 100px;
-              color: #fff;
-              text-transform: uppercase;
-            }
-        }
-        li.menu-about {
-          background-image: url("/images/aboutGreen.svg");
-        }
-        li.menu-scenes {
-          background-image: url("/images/mapWhite.svg");
-        }
-        li.menu-story {
-          background-image: url("/images/storyWhite.svg");
-        }
-    }
-}
-
-
-
-/* MAP */
 #mapFolder {
     position: absolute;
     width: 340px;
@@ -281,15 +246,27 @@ footer {
     line-height: 0.9;
 }
 
+/* STORY PAGE */
+.container.containerStory {
+    background-color: white;
+    
+    li.menu-about {
+          background-image: url("/images/aboutWhite.svg");
+        }
+        li.menu-scenes {
+          background-image: url("/images/mapWhite.svg");
+        }
+        li.menu-story {
+          background-image: url("/images/storyGreen.svg");
+        }
+    
+}
 
-
-/* STORY */
 #storyLine {}
 
 #storyLine h2 {
     color: white;
     text-shadow: black 3px -5px;
-    /*textborder: 0.5px solid black;*/
 }
 
 #mapStory {
@@ -321,45 +298,114 @@ footer {
 }
 
 
+/* ABOUT PAGE */
+.container.containerAbout {
+    background-color: greenyellow;
+    
+    li.menu-about {
+          background-image: url("/images/aboutGreen.svg");
+        }
+        li.menu-scenes {
+          background-image: url("/images/mapWhite.svg");
+        }
+        li.menu-story {
+          background-image: url("/images/storyWhite.svg");
+        }
+}
+
+/* SCENE PAGES */
+.sceneNav p {
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+h3 a:link,
+h3 a:visited,
+h3 a:hover
+h3 a:active {
+    color: rgb(0,255,0);
+    text-decoration: none;
+}
+
+.contentScene h3 {
+    padding: 3px;
+    padding-left: 0px;
+    font-family: "Bauhaus", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 13pt;
+    line-height: 1.2;
+    color: rgb(0,255,0);
+}
+
+.sceneNav h3 {
+    padding: 3px;
+    padding-left: 0px;
+    font-family: "Bauhaus", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35pt;
+    line-height: 0.7;
+}
+
+.container3D {
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.sceneNav {
+    text-align: center;
+    margin-top: 15px;
+}
+
 /* FOOTER */
 footer {
     width: 360px;
     height: 60px;
     z-index: 100;
     position: fixed;
-    bottom: 15px;
+    bottom: 30px;
+
+    menu {
+        display: table-row;
+        text-align: center;
+        li {
+            display: table-cell;
+            padding: 0 15px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            a {
+              text-align: center;
+              vertical-align: middle;
+              min-height: 50px;
+              line-height: 50px;
+              min-width: 100px;
+              display: inline-block;
+              padding: 10px;
+              min-width: 100px;
+              color: #fff;
+              text-transform: uppercase;
+            }
+        }
+        li.menu-about {
+          background-image: url("/images/aboutWhite.svg");
+        }
+        li.menu-scenes {
+          background-image: url("/images/mapGreen.svg");
+        }
+        li.menu-story {
+          background-image: url("/images/storyWhite.svg");
+        }
+    }
 }
 
-menu {
-    display: inline-block;
-    text-align: center;
-}
-
-menu img {
-    display: inline-block;
-    margin-right: 15px;
-    width: 20%;
-}
-
-/* About page */
-
-
-
-/* SCENER */
-
-
-/* LANGUAGE SITE */
-.centerText {
-    text-align: center;
-    padding: 15px;
-    margin: 100px;
-    background-color: black;
-    color: rgb(0, 255, 0);
-    border: 1px solid rgb(0, 255, 0);
-    height: 35px;
-}
-
-/* FARVER */
+/*/////////////////////////////////////////////// */
+/*/////////////////////////////////////////////// */
+/*/////////////////////////////////////////////// */
+/* COLORS */
 .dPink {
     color: deeppink;
 }
@@ -406,74 +452,4 @@ menu img {
     margin: 30px;
     background-color: black;
     color: rgb(0, 255, 0);
-}
-
-.containerScene {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 360px;
-    height: 640px;
-    background-color: black;
-    padding: 0;
-    overflow: scroll;
-    border: 1px solid black;
-    position: fixed;
-    left: 0;
-    right: 0;
-}
-
-.contentScene {
-    padding: 15px;
-    padding-right: 25px;
-    margin-top: 50px;
-    margin-bottom: 70px;
-}
-
-/* TEKST*/
-.sceneNav p {
-    font-size: 18pt;
-    text-decoration: underline;
-}
-
-h3 a:link,
-h3 a:visited,
-h3 a:hover
-h3 a:active {
-    color: rgb(0,255,0);
-    text-decoration: none;
-}
-
-.contentScene h3 {
-    padding: 3px;
-    padding-left: 0px;
-    font-family: "Bauhaus", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 13pt;
-    line-height: 1.2;
-    color: rgb(0,255,0);
-}
-
-.sceneNav h3 {
-    padding: 3px;
-    padding-left: 0px;
-    font-family: "Bauhaus", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 35pt;
-    line-height: 0.7;
-}
-
-.container3D {
-    width: 100%;
-    height: 230px;
-    background-color: white;
-    margin-bottom: 15px;
-}
-
-.sceneNav {
-    text-align: center;
-    margin-top: 15px;
 }
