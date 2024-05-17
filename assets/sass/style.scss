@@ -15,8 +15,6 @@ menu {
 
 /* BODY */
 body {
-
-
   background-image: url('/images/background_map.png');
   width: 100%;
 }
@@ -32,7 +30,7 @@ body.story {
     background-image: url('/images/background_story2.png');
 }
 
-/* INDEX CONTENT */
+/* CONTENT FOR ALL PAGES */
 .container {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -49,8 +47,6 @@ body.story {
     right: 0;
     position: relative;
 }
-
-
 
 header {
     display: block;
@@ -157,7 +153,7 @@ ul {
     height: 35px;
 }
 
-/* INDEX/MAP PAGE */
+/* MAP PAGE */
 .content {
     padding: 10px;
     margin-top: 50px;
@@ -300,7 +296,8 @@ main h2 {
 
 /* ABOUT PAGE */
 .container.containerAbout {
-    background-color: greenyellow;
+    background-color: white;
+    padding: 20px;
     
     li.menu-about {
           background-image: url("/images/aboutGreen.svg");
