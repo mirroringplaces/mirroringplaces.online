@@ -39,7 +39,7 @@
 
     	{{ block "main" . }}{{ end }}
 
-      <footer>
+      <footer class="{{ .Params.bodyClass }}">
           <menu>
               {{ $currentPage := . }}
               {{ range .Site.Menus.nav }}

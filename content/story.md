@@ -5,7 +5,7 @@ draft: false
 
 params:
   bodyClass: "story"
-  containerClass: "containerScene"
+  containerClass: "containerStory"
 
 ---
 <div id="storyLine">
