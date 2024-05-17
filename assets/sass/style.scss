@@ -14,12 +14,13 @@ menu {
 }
 
 body {
-<<<<<<< Updated upstream
+    background-image: url('/images/background2.png');
+
     background-image: url('/images/background1.png');
-=======
-    background-image: url('/images/background_map.png');
->>>>>>> Stashed changes
-    width: 100%;
+
+  background-image: url('/images/background_map.png');
+
+  width: 100%;
 }
 
 body.about {
