@@ -29,9 +29,20 @@
       <header>
         <h1>
           <select class="languages">
-          {{ range $.Site.Home.AllTranslations }}
-            <option value="{{ .Permalink }}"{{ if (eq $.Site.LanguageCode .Language.LanguageCode) }} selected {{ end }}>{{ .Language.LanguageName }}</option>
-          {{ end }}
+          
+            {{ if .IsTranslated }}
+              <option value="{{ .Permalink }}" selected>{{ $.Site.LanguageCode }}</option>
+              {{ range .Translations }}
+                <option value="{{ .Permalink }}">{{ .Language.LanguageCode }}</option>
+              {{ end }}
+
+            {{ else }}
+            
+              {{ range $.Site.Home.AllTranslations }}
+                <option value="{{ .Permalink }}"{{ if (eq $.Site.LanguageCode .Language.LanguageCode) }} selected {{ end }}>{{ .Language.LanguageCode }}</option>
+              {{ end }}
+            {{ end }}
+          
           </select>
           <a href="/">Mirroring Places</a>
         </h1>
