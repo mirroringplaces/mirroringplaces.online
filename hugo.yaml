@@ -36,7 +36,7 @@ languages:
         pre: "menu-story"
         weight: 2
       - name: "Map"
-        url: "/da/scenes/"
+        url: "/da/"
         pre: "menu-scenes"
         weight: 3
   en:
@@ -58,7 +58,7 @@ languages:
         pre: "menu-story"
         weight: 2
       - name: "Map"
-        url: "/scenes/"
+        url: "/"
         pre: "menu-scenes"
         weight: 3
 
