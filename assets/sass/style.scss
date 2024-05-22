@@ -39,6 +39,7 @@ menu {
 
 /* BODY */
 body {
+
   background-image: url('/images/background_map.png');
   width: 100%;
   min-height: 100vh;
@@ -130,7 +131,7 @@ header {
          color: #000;
       }
     }
-    
+
     .languages {
       float: right;
       margin-left: 10px;
@@ -148,11 +149,11 @@ header {
 
     a:link,
     a:hover,
-    a:visited{
+    a:visited {
         text-decoration: none;
         color: black;
     }
-    
+
 }
 
 /* TEKST */
@@ -313,6 +314,20 @@ main h2 {
 }
 
 
+#storyLine {
+    .stickyMap {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 40px;
+    }
+
+    .textBox {
+        padding: 7px;
+        margin: 30px;
+        background-color: white;
+    }
+}
+
 /* SCENE PAGES */
 .sceneNav p {
     font-size: 18pt;
@@ -321,9 +336,8 @@ main h2 {
 
 h3 a:link,
 h3 a:visited,
-h3 a:hover
-h3 a:active {
-    color: rgb(0,255,0);
+h3 a:hover h3 a:active {
+    color: rgb(0, 255, 0);
     text-decoration: none;
 }
 
@@ -335,7 +349,7 @@ h3 a:active {
     font-style: normal;
     font-size: 13pt;
     line-height: 1.2;
-    color: rgb(0,255,0);
+    color: rgb(0, 255, 0);
 }
 
 .sceneNav h3 {
@@ -385,6 +399,7 @@ footer {
         width: 100%;
         display: table-row;
         text-align: center;
+
         li {
             display: table-cell;
             width: 33%;
@@ -392,6 +407,7 @@ footer {
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
+
             a {
               text-align: center;
               vertical-align: middle;
@@ -458,7 +474,7 @@ footer {
   *:visited,
   *:active
   {
-    color: blue;
+    color: rgb(50, 175, 255);
   }
 }
 
@@ -467,7 +483,7 @@ footer {
 }
 
 .yellow {
-    color: rgb(255, 255, 0);
+    color: rgb(222, 255, 0);
 }
 
 /* AFSTANDE */
