@@ -39,10 +39,12 @@ menu {
 
 /* BODY */
 body {
-<<<<<<< Updated upstream
+
   background-image: url('/images/background_map.png');
   width: 100%;
   min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
   &.about {
       background-image: url('/images/background_about.png');
   }
@@ -54,45 +56,33 @@ body {
       background-image: url('/images/background_story2.png');
   }
 
+  @media only screen and (min-width: 950px) {
+    padding: 20px;
+  }
+  @media only screen and (min-width: 450px) and (max-width: 950px) {
+    padding: 20px;
+  }
+  @media only screen and (max-width: 450px) {
+    overflow: hidden;
+    padding: 0;
+  }  
 }
 
-=======
-    background-image: url('/images/background_map.png');
-    width: 100%;
-}
-
-body.about {
-    background-image: url('/images/background_about.png');
-}
-
-body.scenes {
-    background-image: url('/images/background_story2.png');
-}
-
-body.story {
-    background-image: url('/images/background_story2.png');
-}
->>>>>>> Stashed changes
 
 /* CONTENT FOR ALL PAGES */
 .container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 96%;
+    margin: auto auto;
     background-color: white;
     padding: 0;
+    position: relative;
     
     overflow: scroll;
     border: 1px solid black;
-    position: fixed;
-    left: 0;
-    right: 0;
     
     @media only screen and (min-width: 950px) {
       width: 540px;
       height: 960px;
+      max-height: 95vh;
     }
     @media only screen and (min-width: 450px) and (max-width: 950px) {
       width: 360px;
@@ -100,8 +90,8 @@ body.story {
     }
     @media only screen and (max-width: 450px) {
       width: 100%;
-      height: 100%;
       max-height: 100%;
+      position: absolute;
     }
     
     article {
@@ -133,7 +123,6 @@ header {
     text-align: center;
     height: 50px;
     background-color: deeppink;
-<<<<<<< Updated upstream
     position: sticky;
     top: 0;
     h1 {
@@ -141,20 +130,9 @@ header {
       a {
          color: #000;
       }
-=======
-    position: fixed;
-
-    h1 {
-        display: inline-block;
-
-        a {
-            color: #000;
-        }
->>>>>>> Stashed changes
     }
 
     .languages {
-<<<<<<< Updated upstream
       float: right;
       margin-left: 10px;
       margin-top: -5px;
@@ -167,19 +145,6 @@ header {
       width: 45px;
       height: 30px;
       border: 1px solid black;
-=======
-        float: right;
-        margin-left: 10px;
-        font-family: "Space Mono", monospace;
-        font-size: 8pt;
-        font-weight: 400;
-        font-style: normal;
-        background-color: deeppink;
-        color: black;
-        width: 45px;
-        height: 30px;
-        border: 1px solid black;
->>>>>>> Stashed changes
     }
 
     a:link,
@@ -315,7 +280,6 @@ main h2 {
     line-height: 0.9;
 }
 
-<<<<<<< Updated upstream
 #storyLine h2 {
     color: white;
     text-shadow: black 3px -5px;
@@ -350,25 +314,6 @@ main h2 {
 }
 
 
-=======
-/* STORY PAGE */
-.container.containerStory {
-    background-color: white;
-
-    li.menu-about {
-        background-image: url("/images/aboutWhite.svg");
-    }
-
-    li.menu-scenes {
-        background-image: url("/images/mapWhite.svg");
-    }
-
-    li.menu-story {
-        background-image: url("/images/storyGreen.svg");
-    }
-
-}
-
 #storyLine {
     .stickyMap {
         position: -webkit-sticky;
@@ -383,25 +328,6 @@ main h2 {
     }
 }
 
-/* ABOUT PAGE */
-.container.containerAbout {
-    background-color: white;
-    padding: 20px;
-
-    li.menu-about {
-        background-image: url("/images/aboutGreen.svg");
-    }
-
-    li.menu-scenes {
-        background-image: url("/images/mapWhite.svg");
-    }
-
-    li.menu-story {
-        background-image: url("/images/storyWhite.svg");
-    }
-}
-
->>>>>>> Stashed changes
 /* SCENE PAGES */
 .sceneNav p {
     font-size: 18pt;
@@ -452,9 +378,9 @@ h3 a:hover h3 a:active {
 footer {
     display: table;
     height: 60px;
-    position: fixed;
+    position: sticky;
     z-index: 100;
-    bottom: 30px;
+    bottom: 20px;
     left: 50%;
 
     @media only screen and (min-width: 950px) {
@@ -483,7 +409,6 @@ footer {
             background-position: center;
 
             a {
-<<<<<<< Updated upstream
               text-align: center;
               vertical-align: middle;
               min-height: 50px;
@@ -493,52 +418,35 @@ footer {
               min-width: 100px;
               color: #fff;
               text-transform: uppercase;
-=======
-                text-align: center;
-                vertical-align: middle;
-                min-height: 50px;
-                line-height: 50px;
-                min-width: 100px;
-                display: inline-block;
-                padding: 10px;
-                min-width: 100px;
-                color: #fff;
-                text-transform: uppercase;
->>>>>>> Stashed changes
             }
         }
-
+        @media only screen and (max-width: 950px) {
+          li {
+            padding: 0;
+            a {
+              min-width: 0;
+              padding: 0;
+              line-height: 60px;
+            }
+          }
+        }
         li.menu-about {
-<<<<<<< Updated upstream
           background-image: url("/images/aboutWhite.svg");
           &.active {
             background-image: url("/images/aboutGreen.svg");
           }
-=======
-            background-image: url("/images/aboutWhite.svg");
->>>>>>> Stashed changes
         }
-
         li.menu-scenes {
-<<<<<<< Updated upstream
           background-image: url("/images/mapWhite.svg");
           &.active {
             background-image: url("/images/mapGreen.svg");
           }
-=======
-            background-image: url("/images/mapGreen.svg");
->>>>>>> Stashed changes
         }
-
         li.menu-story {
-<<<<<<< Updated upstream
           background-image: url("/images/storyWhite.svg");
           &.active {
             background-image: url("/images/storyGreen.svg");
           }
-=======
-            background-image: url("/images/storyWhite.svg");
->>>>>>> Stashed changes
         }
     }
 }
@@ -560,18 +468,14 @@ footer {
 }
 
 .blue {
-<<<<<<< Updated upstream
   color: blue;
   
   *,
   *:visited,
   *:active
   {
-    color: blue;
-  }
-=======
     color: rgb(50, 175, 255);
->>>>>>> Stashed changes
+  }
 }
 
 .orange {
@@ -598,7 +502,6 @@ footer {
 .hidden {
     visibility: hidden;
 }
-<<<<<<< Updated upstream
 
 .textBox {
     padding: 7px;
@@ -606,5 +509,3 @@ footer {
     background-color: black;
     color: rgb(0, 255, 0);
 }
-=======
->>>>>>> Stashed changes
