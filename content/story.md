@@ -4,7 +4,7 @@ date: "2024-05-03"
 draft: false
 
 params:
-  bodyClass: "story"
+  cssClassSuffix: "story"
   containerClass: "containerStory"
 
 ---
