@@ -5,8 +5,6 @@ draft: false
 
 ---
 
-English
-
 <div id="mapFolder">
 <img src="/images/mirroring_map_grey.png" id="map">
 
