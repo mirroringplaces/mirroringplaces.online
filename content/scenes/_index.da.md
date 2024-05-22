@@ -5,7 +5,7 @@ title: Om
 
 params:
   cssClassSuffix: "scenes"
-  containerClass: "containerScene"
+
 ---
 
 ### Scenes:

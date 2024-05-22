@@ -201,26 +201,6 @@ ul {
     list-style-type: square;
 }
 
-/* LANGUAGE SELECTOR */
-.centerText {
-    text-align: center;
-    padding: 15px;
-    margin: 100px;
-    background-color: black;
-    color: rgb(0, 255, 0);
-    border: 1px solid rgb(0, 255, 0);
-    height: 35px;
-}
-
-/* MAP PAGE */
-.content {
-    padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 70px;
-    z-index: 70;
-    position: relative;
-}
-
 main h2 {
     color: white;
     text-shadow: black 3px -5px;
@@ -244,6 +224,7 @@ main h2 {
 
 #mapFolder {
   position: relative;
+  
 }
 
 
@@ -450,7 +431,14 @@ footer {
 }
 
 .blue {
+  color: blue;
+  
+  *,
+  *:visited,
+  *:active
+  {
     color: blue;
+  }
 }
 
 .orange {

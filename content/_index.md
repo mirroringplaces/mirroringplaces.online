@@ -3,6 +3,9 @@ title: "Mirroring Places"
 date: "2024-05-03"
 draft: false
 
+params:
+  cssClassSuffix: "scenes"
+
 ---
 
 <div id="mapFolder">
@@ -15,7 +18,7 @@ draft: false
 
 <div id="wellScenes">
     <p id="well" class="blue">&#9737;</p>
-    <p class="blue"><a href="Scenes/scene1/scenes1_1.html">1</a> 2</p>
+    <p class="blue"><a href="/scenes/scenes1_1/">1</a> <a href="/scenes/scenes1_2/">2</a></p>
 </div>
 <div id=antennaScenes>
     <p id="antenna" class="dPink">&#9508;</p>
