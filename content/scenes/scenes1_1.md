@@ -4,7 +4,7 @@ draft: false
 title: Scene 1.1
 
 params:
-  bodyClass: "scenes"
+  cssClassSuffix: "scenes"
   containerClass: "containerScene"
   
 ---

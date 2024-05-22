@@ -4,7 +4,7 @@ draft: false
 title: Om
 
 params:
-  bodyClass: "about"
+  cssClassSuffix: "about"
   containerClass: "containerAbout"
   footerClass: "footerAbout"
   

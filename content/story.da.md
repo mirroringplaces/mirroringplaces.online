@@ -4,8 +4,7 @@ date: "2024-05-03"
 draft: false
 
 params:
-  bodyClass: "story"
-  containerClass: "containerScene"
+  cssClassSuffix: "story"
 
 ---
 <div id="storyLine">

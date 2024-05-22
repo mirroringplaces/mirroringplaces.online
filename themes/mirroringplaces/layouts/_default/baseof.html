@@ -21,12 +21,12 @@
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 </head>
-<body class="{{ .Params.bodyClass }}">
+<body class="{{ .Params.cssClassSuffix }}">
 
 	{{ partial "header" . }}
 
-  <div class="container {{ .Params.containerClass }}">
-      <header>
+  <div class="container {{ .Params.cssClassSuffix }}">
+      <header class="{{ .Params.cssClassSuffix }}">
         <h1>
           <select class="languages">
           
@@ -48,9 +48,11 @@
         </h1>
       </header>
 
+      <article class="{{ .Params.cssClassSuffix }}">
     	{{ block "main" . }}{{ end }}
+    	</article>
 
-      <footer class="{{ .Params.bodyClass }}">
+      <footer class="{{ .Params.cssClassSuffix }}">
           <menu>
               {{ $currentPage := . }}
               {{ range .Site.Menus.nav }}

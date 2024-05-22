@@ -4,7 +4,7 @@ draft: false
 title: Om
 
 params:
-  bodyClass: "scenes"
+  cssClassSuffix: "scenes"
   containerClass: "containerScene"
 ---
 
