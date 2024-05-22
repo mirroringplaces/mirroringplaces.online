@@ -52,17 +52,18 @@
     	{{ block "main" . }}{{ end }}
     	</article>
 
+      <footer class="{{ .Params.cssClassSuffix }}">
+          <menu>
+              {{ $currentPage := . }}
+              {{ $atURL := $currentPage.RelPermalink }}
+              {{ range .Site.Menus.nav }}
+                <li class="{{ .Pre }} {{ if (eq $atURL .URL) }}active{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
+              {{ end }}
+          </menu>
+      </footer>
+
   </div>
 
-  <footer class="{{ .Params.cssClassSuffix }}">
-      <menu>
-          {{ $currentPage := . }}
-          {{ $atURL := $currentPage.RelPermalink }}
-          {{ range .Site.Menus.nav }}
-            <li class="{{ .Pre }} {{ if (eq $atURL .URL) }}active{{ end }}"><a href="{{ .URL }}">{{ .Name }}</a></li>
-          {{ end }}
-      </menu>
-  </footer>
 	{{ partial "footer" . }}
 	
 	<script type="text/javascript" src="/js/nav.js"></script>
