@@ -39,6 +39,7 @@ menu {
 
 /* BODY */
 body {
+<<<<<<< Updated upstream
   background-image: url('/images/background_map.png');
   width: 100%;
   min-height: 100vh;
@@ -55,6 +56,23 @@ body {
 
 }
 
+=======
+    background-image: url('/images/background_map.png');
+    width: 100%;
+}
+
+body.about {
+    background-image: url('/images/background_about.png');
+}
+
+body.scenes {
+    background-image: url('/images/background_story2.png');
+}
+
+body.story {
+    background-image: url('/images/background_story2.png');
+}
+>>>>>>> Stashed changes
 
 /* CONTENT FOR ALL PAGES */
 .container {
@@ -115,6 +133,7 @@ header {
     text-align: center;
     height: 50px;
     background-color: deeppink;
+<<<<<<< Updated upstream
     position: sticky;
     top: 0;
     h1 {
@@ -122,9 +141,20 @@ header {
       a {
          color: #000;
       }
+=======
+    position: fixed;
+
+    h1 {
+        display: inline-block;
+
+        a {
+            color: #000;
+        }
+>>>>>>> Stashed changes
     }
-    
+
     .languages {
+<<<<<<< Updated upstream
       float: right;
       margin-left: 10px;
       margin-top: -5px;
@@ -137,15 +167,28 @@ header {
       width: 45px;
       height: 30px;
       border: 1px solid black;
+=======
+        float: right;
+        margin-left: 10px;
+        font-family: "Space Mono", monospace;
+        font-size: 8pt;
+        font-weight: 400;
+        font-style: normal;
+        background-color: deeppink;
+        color: black;
+        width: 45px;
+        height: 30px;
+        border: 1px solid black;
+>>>>>>> Stashed changes
     }
 
     a:link,
     a:hover,
-    a:visited{
+    a:visited {
         text-decoration: none;
         color: black;
     }
-    
+
 }
 
 /* TEKST */
@@ -272,6 +315,7 @@ main h2 {
     line-height: 0.9;
 }
 
+<<<<<<< Updated upstream
 #storyLine h2 {
     color: white;
     text-shadow: black 3px -5px;
@@ -306,6 +350,58 @@ main h2 {
 }
 
 
+=======
+/* STORY PAGE */
+.container.containerStory {
+    background-color: white;
+
+    li.menu-about {
+        background-image: url("/images/aboutWhite.svg");
+    }
+
+    li.menu-scenes {
+        background-image: url("/images/mapWhite.svg");
+    }
+
+    li.menu-story {
+        background-image: url("/images/storyGreen.svg");
+    }
+
+}
+
+#storyLine {
+    .stickyMap {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 40px;
+    }
+
+    .textBox {
+        padding: 7px;
+        margin: 30px;
+        background-color: white;
+    }
+}
+
+/* ABOUT PAGE */
+.container.containerAbout {
+    background-color: white;
+    padding: 20px;
+
+    li.menu-about {
+        background-image: url("/images/aboutGreen.svg");
+    }
+
+    li.menu-scenes {
+        background-image: url("/images/mapWhite.svg");
+    }
+
+    li.menu-story {
+        background-image: url("/images/storyWhite.svg");
+    }
+}
+
+>>>>>>> Stashed changes
 /* SCENE PAGES */
 .sceneNav p {
     font-size: 18pt;
@@ -314,9 +410,8 @@ main h2 {
 
 h3 a:link,
 h3 a:visited,
-h3 a:hover
-h3 a:active {
-    color: rgb(0,255,0);
+h3 a:hover h3 a:active {
+    color: rgb(0, 255, 0);
     text-decoration: none;
 }
 
@@ -328,7 +423,7 @@ h3 a:active {
     font-style: normal;
     font-size: 13pt;
     line-height: 1.2;
-    color: rgb(0,255,0);
+    color: rgb(0, 255, 0);
 }
 
 .sceneNav h3 {
@@ -378,6 +473,7 @@ footer {
         width: 100%;
         display: table-row;
         text-align: center;
+
         li {
             display: table-cell;
             width: 33%;
@@ -385,7 +481,9 @@ footer {
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
+
             a {
+<<<<<<< Updated upstream
               text-align: center;
               vertical-align: middle;
               min-height: 50px;
@@ -395,25 +493,52 @@ footer {
               min-width: 100px;
               color: #fff;
               text-transform: uppercase;
+=======
+                text-align: center;
+                vertical-align: middle;
+                min-height: 50px;
+                line-height: 50px;
+                min-width: 100px;
+                display: inline-block;
+                padding: 10px;
+                min-width: 100px;
+                color: #fff;
+                text-transform: uppercase;
+>>>>>>> Stashed changes
             }
         }
+
         li.menu-about {
+<<<<<<< Updated upstream
           background-image: url("/images/aboutWhite.svg");
           &.active {
             background-image: url("/images/aboutGreen.svg");
           }
+=======
+            background-image: url("/images/aboutWhite.svg");
+>>>>>>> Stashed changes
         }
+
         li.menu-scenes {
+<<<<<<< Updated upstream
           background-image: url("/images/mapWhite.svg");
           &.active {
             background-image: url("/images/mapGreen.svg");
           }
+=======
+            background-image: url("/images/mapGreen.svg");
+>>>>>>> Stashed changes
         }
+
         li.menu-story {
+<<<<<<< Updated upstream
           background-image: url("/images/storyWhite.svg");
           &.active {
             background-image: url("/images/storyGreen.svg");
           }
+=======
+            background-image: url("/images/storyWhite.svg");
+>>>>>>> Stashed changes
         }
     }
 }
@@ -435,6 +560,7 @@ footer {
 }
 
 .blue {
+<<<<<<< Updated upstream
   color: blue;
   
   *,
@@ -443,6 +569,9 @@ footer {
   {
     color: blue;
   }
+=======
+    color: rgb(50, 175, 255);
+>>>>>>> Stashed changes
 }
 
 .orange {
@@ -450,7 +579,7 @@ footer {
 }
 
 .yellow {
-    color: rgb(255, 255, 0);
+    color: rgb(222, 255, 0);
 }
 
 /* AFSTANDE */
@@ -469,6 +598,7 @@ footer {
 .hidden {
     visibility: hidden;
 }
+<<<<<<< Updated upstream
 
 .textBox {
     padding: 7px;
@@ -476,3 +606,5 @@ footer {
     background-color: black;
     color: rgb(0, 255, 0);
 }
+=======
+>>>>>>> Stashed changes
