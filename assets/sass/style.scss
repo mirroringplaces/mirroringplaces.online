@@ -4,21 +4,21 @@
 }
 
 @font-face {
-  font-family: 'Bauhaus';
-  src: url("/fonts/Bauhaus-Bold.woff2") format('woff2');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
+    font-family: 'Bauhaus';
+    src: url("/fonts/Bauhaus-Bold.woff2") format('woff2');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
 
 }
 
 @font-face {
-  font-family: 'Space Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/fonts/space-mono.woff2") format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/space-mono.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 
@@ -40,32 +40,36 @@ menu {
 /* BODY */
 body {
 
-  background-image: url('/images/background_map.png');
-  width: 100%;
-  min-height: 100vh;
-  position: relative;
-  overflow-x: hidden;
-  &.about {
-      background-image: url('/images/background_about.png');
-  }
+    background-image: url('/images/background_map.png');
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
 
-  &.scenes {
-      background-image: url('/images/background_story2.png');
-  }
-  &.story {
-      background-image: url('/images/background_story2.png');
-  }
+    &.about {
+        background-image: url('/images/background_about.png');
+    }
 
-  @media only screen and (min-width: 950px) {
-    padding: 20px;
-  }
-  @media only screen and (min-width: 450px) and (max-width: 950px) {
-    padding: 20px;
-  }
-  @media only screen and (max-width: 450px) {
-    overflow: hidden;
-    padding: 0;
-  }  
+    &.scenes {
+        background-image: url('/images/background_story2.png');
+    }
+
+    &.story {
+        background-image: url('/images/background_story2.png');
+    }
+
+    @media only screen and (min-width: 950px) {
+        padding: 20px;
+    }
+
+    @media only screen and (min-width: 450px) and (max-width: 950px) {
+        padding: 20px;
+    }
+
+    @media only screen and (max-width: 450px) {
+        overflow: hidden;
+        padding: 0;
+    }
 }
 
 
@@ -75,46 +79,37 @@ body {
     background-color: white;
     padding: 0;
     position: relative;
-    
+
     overflow: scroll;
     border: 1px solid black;
-    
+
     @media only screen and (min-width: 950px) {
-      width: 540px;
-      height: 960px;
-      max-height: 95vh;
+        width: 540px;
+        height: 960px;
+        max-height: 95vh;
     }
+
     @media only screen and (min-width: 450px) and (max-width: 950px) {
-      width: 360px;
-      height: 640px;
+        width: 360px;
+        height: 640px;
     }
+
     @media only screen and (max-width: 450px) {
-      width: 100%;
-      max-height: 100%;
-      position: absolute;
-    }
-    
-    article {
-      /* whitespace because of the menu that is 60px tall */
-      padding-bottom: 100px;
-    
-    
-      img {
-        display: block;
         width: 100%;
-      }
-    
-    }
-    
-    article.story {
-        background-color: white;
+        max-height: 100%;
+        position: absolute;
     }
 
-    article.about {
-      background-color: white;
-      padding: 20px;
-    }
+    article {
+        /* whitespace because of the menu that is 60px tall */
+        padding-bottom: 100px;
 
+        img {
+            display: block;
+            width: 100%;
+        }
+
+    }
 
 }
 
@@ -125,26 +120,28 @@ header {
     background-color: deeppink;
     position: sticky;
     top: 0;
+
     h1 {
-      display: block;
-      a {
-         color: #000;
-      }
+        display: block;
+
+        a {
+            color: #000;
+        }
     }
 
     .languages {
-      float: right;
-      margin-left: 10px;
-      margin-top: -5px;
-      font-family: "Space Mono", monospace;
-      font-size: 10pt;
-      font-weight: 400;
-      font-style: normal;
-      background-color: deeppink;
-      color: black;
-      width: 45px;
-      height: 30px;
-      border: 1px solid black;
+        float: right;
+        margin-left: 10px;
+        margin-top: -5px;
+        font-family: "Space Mono", monospace;
+        font-size: 10pt;
+        font-weight: 400;
+        font-style: normal;
+        background-color: deeppink;
+        color: black;
+        width: 45px;
+        height: 30px;
+        border: 1px solid black;
     }
 
     a:link,
@@ -222,11 +219,55 @@ ul {
     list-style-type: square;
 }
 
+/* ABOUT */
+article.about {
+    background-color: white;
+    padding: 15px;
+
+
+}
+
+/* STORY */
+article.story {
+    background-color: white;
+    padding: 15px;
+
+    .stickyMap {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 40px;
+    }
+
+    .textBox {
+        padding: 7px;
+        margin: 30px;
+        background-color: white;
+    }
+
+    .content h2 {
+        color: rgb(0, 255, 0);
+        z-index: 1000;
+        line-height: 1;
+        position: static;
+    }
+
+    .stickyMap {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    .content {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
 /* MAP */
 
 #mapFolder {
-  position: relative;
-  
+    position: relative;
+
 }
 
 #well {
@@ -307,67 +348,48 @@ ul {
     height: 640px;
 }
 
-.stickyMap {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 40px;
-}
-
-/* STORY */
-#storyLine {
-    .stickyMap {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 40px;
-    }
-
-    .textBox {
-        padding: 7px;
-        margin: 30px;
-        background-color: white;
-    }
-}
-
 /* SCENE PAGES */
-.contentScene {
+article.scenes {
     padding: 15px;
     padding-top: 25px;
-    
+
     img {
         margin-bottom: 15px;
     }
-    
+
     h3 {
-       font-size: 18pt; 
+        font-size: 18pt;
     }
+
     p {
         margin-bottom: 50px;
     }
-    
+
     .sceneNav {
         text-align: center;
         margin-bottom: 15px;
-        
+
         h4 {
             font-size: 40pt;
             margin-bottom: 0px;
             margin-top: 0px;
-            color: rgb(0,255,0);
+            color: rgb(0, 255, 0);
             line-height: 0.8;
         }
+
         p {
             font-size: 18pt;
             text-decoration: underline;
             margin-bottom: 10px;
         }
+
         *,
         *:visited,
-        *:active
-        {
+        *:active {
             color: rgb(0, 255, 0);
             text-decoration: none;
-          }
-    }   
+        }
+    }
 }
 
 
@@ -383,17 +405,19 @@ footer {
     left: 50%;
 
     @media only screen and (min-width: 950px) {
-      width: 540px;
-      margin-left: -270px;
+        width: 540px;
+        margin-left: -270px;
     }
+
     @media only screen and (min-width: 450px) and (max-width: 950px) {
-      width: 360px;
-      margin-left: -180px;
+        width: 360px;
+        margin-left: -180px;
     }
+
     @media only screen and (max-width: 450px) {
-      width: 100%;
+        width: 100%;
     }
-    
+
     menu {
         width: 100%;
         display: table-row;
@@ -408,44 +432,52 @@ footer {
             background-position: center;
 
             a {
-              text-align: center;
-              vertical-align: middle;
-              min-height: 50px;
-              line-height: 50px;
-              display: inline-block;
-              padding: 10px;
-              min-width: 100px;
-              color: #fff;
-              text-transform: uppercase;
+                text-align: center;
+                vertical-align: middle;
+                min-height: 50px;
+                line-height: 50px;
+                display: inline-block;
+                padding: 10px;
+                min-width: 100px;
+                color: #fff;
+                text-transform: uppercase;
             }
         }
+
         @media only screen and (max-width: 950px) {
-          li {
-            padding: 0;
-            a {
-              min-width: 0;
-              padding: 0;
-              line-height: 60px;
+            li {
+                padding: 0;
+
+                a {
+                    min-width: 0;
+                    padding: 0;
+                    line-height: 60px;
+                }
             }
-          }
         }
+
         li.menu-about {
-          background-image: url("/images/aboutWhite.svg");
-          &.active {
-            background-image: url("/images/aboutGreen.svg");
-          }
+            background-image: url("/images/aboutWhite.svg");
+
+            &.active {
+                background-image: url("/images/aboutGreen.svg");
+            }
         }
+
         li.menu-scenes {
-          background-image: url("/images/mapWhite.svg");
-          &.active {
-            background-image: url("/images/mapGreen.svg");
-          }
+            background-image: url("/images/mapWhite.svg");
+
+            &.active {
+                background-image: url("/images/mapGreen.svg");
+            }
         }
+
         li.menu-story {
-          background-image: url("/images/storyWhite.svg");
-          &.active {
-            background-image: url("/images/storyGreen.svg");
-          }
+            background-image: url("/images/storyWhite.svg");
+
+            &.active {
+                background-image: url("/images/storyGreen.svg");
+            }
         }
     }
 }
@@ -467,14 +499,13 @@ footer {
 }
 
 .blue {
-  color: rgb(50, 175, 255);
-  
-  *,
-  *:visited,
-  *:active
-  {
     color: rgb(50, 175, 255);
-  }
+
+    *,
+    *:visited,
+    *:active {
+        color: rgb(50, 175, 255);
+    }
 }
 
 .orange {
@@ -500,11 +531,4 @@ footer {
 
 .hidden {
     visibility: hidden;
-}
-
-.textBox {
-    padding: 7px;
-    margin: 30px;
-    background-color: black;
-    color: rgb(0, 255, 0);
 }
