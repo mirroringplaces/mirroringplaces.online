@@ -5,12 +5,10 @@ title: Om
 
 params:
   cssClassSuffix: "about"
-  containerClass: "containerAbout"
-  footerClass: "footerAbout"
   
 ---
 
-### About
+## About
 
 <img src="/images/14_cloud.png">
 
