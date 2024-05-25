@@ -41,7 +41,7 @@ menu {
 body {
 
     background-image: url('/images/background_map.png');
-    width: 100%;
+    /*width: 100%;*/
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;
@@ -58,13 +58,7 @@ body {
         background-image: url('/images/background_story2.png');
     }
 
-    @media only screen and (min-width: 950px) {
-        padding: 20px;
-    }
-
-    @media only screen and (min-width: 450px) and (max-width: 950px) {
-        padding: 20px;
-    }
+    padding: 20px;
 
     @media only screen and (max-width: 450px) {
         overflow: hidden;
@@ -83,21 +77,16 @@ body {
     overflow: scroll;
     border: 1px solid black;
 
-    @media only screen and (min-width: 950px) {
-        width: 540px;
-        height: 960px;
-        max-height: 95vh;
-    }
-
-    @media only screen and (min-width: 450px) and (max-width: 950px) {
-        width: 360px;
-        height: 640px;
+    @media only screen and (min-width: 450px) {
+        width: 56vh; /* 9:16 format */
+        height: calc(100vh - 40px);
+        min-height: calc(100vh - 40px);
     }
 
     @media only screen and (max-width: 450px) {
-
       width: 100%;
       max-height: 100%;
+      min-height: 100%;
       position: absolute;
     }
     
@@ -111,24 +100,6 @@ body {
         display: block;
         width: 100%;
       }
-    }
-    
-    article.story {
-        background-color: white;
-        width: 100%;
-        max-height: 100%;
-        position: absolute;
-    }
-
-    article {
-        /* whitespace because of the menu that is 60px tall */
-        padding-bottom: 100px;
-
-        img {
-            display: block;
-            width: 100%;
-        }
-
     }
 
 }
@@ -256,27 +227,19 @@ article.story {
         position: -webkit-sticky;
         position: sticky;
         top: 40px;
+        z-index: 1;
     }
 
     .textBox {
         padding: 7px;
         margin: 30px;
         background-color: white;
+        z-index: 2;
+        position: relative;
     }
 
     .shaman {
         position: relative;
-    }
-
-    .top {
-        z-index: 10;
-    }
-
-    .mid {
-        z-index: 5;
-    }
-
-    .bot {
         z-index: 2;
     }
 
@@ -372,25 +335,11 @@ article.scenes {
 /* FOOTER */
 footer {
     display: table;
+    width: 100%;
     height: 60px;
     position: sticky;
     z-index: 100;
     bottom: 20px;
-    left: 50%;
-
-    @media only screen and (min-width: 950px) {
-        width: 540px;
-        margin-left: -270px;
-    }
-
-    @media only screen and (min-width: 450px) and (max-width: 950px) {
-        width: 360px;
-        margin-left: -180px;
-    }
-
-    @media only screen and (max-width: 450px) {
-        width: 100%;
-    }
 
     menu {
         width: 100%;
