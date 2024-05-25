@@ -251,7 +251,6 @@ article.about {
 article.story {
     background-color: white;
     padding: 15px;
-    padding-bottom: 0px;
 
     .stickyMap {
         position: -webkit-sticky;
@@ -260,11 +259,9 @@ article.story {
     }
 
     .textBox {
-        position: relative;
         padding: 7px;
         margin: 30px;
         background-color: white;
-        z-index: 50;
     }
 
     .shaman {
@@ -283,40 +280,6 @@ article.story {
         z-index: 2;
     }
 
-/* STORY */
-article.story {
-    background-color: white;
-    padding: 15px;
-
-    .stickyMap {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 40px;
-    }
-
-    .textBox {
-        padding: 7px;
-        margin: 30px;
-        background-color: white;
-    }
-
-    .content h2 {
-        color: rgb(0, 255, 0);
-        z-index: 1000;
-        line-height: 1;
-        position: static;
-    }
-
-    .stickyMap {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-    }
-
-    .content {
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
 }
 
 /* MAP */
@@ -324,31 +287,31 @@ article.story {
 #mapFolder {
   position: relative;
 
-    p {
-        font-size: 40pt;
-        font-weight: 800;
-    }
-
-    *,
-    *:visited,
-    *:active {
-        text-decoration: none;
-    }
-
-    #wellScenes {
-        position: absolute;
-        top: 33%;
-        left: 59%;
-        text-align: center;
-    }
-
-    #prismaScenes {
-        position: absolute;
-        top: 18%;
-        left: 50%;
-        text-align: center;
-    }
+  p {
+      font-size: 40pt;
+      font-weight: 800;
   }
+
+  *,
+  *:visited,
+  *:active {
+      text-decoration: none;
+  }
+
+  #wellScenes {
+      position: absolute;
+      top: 33%;
+      left: 59%;
+      text-align: center;
+  }
+
+  #prismaScenes {
+      position: absolute;
+      top: 18%;
+      left: 50%;
+      text-align: center;
+  }
+}
 
 
 
@@ -365,6 +328,7 @@ article.scenes {
         padding: 7px;
         margin: 30px;
         background-color: white;
+    }
 
     h3 {
         font-size: 18pt;
