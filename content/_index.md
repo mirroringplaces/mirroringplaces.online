@@ -16,7 +16,7 @@ params:
 </div>
 
 <div id="wellScenes">
-    <a href="/scenes/scenes1_1/"><p id="well" class="blue">&#9737;</p></a>
+    <a href="/scenes/scene1/object1/"><p id="well" class="blue">&#9737;</p></a>
 </div>
 <div id=antennaScenes>
     <p id="antenna" class="yellow">&#9508;</p>
