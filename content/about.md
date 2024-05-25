@@ -8,7 +8,7 @@ params:
   
 ---
 
-## About
+# About
 
 <img src="/images/14_cloud.png">
 
