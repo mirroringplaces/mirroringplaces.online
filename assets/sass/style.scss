@@ -41,6 +41,7 @@ menu {
 body {
 
     background-image: url('/images/background_map.png');
+    background-size: cover;
     /*width: 100%;*/
     min-height: 100vh;
     position: relative;
@@ -100,6 +101,12 @@ body {
         display: block;
         width: 100%;
       }
+      
+      p {
+        margin-top: 20px;
+      }
+      
+      
     }
 
 }
@@ -113,8 +120,9 @@ header {
     top: 0;
     z-index: 100;
 
-  h1 {
+    h1 {
         display: block;
+        padding: 15px;
 
         a {
             color: #000;
@@ -147,7 +155,7 @@ header {
 
 /* TEKST */
 h1 {
-    padding: 15px;
+    padding: 15px 0;
     font-family: "DRAGON HUNTER", sans-serif;
     font-weight: 700;
     /*font-weight: 800;*/
@@ -159,7 +167,7 @@ h1 {
 }
 
 h2 {
-    padding: 3px;
+    padding: 3px 0;
     font-family: "Bauhaus", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -168,7 +176,7 @@ h2 {
 }
 
 h3 {
-    padding: 3px;
+    padding: 3px 0;
     padding-left: 0px;
     font-family: "Bauhaus", sans-serif;
     font-weight: 800;
@@ -178,7 +186,7 @@ h3 {
 }
 
 h4 {
-    padding: 3px;
+    padding: 3px 0;
     padding-left: 0px;
     font-family: "Space Mono", monospace;
     font-weight: 800;
