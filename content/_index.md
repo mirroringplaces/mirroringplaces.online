@@ -9,20 +9,17 @@ params:
 ---
 
 <div id="mapFolder">
-<img src="/images/mirroring_map_grey.png" id="map">
+<img src="/images/Mirroring_map32.png" id="map">
 
 <div id="prismaScenes">
     <p class="orange" id="prisma">&#9661;</p>
-    <p class="orange">3 4</p>
 </div>
 
 <div id="wellScenes">
-    <p id="well" class="blue">&#9737;</p>
-    <p class="blue"><a href="/scenes/scenes1_1/">1</a> <a href="/scenes/scenes1_2/">2</a></p>
+    <a href="/scenes/scenes1_1/"><p id="well" class="blue">&#9737;</p></a>
 </div>
 <div id=antennaScenes>
-    <p id="antenna" class="dPink">&#9508;</p>
-    <p class="dPink">5 6</p>
+    <p id="antenna" class="yellow">&#9508;</p>
 </div>
 </div>
 
