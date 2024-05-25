@@ -23,3 +23,4 @@ params:
 </div>
 </div>
 
+<script src="/js/map.js" type="module"></script>

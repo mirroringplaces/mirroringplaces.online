@@ -12,7 +12,7 @@ params:
 
 <div id="container3D"></div>
 <canvas id="c" style="width: 100%; height: 100%; display: block;"></canvas>
-<script type="module" src='/js/gltf.js'></script>
+<script src="/js/gltf.js" type="module"></script>
 
 <h3>Soccer shoes</h3>
 <img src="/../images/1_shoes_texture.jpg">
