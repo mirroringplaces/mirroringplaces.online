@@ -27,15 +27,15 @@ languages:
     LanguageName: Dansk
     menu:
       nav:
-      - name: "About"
+      - name: "Om"
         url: "/da/about/"
         pre: "menu-about"
         weight: 1
-      - name: "Story"
+      - name: "Historie"
         url: "/da/story/"
         pre: "menu-story"
         weight: 2
-      - name: "Map"
+      - name: "Kort"
         url: "/da/"
         pre: "menu-scenes"
         weight: 3
