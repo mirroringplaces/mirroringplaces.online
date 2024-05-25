@@ -9,12 +9,11 @@ function domReady(fn) {
 
 const isMobile;
 
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   isMobile = true;
-}else{
+} else {
   isMobile = false;
 }
-
 
 
 domReady(() => {
@@ -24,7 +23,7 @@ domReady(() => {
   mapLinks.forEach((mapLink) => {
     
     var new_url = mapLink.href.replace("scenes/", "scenes-mobile-info/");
-    new_url = new_url.replace(/(scenes\d)_\d/, "$1")
+    new_url = new_url.replace(/object\d\/?/, "")
     mapLink.href = new_url;
     
   });
