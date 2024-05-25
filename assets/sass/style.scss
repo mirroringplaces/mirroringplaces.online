@@ -363,7 +363,9 @@ footer {
                 padding: 10px;
                 min-width: 100px;
                 color: #fff;
-                text-transform: uppercase;
+                font-family: "Space Mono", monospace;
+                font-size: 16px;
+                text-decoration: none;
             }
         }
 
@@ -377,6 +379,12 @@ footer {
                     line-height: 60px;
                 }
             }
+        }
+
+        li.active {
+          a {
+            color: rgb(0, 255, 0);
+          }
         }
 
         li.menu-about {
