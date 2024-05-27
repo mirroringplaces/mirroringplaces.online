@@ -103,10 +103,6 @@ body {
             display: block;
             width: 100%;
         }
-
-        p {
-            margin-top: 20px;
-        }
     }
 }
 
@@ -263,55 +259,84 @@ article.story {
     }
 }
 
-/* MAP */
-
-#mapFolder {
-    position: relative;
-
-    p {
-        font-size: 40pt;
-        font-weight: 800;
-    }
-
-    *,
-    *:visited,
-    *:active {
-        text-decoration: none;
-    }
-
-    #wellScenes {
-        position: absolute;
-        top: 33%;
-        left: 59%;
-        text-align: center;
-    }
-
-    #prismaScenes {
-        position: absolute;
-        top: 18%;
-        left: 50%;
-        text-align: center;
-    }
-}
-
-/* SCENE PAGES */
+/* MAP & SCENE PAGES */
 article.scenes {
     padding: 15px;
-    padding-top: 25px;
 
-    img {
-        margin-bottom: 15px;
-    }
+    #mapFolder {
+        position: relative;
+        margin-top: -100px;
 
-    .textBox {
-        padding: 7px;
-        margin: 30px;
-        background-color: white;
+        p {
+            font-size: 40pt;
+            font-weight: 800;
+        }
+
+        *,
+        *:visited,
+        *:active {
+            text-decoration: none;
+        }
+
+        #prismaScenes {
+            position: absolute;
+            top: 26%;
+            left: 32%;
+            text-align: center;
+        }
+
+        #wellScenes {
+            position: absolute;
+            top: 38%;
+            left: 56%;
+            text-align: center;
+        }
+
+        #antennaScenes {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+        }
+
+        #beginning {
+            position: absolute;
+            font-size: 20px;
+            top: 105px;
+            right: 15px;
+
+            *,
+            *:visited,
+            *:active {
+                text-decoration: none;
+                text-decoration: underline;
+                color: rgb(0, 255, 0);
+            }
+        }
+
+        #end {
+            position: absolute;
+            font-size: 20px;
+            bottom: 135px;
+            left: 15px;
+
+            *,
+            *:visited,
+            *:active {
+                text-decoration: none;
+                text-decoration: underline;
+                color: rgb(0, 255, 0);
+            }
+        }
     }
 
     h3 {
         font-size: 18pt;
 
+    }
+
+    canvas {
+        margin-bottom: 20px;
     }
 
     p {
@@ -343,6 +368,7 @@ article.scenes {
             text-decoration: none;
         }
     }
+
 }
 
 /* FOOTER */
