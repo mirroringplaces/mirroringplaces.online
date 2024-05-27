@@ -7,10 +7,17 @@ params:
   cssClassSuffix: "scenes scenes1"
 
 ---
+<<<<<<< Updated upstream:content/scenes/scenes1_1.md
 <h2 class="green">Scene &#9661;:</h2>
 <h3>Soccer shoes</h3>
 <img src="/../images/1_shoes_texture.jpg">
 <!--<div id="container3D"></div>-->
+=======
+<h2 class="green">Chapter &#9661;:</h2>
+<h3 class="green">Scene 1: Soccer shoes</h3>
+<canvas id="c" style="width: 100%; height: 100%; display: block;"></canvas>
+<script src="/js/gltf.js" type="module"></script>
+>>>>>>> Stashed changes:content/scenes/scene1/object1.md
 <p>This image reveals a pair of objects used to protect the feet. Shoes. They are blue, intense and bright. Accumulation of imprinted symbols that indicate a certain mode of life of a civilization. Its shapes and contours seem to serve a specific type of movement. Soccer shoes. Owned by a boy, whose mother carries those shoes. This boy has a sister. She does not use similar shoes. The mother cares for both, and this is a lot of what she does. She makes sure they have food, rest and protected feet.</p>
 <div class="sceneNav">
          <h4><span class="blue">&#9661;</span> &#9661; &#9661; &#9661; &#9661; &#9661;</h4>
