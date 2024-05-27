@@ -243,14 +243,25 @@ article.story {
         padding: 7px;
         margin: 30px;
         background-color: white;
-        z-index: 2;
+        z-index: 50;
         position: relative;
     }
 
     .shaman {
         position: relative;
-        z-index: 2;
+        z-index: 40;
     }
+    
+        .front {
+        z-index: 10;
+    }
+
+    .middle {
+        z-index: 5;
+    }
+
+    .back {
+        z-index: 0;
 
 }
 
