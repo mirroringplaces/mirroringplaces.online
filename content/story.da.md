@@ -7,36 +7,30 @@ params:
   cssClassSuffix: "story"
 
 ---
-<div id="storyLine">
-    <h2>Mirroring<br>
-        places<br>
-        skins<br>
-        of<br>
-        memories<br>
-        emerges<br>
-        on<br>
-        the<br>
-        surfaces<br>
-        on<br>
-        the<br>
-        bodies</h2>
+<h2 class="green">Kapitel 0:<br>
+    Begyndelsen</h2>
+<img src="/images/shamanObj.png">
+<br>
+<img src="/images/Mirroring_map_grey2.png" class="stickyMap front">
+<div class="textBox blue">
+    <p>Jeg går gennem det hér sted og registrerer de ting, jeg ser, de ting, jeg finder. Intet lader til at være permanent. Som en fremmed, en alien, der kommer fra et andet sted, forsøger jeg at regne mit forhold til omgivelserne ud. Jeg betragter jorden, indånder luften, fornemmer vandet, som løber i undergrunden under mine fødder, vandet, som findes i de små partikler i luften (dyb indånding)... Jeg kan lugte tilstedeværelsen af livet, som passerer forbi.</p>
 </div>
 <div class="sH"></div>
-<div class="textBox">
-    <p>I am walking through this place and taking notes about the things I see, about the things I find. Nothing seems to be permanent here. Like a foreigner, an alien coming from another place, I try to figure out my relations to this space. I look at the ground, I feel the air, I sense the water running by beyond my feet and in small particles in the air (deep inhalation)... I can smell the presence of so much life that is passing by.</p>
+<img src="/images/mirroring_water.png" class="stickyMap front">
+<div class="textBox green">
+    <p>Jeg rejser hurtigere end lysets hastighed, så alt hér er langsomt for mig, for mine øjne. Men gennem en følelse af empati fornemmer jeg, hvordan det er at bevæge sig som en sten. Som en tektonisk plade, der flyder på planetens smeltende kerne. En kerne, der ender, hvor det hér sted begynder.</p>
 </div>
-<div class="sH"></div>
-<img src="/images/mirroring_water.png" class="layTop stickyMap">
-<img src="/images/shamanObj.png" width="100%">
-<div id="water_position"></div>
-<div class="textBox">
-    <p>I travel way beyond the speed of light, so everything here is slow to me, to my eyes, but through a sense of extreme empathy, I feel what it is like to move like a stone, like a tectonic plate floating on the melting core of this planet, holding up where this piece of land stands.</p>
-</div>
-<img src="/images/yellow_ground.png" class="layBottom">
-<div class="textBox">
-    <p>On my path, I find these objects that are like remains of a time capsule, as they keep on their surfaces and in their materials, traces of data revealing memories from the ones who have once cultivated this space. </p>
-</div>
-<img src="/images/red_ground.png" class="layBottom">
-<a href="scenes.html"><h3>Scenes</h3></a>
-<div class="lH"></div>
-
+<img src="/images/yellow_ground2.png" class="stickyMap back">
+<img src="/images/red_ground.png" class="stickyMap mid">
+ <div class="textBox dPink">
+    <p>På min vej finder jeg genstande, der er som rester af en tidskapsel. De bærer spor af data i deres overflader og i deres materialer, der afslører minder fra dem, som har været her før mig.</p>
+ </div>
+ <img src="/images/Mirroring_map_green.png" class="stickyMap middle">
+ <div class="textBox orange">
+    <p>Tid og rum er foldet sammen. Fortid og fremtid sker nu på samme tid: nutid. Forskellige steder af kloden rører hinanden, ligesom én hånd rører en anden; ligesom min hud rører luften; ligesom mine fødder rører jorden.</p>
+ </div>
+ <img src="/images/shamanObj.png" class="shaman">
+ <div class="textBox">
+     <p>Jeg åbner tidskapslen, og minderne åbenbarer sig for mig. Minderne findes i form af billeder, der bærer på følelser, og jeg kan beskrive dem, når de kommer til mig. Jeg bliver en del af ruinerne af en civilisation bygget op af ting. Herfra opstår en idé. Idéen om et sted, bygget op af relationer, som gennem alle tidens lag har insisteret på at være her.</p>
+ </div>
+ <div class="lH"></div>
