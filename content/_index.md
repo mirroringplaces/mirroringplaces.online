@@ -11,6 +11,7 @@ params:
 <div id="mapFolder">
 <img src="/images/Mirroring_map32.png" id="map">
 
+<a href="story.md"><p id="beginning" class="green">The Beginning</p></a>
 <div id="prismaScenes">
     <p class="orange" id="prisma">&#9661;</p>
 </div>
@@ -21,6 +22,7 @@ params:
 <div id=antennaScenes>
     <p id="antenna" class="yellow">&#9508;</p>
 </div>
+<p id="end" class="green">The End</p>
 </div>
 
 <script src="/js/map.js" type="module"></script>

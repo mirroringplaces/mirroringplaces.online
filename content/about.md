@@ -1,14 +1,14 @@
 ---
 date: "2024-05-01"
 draft: false
-title: Om
+title: About
 
 params:
   cssClassSuffix: "about"
   
 ---
 
-# About
+## About
 
 <img src="/images/14_cloud.png">
 

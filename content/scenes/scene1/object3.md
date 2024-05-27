@@ -1,16 +1,13 @@
 ---
 date: "2024-05-01"
 draft: false
-title: Scene 1.3
+title: Scene 3
 
 params:
   cssClassSuffix: "scenes"
   containerClass: "containerScene"
 ---
-
-
-### Scene &#9744;
-
-<div id="container3D"></div>
-<p class="white sceneNav">2. 3D objekt</p>
-
+<h2 class="green">Chapter &#9661;:</h2>
+<h3 class="green">Scene 3: Medal</h3>
+<canvas id="c" style="width: 100%; height: 100%; display: block;"></canvas>
+<p>Just like that. She holds them close to her chest. They are round, flat, metallic and have things written on them. They are hanging from strings and tapes, red, black and blue. They talk about honor and pride.[(whispering): She still speaks to him in silence, inside.Through the big hole that she tries to hide in her chest, that she tries to cover with those medals]. Medals, kept in the absence of her son, such a good player, gone, way too young. They talk about love and pain.</p>
