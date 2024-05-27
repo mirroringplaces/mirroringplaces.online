@@ -79,37 +79,35 @@ body {
     border: 1px solid black;
 
     @media only screen and (min-width: 450px) {
-        width: 56vh; /* 9:16 format */
+        width: 56vh;
+        /* 9:16 format */
         height: calc(100vh - 40px);
         min-height: calc(100vh - 40px);
     }
 
     @media only screen and (max-width: 450px) {
-      width: 100%;
-      max-height: 100%;
-      min-height: 100%;
-      position: absolute;
+        width: 100%;
+        max-height: 100%;
+        min-height: 100%;
+        position: absolute;
     }
-    
+
     article {
 
-      /* whitespace because of the menu that is 60px tall */
-      padding-bottom: 100px;
-    
-      min-height: calc(100vh - 200px);
-    
-      img {
-        display: block;
-        width: 100%;
-      }
-      
-      p {
-        margin-top: 20px;
-      }
-      
-      
-    }
+        /* whitespace because of the menu that is 60px tall */
+        /*padding-bottom: 100px;*/
 
+        min-height: calc(100vh - 200px);
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        p {
+            margin-top: 20px;
+        }
+    }
 }
 
 header {
@@ -236,7 +234,6 @@ article.story {
         position: -webkit-sticky;
         position: sticky;
         top: 40px;
-        z-index: 1;
     }
 
     .textBox {
@@ -251,8 +248,8 @@ article.story {
         position: relative;
         z-index: 40;
     }
-    
-        .front {
+
+    .front {
         z-index: 10;
     }
 
@@ -263,40 +260,39 @@ article.story {
     .back {
         z-index: 0;
 
+    }
 }
 
 /* MAP */
 
 #mapFolder {
-  position: relative;
+    position: relative;
 
-  p {
-      font-size: 40pt;
-      font-weight: 800;
-  }
+    p {
+        font-size: 40pt;
+        font-weight: 800;
+    }
 
-  *,
-  *:visited,
-  *:active {
-      text-decoration: none;
-  }
+    *,
+    *:visited,
+    *:active {
+        text-decoration: none;
+    }
 
-  #wellScenes {
-      position: absolute;
-      top: 33%;
-      left: 59%;
-      text-align: center;
-  }
+    #wellScenes {
+        position: absolute;
+        top: 33%;
+        left: 59%;
+        text-align: center;
+    }
 
-  #prismaScenes {
-      position: absolute;
-      top: 18%;
-      left: 50%;
-      text-align: center;
-  }
+    #prismaScenes {
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        text-align: center;
+    }
 }
-
-
 
 /* SCENE PAGES */
 article.scenes {
@@ -306,7 +302,7 @@ article.scenes {
     img {
         margin-bottom: 15px;
     }
-  
+
     .textBox {
         padding: 7px;
         margin: 30px;
@@ -348,9 +344,6 @@ article.scenes {
         }
     }
 }
-
-
-
 
 /* FOOTER */
 footer {
@@ -402,9 +395,9 @@ footer {
         }
 
         li.active {
-          a {
-            color: rgb(0, 255, 0);
-          }
+            a {
+                color: rgb(0, 255, 0);
+            }
         }
 
         li.menu-about {
