@@ -1,0 +1,40 @@
+{{ define "main" }}
+	
+	{{ .Content }}
+	
+  <div class="sceneNav">
+
+    <h4>
+	  {{ range .CurrentSection.Pages }}
+	    <a href="{{ .RelPermalink }}">&#9661;</a>
+	  {{ end }}
+	  </h4>
+	  
+	  <h4 class="green">
+
+      {{ if .NextInSection }}
+
+      <a href="{{ .NextInSection.Permalink }}">&#8678;</a>
+
+      {{ end }}
+
+      {{ if .PrevInSection }}
+
+      <a href="{{ .PrevInSection.Permalink }}">&#8680;</a>
+
+      {{ end }}
+
+    </h4>
+
+    <menu class="chapters-menu">
+      <item><a href="">Chapter &#8681;</a></item>
+      <item><a href="" class="green">Chapter &#9737;</a></item>
+      <item><a href="" class="green">Chapter &#9508;</a></item>
+      <item><a href="" class="green">The end</a></item>
+    </menu>
+
+  </div>
+	
+	
+	
+{{ end }}

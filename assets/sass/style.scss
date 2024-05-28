@@ -277,17 +277,31 @@ article.scenes {
             font-weight: 800;
         }
 
-        *,
-        *:visited,
-        *:active {
+        a,
+        a:visited,
+        a:active {
             text-decoration: none;
         }
+        
+        a.map-icon {
+          font-weight: bold;
+          text-shadow: 0px 0px 8px #222;
+        }
+
+        @keyframes textIconSize {
+
+          0% { transform: scale(1); }
+          50% {transform: scale(1.5); }
+          100% {transform: scale(1); }
+        }
+        /* Use @-webkit-keyframes for Safari/Chrome */
 
         #prismaScenes {
             position: absolute;
             top: 26%;
             left: 32%;
             text-align: center;
+            animation: textIconSize 2s infinite;
         }
 
         #wellScenes {
@@ -295,6 +309,7 @@ article.scenes {
             top: 38%;
             left: 56%;
             text-align: center;
+            animation: textIconSize 2s infinite;
         }
 
         #antennaScenes {
@@ -302,6 +317,7 @@ article.scenes {
             top: 50%;
             left: 50%;
             text-align: center;
+            animation: textIconSize 2s infinite;
         }
 
         #beginning {
@@ -309,14 +325,6 @@ article.scenes {
             font-size: 20px;
             top: 105px;
             right: 15px;
-
-            *,
-            *:visited,
-            *:active {
-                text-decoration: none;
-                text-decoration: underline;
-                color: rgb(0, 255, 0);
-            }
         }
 
         #end {
@@ -324,14 +332,6 @@ article.scenes {
             font-size: 20px;
             bottom: 135px;
             left: 15px;
-
-            *,
-            *:visited,
-            *:active {
-                text-decoration: none;
-                text-decoration: underline;
-                color: rgb(0, 255, 0);
-            }
         }
     }
 
@@ -376,6 +376,11 @@ article.scenes {
 
 }
 
+.chapters-menu {
+  item {display: block; font-size: 120%; margin-top: 10px;}
+  padding-bottom: 20px;
+}
+
 /* FOOTER */
 footer {
     display: table;
@@ -413,7 +418,7 @@ footer {
             }
         }
 
-        @media only screen and (max-width: 950px) {
+        @media only screen and (max-width: 950px), only screen and (max-height: 800px) {
             li {
                 padding: 0;
 

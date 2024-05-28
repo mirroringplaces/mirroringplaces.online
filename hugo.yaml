@@ -32,11 +32,11 @@ languages:
         pre: "menu-about"
         weight: 1
       - name: "Historie"
-        url: "/da/story/"
+        url: "/da/"
         pre: "menu-story"
         weight: 2
       - name: "Kort"
-        url: "/da/"
+        url: "/da/map/"
         pre: "menu-scenes"
         weight: 3
   en:
@@ -54,11 +54,11 @@ languages:
         pre: "menu-about"
         weight: 1
       - name: "Story"
-        url: "/story/"
+        url: "/"
         pre: "menu-story"
         weight: 2
       - name: "Map"
-        url: "/"
+        url: "/map/"
         pre: "menu-scenes"
         weight: 3
 
