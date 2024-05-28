@@ -72,7 +72,7 @@
         {
             "mimeType" : "image/jpeg",
             "name" : "texture",
-            "uri" : "textures/1_shoes_texture.jpg"
+            "uri" : "texture.jpg"
         }
     ],
     "accessors" : [
@@ -142,7 +142,7 @@
     "buffers" : [
         {
             "byteLength" : 4237920,
-            "uri" : "1_shoes.bin"
+            "uri" : "1_soccer_shoes.bin"
         }
     ]
 }
