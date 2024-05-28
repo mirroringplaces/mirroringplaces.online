@@ -1,10 +1,10 @@
 ---
 date: "2024-05-01"
 draft: false
-title: Scene 1
+title: Scene 13
 
 params:
-  cssClassSuffix: "scenes chapter1"
+  cssClassSuffix: "scenes chapter3"
   textures: "/3dmodels/1_soccer_shoes/textures"
   gltfsource: "/3dmodels/1_soccer_shoes/1_shoes.gltf"
 

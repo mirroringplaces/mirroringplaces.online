@@ -4,7 +4,7 @@ draft: false
 title: Scene 5
 
 params:
-  cssClassSuffix: "scenes chapter1"
+  cssClassSuffix: "scenes chapter3"
   textures: "/3dmodels/5_bottle_opener/textures"
   gltfsource: "/3dmodels/5_bottle_opener/5_bottle_opener.gltf"
 ---

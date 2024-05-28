@@ -1,12 +1,12 @@
 ---
 date: "2024-05-01"
 draft: false
-title: Scene 5
+title: Scene 11
 
 params:
-  cssClassSuffix: "scenes chapter1"
-  textures: "/3dmodels/5_bottle_opener/textures"
-  gltfsource: "/3dmodels/5_bottle_opener/5_bottle_opener.gltf"
+  cssClassSuffix: "scenes"
+  textures: "/3dmodels/11_plant/textures"
+  gltfsource: "/3dmodels/11_plant/11_plant.gltf"
 ---
 <h2 class="green">Chapter &#9661;:</h2>
 <h3 class="green">Scene 5: Bottle Opener</h3>
