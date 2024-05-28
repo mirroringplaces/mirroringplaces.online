@@ -6,7 +6,7 @@ title: Scene 1
 params:
   cssClassSuffix: "scenes chapter1"
   textures: "/3dmodels/1_soccer_shoes/textures"
-  gltfsource: "/3dmodels/1_soccer_shoes/1_shoes.gltf"
+  gltfsource: "/3dmodels/1_soccer_shoes/1_soccer_shoes.gltf"
 
 ---
 <h2 class="green">Chapter &#9661;:</h2>
