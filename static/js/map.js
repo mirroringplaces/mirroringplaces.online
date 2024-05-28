@@ -22,8 +22,8 @@ domReady(() => {
   
   mapLinks.forEach((mapLink) => {
     
-    var new_url = mapLink.href.replace("scenes/", "scenes-mobile-info/");
-    new_url = new_url.replace(/object\d\/?/, "")
+    var new_url = mapLink.href.replace("chapters/", "chapters-mobile-info/");
+    new_url = new_url.replace(/scene\d+\/?/, "")
     mapLink.href = new_url;
     
   });
