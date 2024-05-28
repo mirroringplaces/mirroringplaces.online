@@ -15,29 +15,24 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "model_medal_20240510_094631135",
+            "name" : "Textured_mesh_1",
             "rotation" : [
-                0.9255440831184387,
-                -0.019816940650343895,
-                -0.006647131405770779,
-                0.3780624270439148
-            ],
-            "scale" : [
-                0.16109949350357056,
-                0.16109949350357056,
-                0.16109949350357056
+                0.0455397292971611,
+                0.7451398968696594,
+                -0.005888225045055151,
+                0.6653255820274353
             ],
             "translation" : [
-                0.9276255369186401,
-                3.249082565307617,
-                -0.9058666229248047
+                0,
+                -2.790724992752075,
+                0
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "material0",
+            "name" : "Textured_mesh_1",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -48,7 +43,7 @@
     ],
     "meshes" : [
         {
-            "name" : "model_medal_20240510_094631135",
+            "name" : "Textured_mesh_1",
             "primitives" : [
                 {
                     "attributes" : {
@@ -71,66 +66,66 @@
     "images" : [
         {
             "mimeType" : "image/jpeg",
-            "name" : "texture",
-            "uri" : "texture.jpg"
+            "name" : "Textured_mesh_1",
+            "uri" : "Textured_mesh_1.jpg"
         }
     ],
     "accessors" : [
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 26094,
+            "count" : 65738,
             "max" : [
-                13.974119186401367,
-                21.097728729248047,
-                6.75938081741333
+                23.325801849365234,
+                10.812768936157227,
+                21.97140121459961
             ],
             "min" : [
-                -13.110641479492188,
-                -28.416351318359375,
-                -15.585329055786133
+                -23.14933967590332,
+                1.3056249618530273,
+                -22.69997787475586
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 26094,
+            "count" : 65738,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 26094,
+            "count" : 65738,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
-            "componentType" : 5123,
-            "count" : 26094,
+            "componentType" : 5125,
+            "count" : 234513,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 313128,
+            "byteLength" : 788856,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 313128,
-            "byteOffset" : 313128
+            "byteLength" : 788856,
+            "byteOffset" : 788856
         },
         {
             "buffer" : 0,
-            "byteLength" : 208752,
-            "byteOffset" : 626256
+            "byteLength" : 525904,
+            "byteOffset" : 1577712
         },
         {
             "buffer" : 0,
-            "byteLength" : 52188,
-            "byteOffset" : 835008
+            "byteLength" : 938052,
+            "byteOffset" : 2103616
         }
     ],
     "samplers" : [
@@ -141,8 +136,8 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 887196,
-            "uri" : "3_medal.bin"
+            "byteLength" : 3041668,
+            "uri" : "14_computer_board.bin"
         }
     ]
 }

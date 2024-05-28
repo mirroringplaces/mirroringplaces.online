@@ -67,7 +67,7 @@
         {
             "mimeType" : "image/jpeg",
             "name" : "painting",
-            "uri" : "painting.jpg"
+            "uri" : "texture.jpg"
         }
     ],
     "accessors" : [
@@ -137,7 +137,7 @@
     "buffers" : [
         {
             "byteLength" : 15102852,
-            "uri" : "paiting.bin"
+            "uri" : "6_painting.bin"
         }
     ]
 }

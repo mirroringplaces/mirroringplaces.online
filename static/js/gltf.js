@@ -33,14 +33,14 @@ function main() {
 
 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color('white');
+    scene.background = new THREE.Color('black');
 
     {
 
         const planeSize = 40;
 
         const loader = new THREE.TextureLoader();
-        const texture = loader.load('/3dmodels/1_soccer_shoes/textures');
+        const texture = loader.load(document.getElementsByName('textures')[0].content);
         texture.wrapS = THREE.RepeatWrapping;
         texture.wrapT = THREE.RepeatWrapping;
         texture.magFilter = THREE.NearestFilter;
@@ -111,7 +111,7 @@ function main() {
     {
 
         const gltfLoader = new GLTFLoader();
-        gltfLoader.load('/3dmodels/1_soccer_shoes/1_shoes.gltf', (gltf) => {
+        gltfLoader.load(document.getElementsByName('gltfsource')[0].content, (gltf) => {
 
             const root = gltf.scene;
             scene.add(root);
@@ -173,3 +173,4 @@ function main() {
 }
 
 main();
+

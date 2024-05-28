@@ -15,22 +15,22 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "model_medal_20240510_094631135",
+            "name" : "model_New Qlone_20240526_102316861",
             "rotation" : [
-                0.9255440831184387,
-                -0.019816940650343895,
-                -0.006647131405770779,
-                0.3780624270439148
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
             ],
             "scale" : [
-                0.16109949350357056,
-                0.16109949350357056,
-                0.16109949350357056
+                0.011365563608705997,
+                0.011365563608705997,
+                0.011365563608705997
             ],
             "translation" : [
-                0.9276255369186401,
-                3.249082565307617,
-                -0.9058666229248047
+                0,
+                0.2590988874435425,
+                0
             ]
         }
     ],
@@ -48,7 +48,7 @@
     ],
     "meshes" : [
         {
-            "name" : "model_medal_20240510_094631135",
+            "name" : "model_New Qlone_20240526_102316861",
             "primitives" : [
                 {
                     "attributes" : {
@@ -79,58 +79,58 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 26094,
+            "count" : 111324,
             "max" : [
-                13.974119186401367,
-                21.097728729248047,
-                6.75938081741333
+                58.756874084472656,
+                74.85263061523438,
+                23.06625747680664
             ],
             "min" : [
-                -13.110641479492188,
-                -28.416351318359375,
-                -15.585329055786133
+                -77.29247283935547,
+                -70.51156616210938,
+                -32.339874267578125
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 26094,
+            "count" : 111324,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 26094,
+            "count" : 111324,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
-            "componentType" : 5123,
-            "count" : 26094,
+            "componentType" : 5125,
+            "count" : 111324,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 313128,
+            "byteLength" : 1335888,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 313128,
-            "byteOffset" : 313128
+            "byteLength" : 1335888,
+            "byteOffset" : 1335888
         },
         {
             "buffer" : 0,
-            "byteLength" : 208752,
-            "byteOffset" : 626256
+            "byteLength" : 890592,
+            "byteOffset" : 2671776
         },
         {
             "buffer" : 0,
-            "byteLength" : 52188,
-            "byteOffset" : 835008
+            "byteLength" : 445296,
+            "byteOffset" : 3562368
         }
     ],
     "samplers" : [
@@ -141,8 +141,8 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 887196,
-            "uri" : "3_medal.bin"
+            "byteLength" : 4007664,
+            "uri" : "23_otas.bin"
         }
     ]
 }

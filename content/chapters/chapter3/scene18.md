@@ -1,12 +1,12 @@
 ---
 date: "2024-05-01"
 draft: false
-title: Scene 6
+title: Scene 18
 
 params:
-  cssClassSuffix: "scenes chapter1"
-  textures: "/3dmodels/6_painting/textures"
-  gltfsource: "/3dmodels/6_painting/6_painting.gltf"
+  cssClassSuffix: "scenes chapter3"
+  textures: "/3dmodels/18_brick/textures"
+  gltfsource: "/3dmodels/18_brick/18_brick.gltf"
 ---
 <h2 class="green">Chapter &#9661;:</h2>
 <h3 class="green">Scene 6: Painting</h3>

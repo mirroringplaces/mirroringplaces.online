@@ -342,6 +342,8 @@ article.scenes {
 
     canvas {
         margin-bottom: 20px;
+        width: 100%;
+        display: block;
     }
 
     p {
@@ -376,6 +378,48 @@ article.scenes {
 
 }
 
+article.chapter1 {
+    h1, h2, h3, .sceneNav {
+        @extend .blue;
+        *,
+        *:visited,
+        *:active {
+            @extend .blue;
+        }
+  }
+
+}
+
+article.chapter2 {
+    h1, h2, h3, .sceneNav {
+        @extend .orange;
+        *,
+        *:visited,
+        *:active {
+            @extend .orange;
+        }
+  }
+}
+article.chapter3 {
+    h1, h2, h3, .sceneNav {
+        @extend .yellow;
+        *,
+        *:visited,
+        *:active {
+            @extend .yellow;
+        }
+  }
+}
+article.chapter4 {
+    h1, h2, h3, .sceneNav {
+        @extend .green;
+        *,
+        *:visited,
+        *:active {
+            @extend .green;
+        }
+  }
+}
 .chapters-menu {
   item {display: block; font-size: 120%; margin-top: 10px;}
   padding-bottom: 20px;
@@ -490,10 +534,22 @@ footer {
 
 .orange {
     color: rgb(255, 115, 0);
+
+    *,
+    *:visited,
+    *:active {
+        color: rgb(255, 115, 0);
+    }
 }
 
 .yellow {
     color: rgb(222, 255, 0);
+
+    *,
+    *:visited,
+    *:active {
+        color: rgb(222, 255, 0);
+    }
 }
 
 /* AFSTANDE */
