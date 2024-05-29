@@ -8,7 +8,7 @@ params:
   textures: "/3dmodels/6_painting/textures"
   gltfsource: "/3dmodels/6_painting/6_painting.gltf"
 ---
-<h2 class="green">Chapter &#9661;:</h2>
-<h3 class="green">Scene 6: Painting</h3>
+<h2 class="green">Kapitel &#9737;:</h2>
+<h3 class="green">Scene 6: Maleri</h3>
 <canvas id="c"></canvas>
-<p>Inherited piece of rescued art. In the middle of old portraits left behind. A painting made by an artist, who painted a woman, whom she used to love, who had broken her heart, who had held her hand tight, who had left - she thought she could forget! But the painting kept some colors alive. Many years in the basement, another woman decided to pick it up and hang it on her wall. The painting reminds her of those women who dared to exist on their own terms, through all times.</p>
+<p>I midten af gamle, efterladte portrætter står et arvestykke, som er blevet reddet. Et maleri skabt af en kvindelig kunstner, som forestiller en kvinde, hun plejede at elske. En kvinde, som holdt hendes hånd tæt, før hun forsvand og efterladte kunstnerens hjerte knust. Hun troede, hun kunne glemme det. Men maleriet har holdt nogle af farverne i live. Efter mange år i kælderrummet har en anden kvinde besluttet sig for at samle det op og hænge det på væggen derhjemme. Maleriet minder hende om de kvinder før hende, som har turde være dem selv, gennem alle tider.</p>

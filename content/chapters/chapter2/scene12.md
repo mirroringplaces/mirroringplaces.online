@@ -9,6 +9,6 @@ params:
   gltfsource: "/3dmodels/6_painting/6_painting.gltf"
 ---
 <h2 class="green">Chapter &#9661;:</h2>
-<h3 class="green">Scene 6: Painting</h3>
+<h3 class="green">Scene 12: Canudos - Tututuremas  Bixiga</h3>
 <canvas id="c"></canvas>
-<p>Inherited piece of rescued art. In the middle of old portraits left behind. A painting made by an artist, who painted a woman, whom she used to love, who had broken her heart, who had held her hand tight, who had left - she thought she could forget! But the painting kept some colors alive. Many years in the basement, another woman decided to pick it up and hang it on her wall. The painting reminds her of those women who dared to exist on their own terms, through all times.</p>
+<p>Small wooden and clay houses, about 10 cm high, spread on a yard that flourishes to be a park. A land for the cultivation of ancestrality and art. A place to get fresh water and air. The insurrection of the ground. These are shelters for more-than-just-human presences of the land.</p>

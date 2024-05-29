@@ -9,7 +9,7 @@ params:
   gltfsource: "/3dmodels/3_medal/3_medal.gltf"
 
 ---
-<h2 class="green">Chapter &#9661;:</h2>
-<h3 class="green">Scene 3: Medal</h3>
+<h2 class="green">Kapitel &#9737;:</h2>
+<h3 class="green">Scene 3: Medaljer</h3>
 <canvas id="c"></canvas>
-<p>Just like that. She holds them close to her chest. They are round, flat, metallic and have things written on them. They are hanging from strings and tapes, red, black and blue. They talk about honor and pride.[(whispering): She still speaks to him in silence, inside.Through the big hole that she tries to hide in her chest, that she tries to cover with those medals]. Medals, kept in the absence of her son, such a good player, gone, way too young. They talk about love and pain.</p>
+<p>Hun holder dem tæt til hendes bryst. Små runde, flade, metalliske skiver. De har noget skrevet på dem, de hænger i røde, sorte og blå strenge. De vidner om ære og stolthed. (Hviskende) Hun taler stadigvæk til ham i stilhed, for sig selv. Hun forsøger at dække det store hul, som er efterladt i hendes bryst, med medaljerne. (Snak normalt igen) Hun har beholdt medaljerne i fraværet af den søn, som engang var hér, sådan en god spiller, væk, alt for tidligt. De vidner om kærlighed og smerte.</p>

@@ -9,9 +9,9 @@ params:
   gltfsource: "/3dmodels/1_soccer_shoes/1_soccer_shoes.gltf"
 
 ---
-<h2 class="green">Chapter &#9661;:</h2>
-<h3 class="green">Scene 1: Soccer Shoes</h3>
+<h2>Kapitel &#9737;:</h2>
+<h3>Scene 1: Sko</h3>
 <canvas id="c"></canvas>
-<p>This image reveals a pair of objects used to protect the feet. Shoes. They are blue, intense and bright. Accumulation of imprinted symbols that indicate a certain mode of life of a civilization. Its shapes and contours seem to serve a specific type of movement. Soccer shoes. Owned by a boy, whose mother carries those shoes. This boy has a sister. She does not use similar shoes. The mother cares for both, and this is a lot of what she does. She makes sure they have food, rest and protected feet.</p>
+<p>Det hér billede afslører en beklædningsgenstand, som beskytter fødderne. Sko. De er en intens, nærmest strålende blå. De printede symboler på skoene vidner om en særlig form for liv. Formerne lader til at understøtte en bestemt slags bevægelse. Det er en dreng, som ejer skoene, hans mor bærer på dem. Drengen har en søster, hendes sko er anderledes. Moren passer dem begge, hendes tid er dedikeret til dem. Hun sørger for, at de får mad, søvn, at deres fødder er beskyttet.</p>
 
 
