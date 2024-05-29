@@ -3,6 +3,8 @@ title: "Map"
 date: "2024-05-03"
 draft: false
 
+layout: single
+
 params:
   cssClassSuffix: "scenes"
 
