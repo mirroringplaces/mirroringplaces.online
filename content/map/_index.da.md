@@ -14,7 +14,7 @@ params:
 
   <img src="/images/Mirroring_map32.png" id="map">
 
-  <a href="{{< ref "/" >}}" class="green" id="beginning">Begyndelsen</a>
+  <p><a href="{{< ref "/" >}}" class="green" id="beginning">Begyndelsen</a></p>
 
   <div id="prismaScenes">
       <a href="{{< ref "/map/chapters/chapter2/scene07" >}}" class="map-icon orange">
@@ -33,9 +33,9 @@ params:
       </a>
   </div>
 
-  <a href="{{< ref "/map/chapters/chapter4/scene23" >}}" class="green" id="end">
+  <p><a href="{{< ref "/map/chapters/chapter4/scene23" >}}" class="green" id="end">
     Slutningen
-  </a>
+    </a></p>
 
 </div>
 
