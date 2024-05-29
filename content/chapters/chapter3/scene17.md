@@ -8,7 +8,7 @@ params:
   textures: "/3dmodels/5_bottle_opener/textures"
   gltfsource: "/3dmodels/5_bottle_opener/5_bottle_opener.gltf"
 ---
-<h2 class="green">Chapter &#9508;:</h2>
-<h3 class="green">Scene 17: Cobblestone</h3>
+<h2>Chapter &#9747;:</h2>
+<h3>Scene 17: Cobblestone</h3>
 <canvas id="c"></canvas>
-<p>I and I. A cobblestone taken from the pavement by a teenager soon to become an adult, figuring out his own decisions, figuring out his own questions, confronted with the world. Not honor nor forgive. Raising the matters of an identity, an ideology, a position to be taken, a mission to be fulfilled. In creation. A morphing line, willing to form definitions of what it is to be oneself, always in relation to whatever else. Underneath the pavement, there is the sea.</p>
+<p>A cobblestone taken from the pavement by a teenager soon to become an adult, figuring out his own decisions, figuring out his own questions, confronted with the world. Not honor nor forgive. Raising the matters of an identity, an ideology, a position to be taken, a mission to be fulfilled. In creation. A morphing line, willing to form definitions of what it is to be oneself, always in relation to whatever else. Underneath the pavement, there is the sea.</p>

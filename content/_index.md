@@ -7,7 +7,7 @@ params:
   cssClassSuffix: "story"
 
 ---
-<h2 class="green">Chapter 0:<br>
+<h2>Chapter 0:<br>
     The<br>
     Beginning</h2>
 <img src="/images/shamanObj.png">
