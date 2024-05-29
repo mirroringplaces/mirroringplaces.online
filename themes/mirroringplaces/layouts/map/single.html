@@ -5,50 +5,50 @@
 
 
 {{ define "main" }}
-	
-	{{ .Content }}
-	
-  <div class="sceneNav">
+
+{{ .Content }}
+
+<div class="sceneNav">
 
     <h4>
-	  {{ range sort .CurrentSection.Pages "File.Path" }}
-	    <a href="{{ .RelPermalink }}">&#9661;</a>
-	  {{ end }}
-	  </h4>
-	  
-	  <h4 class="green">
+        {{ range sort .CurrentSection.Pages "File.Path" }}
+        <a href="{{ .RelPermalink }}">&#9661;</a>
+        {{ end }}
+    </h4>
 
-      {{ if .NextInSection }}
+    <h4>
 
-      <a href="{{ .NextInSection.Permalink }}">&#8678;</a>
+        {{ if .NextInSection }}
 
-      {{ end }}
+        <a href="{{ .NextInSection.Permalink }}">&#8678;</a>
 
-      {{ if .PrevInSection }}
+        {{ end }}
 
-      <a href="{{ .PrevInSection.Permalink }}">&#8680;</a>
+        {{ if .PrevInSection }}
 
-      {{ end }}
+        <a href="{{ .PrevInSection.Permalink }}">&#8680;</a>
+
+        {{ end }}
 
     </h4>
 
     <menu class="chapters-menu">
-      {{ if eq $.Site.Language.LanguageName "English" }}
+        {{ if eq $.Site.Language.LanguageName "English" }}
         <item><a href="/map/chapters/chapter1/scene1">Chapter &#9737;</a></item>
         <item><a href="/map/chapters/chapter2/scene07">Chapter &#9661;</a></item>
-        <item><a href="/map/chapters/chapter3/scene13">Chapter &#9508;</a></item>
+        <item><a href="/map/chapters/chapter3/scene13">Chapter &#9747;</a></item>
         <item><a href="/map/chapters/chapter4/scene23">The end</a></item>
-      {{ else }}
+        {{ else }}
         <item><a href="/{{ .Site.LanguageCode }}/map/chapters/chapter1/scene1">Chapter &#9737;</a></item>
         <item><a href="/{{ .Site.LanguageCode }}/map/chapters/chapter2/scene07">Chapter &#9661;</a></item>
-        <item><a href="/{{ .Site.LanguageCode }}/map/chapters/chapter3/scene13">Chapter &#9508;</a></item>
+        <item><a href="/{{ .Site.LanguageCode }}/map/chapters/chapter3/scene13">Chapter &#9747;</a></item>
         <item><a href="/{{ .Site.LanguageCode }}/map/chapters/chapter4/scene23">The end</a></item>
-      {{ end }}
+        {{ end }}
     </menu>
 
-  </div>
-	
-	
+</div>
+
+
 <script src="/js/gltf.js" type="module"></script>
-	
+
 {{ end }}
