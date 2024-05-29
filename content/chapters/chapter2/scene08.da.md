@@ -9,8 +9,8 @@ params:
   gltfsource: "/3dmodels/8_stone/8_stone.gltf"
 
 ---
-<h2 class="green">Chapter &#9661;:</h2>
-<h3 class="green">Scene 2: Trophy</h3>
+<h2 class="green">Kapitel &#9661;:</h2>
+<h3 class="green">Scene 8: Anhangabau-sten</h3>
 <canvas id="c"></canvas>
-<p>Here is an object made out of plastic and some metallic material, over a black cubic pedestal with a metal sign attached to it, placed over a  piece of paper or wood. In the top of its metallic part, we see a human figure, running along or jumping a ball. It is a representation of someone who succeeded in a game. It is the guardian of the memory of a father whose daughter used to play that game. He keeps this object to remember her, remember the time that has passed and made her a grown up. Time that has passed, brought other perspectives forward,  displaced their cultures. Perhaps this object represents achievements. Whose achievements?.... His?.... Hers?.....Theirs?....  It is a reminder of goals.</p>
+<p>Ved floden er der en sten dækket af asfalt. Floden har altid været her, den bærer ondskabens kræfter med sig. Men når den flyder, skylles kræfterne bort, videre. En mand sidder på stenen, og hér bliver han igen til en dreng. Han bæres tilbage til steder, hvor han aldrig har været. Han kommer langvejs fra og blev engang fanget mellem mure, ligesom vandet fra floden bliver fanget i undergrunden. Men når han sidder på stenen, føler han sig fri. Han drømmer om den gamle skofabrik, forestiller sig, at han vinder, kysser sine fjerne børn på panden. Han føler vandet på hans fødder, mens han leger med tiden.</p>
 

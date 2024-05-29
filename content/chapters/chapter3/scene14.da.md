@@ -9,8 +9,8 @@ params:
   gltfsource: "/3dmodels/14_computer_board/14_computer_board.gltf"
 
 ---
-<h2 class="green">Chapter &#9661;:</h2>
-<h3 class="green">Scene 2: Trophy</h3>
+<h2 class="green">Kapitel &#9508;:</h2>
+<h3 class="green">Scene 14: Computerkort</h3>
 <canvas id="c"></canvas>
-<p>Here is an object made out of plastic and some metallic material, over a black cubic pedestal with a metal sign attached to it, placed over a  piece of paper or wood. In the top of its metallic part, we see a human figure, running along or jumping a ball. It is a representation of someone who succeeded in a game. It is the guardian of the memory of a father whose daughter used to play that game. He keeps this object to remember her, remember the time that has passed and made her a grown up. Time that has passed, brought other perspectives forward,  displaced their cultures. Perhaps this object represents achievements. Whose achievements?.... His?.... Hers?.....Theirs?....  It is a reminder of goals.</p>
+<p>Et simpelt, men komplekst computerudstyr-system. En lille tavle med programmeringsgenveje på, som gjorde livet muligt for en ung dreng. Tavlen er som en nøgle til den portal, drengen åbnede, der gjorde det muligt for ham at omprogrammere sit perspektiv på verden. Den hjalp ham til at finde vej og skrive nye koder til sit eget liv.</p>
 

@@ -285,13 +285,13 @@ article.scenes {
         
         a.map-icon {
           font-weight: bold;
-          text-shadow: 0px 0px 8px #222;
+          /*text-shadow: 0px 0px 8px #222;*/
         }
 
         @keyframes textIconSize {
 
           0% { transform: scale(1); }
-          50% {transform: scale(1.5); }
+          50% {transform: scale(1.05); }
           100% {transform: scale(1); }
         }
         /* Use @-webkit-keyframes for Safari/Chrome */
@@ -421,7 +421,7 @@ article.chapter4 {
   }
 }
 .chapters-menu {
-  item {display: block; font-size: 120%; margin-top: 10px;}
+  item {display: block; font-size: 100%; margin-top: 10px;}
   padding-bottom: 20px;
 }
 
@@ -550,6 +550,10 @@ footer {
     *:active {
         color: rgb(222, 255, 0);
     }
+}
+
+.black {
+    color: black;
 }
 
 /* AFSTANDE */

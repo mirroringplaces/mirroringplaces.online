@@ -9,8 +9,8 @@ params:
   gltfsource: "/3dmodels/2_trophy/2_trophy.gltf"
 
 ---
-<h2 class="green">Chapter &#9661;:</h2>
-<h3 class="green">Scene 2: Trophy</h3>
+<h2 class="green">Kapitel &#9737;:</h2>
+<h3 class="green">Scene 2: Trofæ</h3>
 <canvas id="c"></canvas>
-<p>Here is an object made out of plastic and some metallic material, over a black cubic pedestal with a metal sign attached to it, placed over a  piece of paper or wood. In the top of its metallic part, we see a human figure, running along or jumping a ball. It is a representation of someone who succeeded in a game. It is the guardian of the memory of a father whose daughter used to play that game. He keeps this object to remember her, remember the time that has passed and made her a grown up. Time that has passed, brought other perspectives forward,  displaced their cultures. Perhaps this object represents achievements. Whose achievements?.... His?.... Hers?.....Theirs?....  It is a reminder of goals.</p>
+<p>Her er et objekt lavet ud af plastik og en form for metallisk materiale. I bunden sidder et metal-skilt over noget plastik eller træ, i toppen er en figur, som forestiller et menneske, der løber med en bold. Den repræsenterer nogen, som har vundet et særligt spil. Objektet bærer på en fars minde om hans datter, som plejede at spille det spil. Han gemmer på objektet for at huske hende, huske den tid, som er gået, mens hun er vokset op. Tiden er gået, den har gjort plads til nye perspektiver, den har fortrængt deres kulturer. Måske repræsenterer det hér objekt en slags præstation. Men hvis præstation? Hans? Hendes? Deres? Den er en påmindelse om at nå et mål.</p>
 

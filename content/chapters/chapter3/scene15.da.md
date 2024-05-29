@@ -9,7 +9,7 @@ params:
   gltfsource: "/3dmodels/15_cooking_pot/15_cooking_pot.gltf"
 
 ---
-<h2 class="green">Chapter &#9661;:</h2>
-<h3 class="green">Scene 3: Medal</h3>
+<h2 class="green">Kapitel &#9508;:</h2>
+<h3 class="green">Scene 15: Gryde</h3>
 <canvas id="c"></canvas>
-<p>Just like that. She holds them close to her chest. They are round, flat, metallic and have things written on them. They are hanging from strings and tapes, red, black and blue. They talk about honor and pride.[(whispering): She still speaks to him in silence, inside.Through the big hole that she tries to hide in her chest, that she tries to cover with those medals]. Medals, kept in the absence of her son, such a good player, gone, way too young. They talk about love and pain.</p>
+<p>En metalskål med et låg, en cylinder i midten og en åbning i bunden, sandsynligvis til ild. Genstanden holder maden varm, holder hjertet varmt. Hun tog den med fra sit moderland, og den blev et vigtigt redskab for hende det nye sted, hvor hun ankom for mange år siden. Sådan er det stadig. Det er omkring denne genstand, at hun inviterer sine venner ind i dele af hendes liv. Det er her, hun laver opskrifter, der minder hende om hendes oprindelige land, selvom ingredienserne kommer fra det nye hjem.</p>

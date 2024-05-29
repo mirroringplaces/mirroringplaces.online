@@ -9,7 +9,7 @@ params:
   gltfsource: "/3dmodels/9_bracelet/9_bracelet.gltf"
 
 ---
-<h2 class="green">Chapter &#9661;:</h2>
-<h3 class="green">Scene 3: Medal</h3>
+<h2 class="green">Kapitel &#9661;:</h2>
+<h3 class="green">Scene 9: Armbånd</h3>
 <canvas id="c"></canvas>
-<p>Just like that. She holds them close to her chest. They are round, flat, metallic and have things written on them. They are hanging from strings and tapes, red, black and blue. They talk about honor and pride.[(whispering): She still speaks to him in silence, inside.Through the big hole that she tries to hide in her chest, that she tries to cover with those medals]. Medals, kept in the absence of her son, such a good player, gone, way too young. They talk about love and pain.</p>
+<p>Det hér billede forestiller en rund genstand, som nok er lavet af metal, et smykke, der har tilbagelagt store afstande på denne planet, rejst lange perioder, som strækker sig ud over et enkelt livs grænser. Smykket er broen til kærligheden til en datter, så langt fra hendes land, som hver nat drømmer om sin mor, der for længst er gået bort. Da det ikke længere passer størrelsen af hendes arm, placerer hun smykket under hovedet hver nat, når hun ligger i sengen. Og når hun lukker øjnene og glider ind i drømmenes rige, synger hendes mor en evig vuggevise i hendes ører.</p>

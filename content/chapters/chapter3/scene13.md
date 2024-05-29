@@ -9,9 +9,9 @@ params:
   gltfsource: "/3dmodels/1_soccer_shoes/1_shoes.gltf"
 
 ---
-<h2 class="green">Chapter &#9661;:</h2>
-<h3 class="green">Scene 1: Soccer Shoes</h3>
+<h2 >Chapter &#9508;:</h2>
+<h3>Scene 13: Telescope</h3>
 <canvas id="c"></canvas>
-<p>This image reveals a pair of objects used to protect the feet. Shoes. They are blue, intense and bright. Accumulation of imprinted symbols that indicate a certain mode of life of a civilization. Its shapes and contours seem to serve a specific type of movement. Soccer shoes. Owned by a boy, whose mother carries those shoes. This boy has a sister. She does not use similar shoes. The mother cares for both, and this is a lot of what she does. She makes sure they have food, rest and protected feet.</p>
+<p>This object is a black tube with glass lenses on both ends.. For many years, It has been the companion of travels of this man who can only see well with one eye. It extends this man’s own body, giving him the superpower of vision from afar. And the man extends the possibility of the object to move around, as he places this object in his bag and travels the world, it sees places it would probably never see otherwise. Together, they see the world changing since 1989.</p>
 
 
