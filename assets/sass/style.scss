@@ -176,7 +176,7 @@ h3 {
     font-family: "Bauhaus", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 13pt;
+    font-size: 18pt;
     line-height: 1.2;
 }
 
@@ -217,7 +217,7 @@ ul {
 /* ABOUT */
 article.about {
     background-color: white;
-    padding: 15px;
+    padding: 20px;
     padding-bottom: 100px;
     
     
@@ -229,7 +229,7 @@ article.about {
 /* STORY */
 article.story {
     background-color: white;
-    padding: 15px;
+    padding: 20px;
 
     .stickyMap {
         position: -webkit-sticky;
@@ -266,7 +266,7 @@ article.story {
 
 /* MAP & SCENE PAGES */
 article.scenes {
-    padding: 15px;
+    padding: 20px;
 
     #mapFolder {
         position: relative;
@@ -335,11 +335,6 @@ article.scenes {
         }
     }
 
-    h3 {
-        font-size: 18pt;
-
-    }
-
     canvas {
         margin-bottom: 20px;
         width: 100%;
@@ -355,17 +350,11 @@ article.scenes {
         margin-bottom: 15px;
 
         h4 {
-            font-size: 40pt;
+            font-size: 30pt;
             margin-bottom: 0px;
             margin-top: 0px;
             color: rgb(0, 255, 0);
             line-height: 0.8;
-        }
-
-        p {
-            font-size: 18pt;
-            text-decoration: underline;
-            margin-bottom: 10px;
         }
 
         *,
@@ -421,8 +410,12 @@ article.chapter4 {
   }
 }
 .chapters-menu {
-  item {display: block; font-size: 100%; margin-top: 10px;}
-  padding-bottom: 20px;
+  item {
+      display: block;
+      font-size: 18pt;
+      margin-top: 10px;
+    }
+      padding-bottom: 20px;
 }
 
 /* FOOTER */

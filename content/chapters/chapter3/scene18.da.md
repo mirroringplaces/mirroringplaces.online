@@ -8,7 +8,7 @@ params:
   textures: "/3dmodels/18_brick/textures"
   gltfsource: "/3dmodels/18_brick/18_brick.gltf"
 ---
-<h2 class="green">Chapter &#9508;:</h2>
-<h3 class="green">Scene 6: Painting</h3>
+<h2>Chapter &#9747;:</h2>
+<h3>Scene 18: Mursten</h3>
 <canvas id="c"></canvas>
-<p>Inherited piece of rescued art. In the middle of old portraits left behind. A painting made by an artist, who painted a woman, whom she used to love, who had broken her heart, who had held her hand tight, who had left - she thought she could forget! But the painting kept some colors alive. Many years in the basement, another woman decided to pick it up and hang it on her wall. The painting reminds her of those women who dared to exist on their own terms, through all times.</p>
+<p>En rød lersten med symboler og revner i. En mursten, der engang var en del af en 100-års mur og har bevidnet trancerne mellem de levende og de døde gennem handlingens kunst. En mursten, der skiftede fra hånd til hånd og derefter stod stille... indtil den faldt. Den baner vejen for de ønsker, som udformer sig i rummet. En mursten som en besværgelse.</p>

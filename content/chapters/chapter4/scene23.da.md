@@ -10,7 +10,14 @@ params:
   gltfsource: "/3dmodels/23_otas/23_otas.gltf"
 
 ---
-<h2 class="green">Chapter &#9661;:</h2>
-<h3 class="green">Scene 4: Little Statues</h3>
+<h2>Kapitel 6:</h2>
+<h3>Scene 23: Otás - som tiden går</h3>
 <canvas id="c"></canvas>
-<p>Here I see the image of these two objects who seem to carry a lot of personality and feelings. They look like they are expressing their emotions and at the same time, they stay together, side by side, with open arms. They seem to be made of wood and love. They carry the story of a mother and a son, when they can see each other in a profound moment of identification. At the moment they laugh about the same thing and reflect one another in each other’s eyes. Perhaps They symbolize a moment of recognition, and at the same time, they portray a company that lasts beyond a lifetime.</p>
+<p>Dette er et levende arkiv af tanker, projektioner og betragtninger skabt på baggrund af sporene fra indsamlet data. De refererer til personlige genstande og minder, som tilhører beboere i området. 
+Jeg anser mennesker, genstande og minder som noget, der bliver hængende som dele af de steder, de har beboet. Jeg tror på, at steder er dynamiske og forandrer sig efter de elementer, som former dem gennem tiden.
+
+Et løbende arbejde af konstant nyskabelse udformet af nærvær, omsorg, forhandlinger, planlægning og løbende næring. Et arbejde, som er nødvendigt for at forblive eksisterende og give plads til nye eksistenser på samme sted. 
+
+Jeg bruger ordet “sted”, eller ordet “område”, fordi jeg tager afsæt i specifikke lokaliteter, med særlige karakteristika og sammensætninger, for at kunne fortælle historier om andre steder, der afspejler de spor, jeg finder. Verden, som vi engang kendte den, med tid og rum som en lige linje, kan ikke længere rumme denne virkelighed. Det hele er som en stor knude, smuk og kaotisk strikket sammen, og ingen ved, hvor den starter eller slutter.
+
+Jeg ærer og takker alle elementerne fra dette sted - og fra de andre steder, som åbenbarede sig gennem undersøgelsen. Må minderne vare lige så længe, som de ønsker, og må vores tilstedeværelse sikre, at disse historier bliver fortalt.</p>

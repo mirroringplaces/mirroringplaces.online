@@ -27,7 +27,7 @@ params:
   </div>
   <div id="antennaScenes">
       <a href="{{< ref "/chapters/chapter3/scene13" >}}" class="map-icon yellow">
-        <p id="antenna" class="yellow">&#9508;</p>
+        <p id="antenna" class="yellow">&#9747;</p>
       </a>
   </div>
 
