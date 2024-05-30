@@ -7,22 +7,21 @@ function domReady(fn) {
   }
 }
 
-const isMobile;
-
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-  isMobile = true;
-} else {
-  isMobile = false;
-}
-
-
 domReady(() => {
 
+  var isMobile;
+
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    isMobile = true;
+  } else {
+    return;
+  }
+
   const mapLinks = document.querySelectorAll("#mapFolder a");
-  
+
   mapLinks.forEach((mapLink) => {
-    
-    var new_url = mapLink.href.replace("chapters/", "chapters-mobile-info/");
+    console.log("hej")
+    var new_url = mapLink.href.replace("map/chapters/", "chapters-mobile-info/");
     new_url = new_url.replace(/scene\d+\/?/, "")
     mapLink.href = new_url;
     

@@ -4,6 +4,7 @@ date: "2024-05-03"
 draft: false
 
 layout: single
+type: "_default"
 
 params:
   cssClassSuffix: "scenes"
