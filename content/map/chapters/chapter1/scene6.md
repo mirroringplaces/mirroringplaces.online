@@ -4,6 +4,7 @@ draft: false
 title: Scene 6
 
 params:
+  chapterSymbol: "&#9737;"
   cssClassSuffix: "scenes chapter1"
   textures: "/3dmodels/6_painting/textures"
   gltfsource: "/3dmodels/6_painting/6_painting.gltf"

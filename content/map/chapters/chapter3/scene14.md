@@ -4,6 +4,7 @@ draft: false
 title: Scene 14
 
 params:
+  chapterSymbol: "&#9747;"
   cssClassSuffix: "scenes chapter3"
   textures: "/3dmodels/14_computer_board/textures"
   gltfsource: "/3dmodels/14_computer_board/14_computer_board.gltf"

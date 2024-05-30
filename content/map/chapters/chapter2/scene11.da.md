@@ -4,6 +4,7 @@ draft: false
 title: Scene 11
 
 params:
+  chapterSymbol: "&#9661;"
   cssClassSuffix: "scenes"
   textures: "/3dmodels/11_plant/textures"
   gltfsource: "/3dmodels/11_plant/11_plant.gltf"

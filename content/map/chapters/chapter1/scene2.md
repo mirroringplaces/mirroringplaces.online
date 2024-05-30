@@ -4,6 +4,7 @@ draft: false
 title: Scene 2
 
 params:
+  chapterSymbol: "&#9737;"
   cssClassSuffix: "scenes chapter1"
   textures: "/3dmodels/2_trophy/textures"
   gltfsource: "/3dmodels/2_trophy/2_trophy.gltf"

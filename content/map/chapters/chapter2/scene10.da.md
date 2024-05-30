@@ -4,6 +4,7 @@ draft: false
 title: Scene 10
 
 params:
+  chapterSymbol: "&#9661;"
   cssClassSuffix: "scenes"
 
   textures: "/3dmodels/4_little_statues/textures"

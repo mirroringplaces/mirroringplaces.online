@@ -4,6 +4,7 @@ draft: false
 title: Scene 13
 
 params:
+  chapterSymbol: "&#9747;"
   cssClassSuffix: "scenes chapter3"
   textures: "/3dmodels/1_soccer_shoes/textures"
   gltfsource: "/3dmodels/1_soccer_shoes/1_shoes.gltf"

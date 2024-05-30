@@ -4,6 +4,7 @@ draft: false
 title: Scene 16
 
 params:
+  chapterSymbol: "&#9747;"
   cssClassSuffix: "scenes chapter3"
 
   textures: "/3dmodels/16_cobblestone/textures"

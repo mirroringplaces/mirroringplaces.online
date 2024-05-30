@@ -4,6 +4,7 @@ draft: false
 title: Scene 8
 
 params:
+  chapterSymbol: "&#9661;"
   cssClassSuffix: "scenes"
   textures: "/3dmodels/8_stone/textures"
   gltfsource: "/3dmodels/8_stone/8_stone.gltf"

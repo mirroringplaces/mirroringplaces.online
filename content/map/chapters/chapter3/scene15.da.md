@@ -4,6 +4,7 @@ draft: false
 title: Scene 15
 
 params:
+  chapterSymbol: "&#9747;"
   cssClassSuffix: "scenes chapter3"
   textures: "/3dmodels/15_cooking_pot/textures"
   gltfsource: "/3dmodels/15_cooking_pot/15_cooking_pot.gltf"

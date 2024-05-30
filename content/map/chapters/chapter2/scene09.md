@@ -4,6 +4,7 @@ draft: false
 title: Scene 9
 
 params:
+  chapterSymbol: "&#9661;"
   cssClassSuffix: "scenes"
   textures: "/3dmodels/9_bracelet/textures"
   gltfsource: "/3dmodels/9_bracelet/9_bracelet.gltf"
