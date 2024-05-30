@@ -360,14 +360,24 @@ article.scenes {
             line-height: 0.8;
         }
 
-        *,
-        *:visited,
-        *:active {
-            color: rgb(0, 255, 0);
+        a {
             text-decoration: none;
         }
+        
+        .chapters-menu {
+            padding-bottom: 20px;
+            item {
+                display: block;
+                font-size: 18pt;
+                margin-top: 10px;
+                a,
+                a:visited,
+                a:active {
+                   text-decoration: underline;
+                }
+            }
+        }
     }
-
 }
 
 article.chapter1 {
@@ -411,15 +421,6 @@ article.chapter4 {
             @extend .green;
         }
   }
-}
-.chapters-menu {
-  item {
-      display: block;
-      font-size: 18pt;
-      margin-top: 10px;
-      text-decoration: underline;
-    }
-      padding-bottom: 20px;
 }
 
 /* FOOTER */
