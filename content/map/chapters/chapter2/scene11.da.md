@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/11_plant/textures"
   gltfsource: "/3dmodels/11_plant/11_plant.gltf"
 ---
-<h2 class="green">Kapitel &#9661;:</h2>
+## Kapitel &#9661;:
 <h3 class="green">Scene 11: Plante</h3>
 <canvas id="c"></canvas>
 

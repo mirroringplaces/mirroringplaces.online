@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/1_soccer_shoes/1_shoes.gltf"
 
 ---
-<h2 >Chapter &#9747;:</h2>
+## Chapter &#9747;:
 <h3>Scene 13: Telescope</h3>
 <canvas id="c"></canvas>
 

@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/8_stone/8_stone.gltf"
 
 ---
-<h2 class="green">Chapter &#9661;:</h2>
+## Chapter &#9661;:
 <h3 class="green">Scene 8: Stone Anhangabau</h3>
 <canvas id="c"></canvas>
 

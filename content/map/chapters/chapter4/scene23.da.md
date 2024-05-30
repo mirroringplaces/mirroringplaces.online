@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/23_otas/23_otas.gltf"
 
 ---
-<h2>Kapitel 6:</h2>
+## Kapitel 6:
 <h3>Scene 23: Otás - som tiden går</h3>
 <canvas id="c"></canvas>
 <p>Dette er et levende arkiv af tanker, projektioner og betragtninger skabt på baggrund af sporene fra indsamlet data. De refererer til personlige genstande og minder, som tilhører beboere i området. 

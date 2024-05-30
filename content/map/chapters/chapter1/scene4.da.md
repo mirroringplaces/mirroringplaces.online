@@ -11,7 +11,7 @@ params:
   gltfsource: "/3dmodels/4_little_statues/4_little_statues.gltf"
 
 ---
-<h2 class="green">Kapitel &#9737;:</h2>
+## Kapitel &#9737;:
 <h3 class="green">Scene 4: Små statuer</h3>
 <canvas id="c"></canvas>
 

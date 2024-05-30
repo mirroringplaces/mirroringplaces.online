@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/6_painting/textures"
   gltfsource: "/3dmodels/6_painting/6_painting.gltf"
 ---
-<h2 class="green">Chapter &#9661;:</h2>
+## Chapter &#9661;:
 <h3 class="green">Scene 12: Canudos - Tututuremas  Bixiga</h3>
 <canvas id="c"></canvas>
 

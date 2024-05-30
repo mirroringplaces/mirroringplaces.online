@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/15_cooking_pot/15_cooking_pot.gltf"
 
 ---
-<h2 class="green">Kapitel &#9747;:</h2>
+## Kapitel &#9747;:
 <h3 class="green">Scene 15: Gryde</h3>
 <canvas id="c"></canvas>
 

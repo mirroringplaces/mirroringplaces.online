@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/23_otas/23_otas.gltf"
 
 ---
-<h2>Chapter 6:</h2>
+## Chapter 6:
 <h3>Scene 23: Otás - As time folds by</h3>
 <canvas id="c"></canvas>
 

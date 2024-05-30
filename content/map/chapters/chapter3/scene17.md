@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/5_bottle_opener/textures"
   gltfsource: "/3dmodels/5_bottle_opener/5_bottle_opener.gltf"
 ---
-<h2>Chapter &#9747;:</h2>
+## Chapter &#9747;:
 <h3>Scene 17: Cobblestone</h3>
 <canvas id="c"></canvas>
 

@@ -11,7 +11,7 @@ params:
   gltfsource: "/3dmodels/16_cobblestone/16_cobblestone.gltf"
 
 ---
-<h2 class="green">Kapitel &#9747;:</h2>
+## Kapitel &#9747;:
 <h3 class="green">Scene 16: Brosten</h3>
 <canvas id="c"></canvas>
 

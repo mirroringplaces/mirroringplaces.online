@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/9_bracelet/9_bracelet.gltf"
 
 ---
-<h2 class="green">Chapter &#9661;:</h2>
+## Chapter &#9661;:
 <h3 class="green">Scene 9: Bracelet</h3>
 <canvas id="c"></canvas>
 

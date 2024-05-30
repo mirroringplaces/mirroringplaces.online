@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/5_bottle_opener/textures"
   gltfsource: "/3dmodels/5_bottle_opener/5_bottle_opener.gltf"
 ---
-<h2 class="green">Kapitel &#9747;:</h2>
+## Kapitel &#9747;:
 <h3 class="green">Scene 17: Lysekrone</h3>
 <canvas id="c"></canvas>
 

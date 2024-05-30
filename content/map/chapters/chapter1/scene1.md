@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/1_soccer_shoes/1_soccer_shoes.gltf"
 
 ---
-<h2>Chapter &#9737;:</h2>
+## Chapter &#9737;:
 <h3>Scene 1: Soccer Shoes</h3>
 <canvas id="c"></canvas>
 
