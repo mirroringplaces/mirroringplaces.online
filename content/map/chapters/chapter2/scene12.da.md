@@ -4,11 +4,13 @@ draft: false
 title: Scene 12
 
 params:
+  chapterSymbol: "&#9661;"
   cssClassSuffix: "scenes"
   textures: "/3dmodels/6_painting/textures"
   gltfsource: "/3dmodels/6_painting/6_painting.gltf"
 ---
-<h2 class="green">Kapitel &#9661;:</h2>
-<h3 class="green">Scene 12: Canudos - Tututuremas Bixiga</h3>
+## Kapitel &#9661;:
+### Scene 12: Canudos - Tututuremas Bixiga
 <canvas id="c"></canvas>
-<p>Små træ- og lerhuse, omkring 10 cm høje, er spredt rundt på en gård, der blomstrer som en park. Et stykke land til dyrkning af forfædre og kunst. Et sted at få frisk vand og luft. Jordens oprør. Dette er et beskyttelsesrum for meget mere end menneskelige tilstedeværelser alene.</p>
+
+Små træ- og lerhuse, omkring 10 cm høje, er spredt rundt på en gård, der blomstrer som en park. Et stykke land til dyrkning af forfædre og kunst. Et sted at få frisk vand og luft. Jordens oprør. Dette er et beskyttelsesrum for meget mere end menneskelige tilstedeværelser alene.

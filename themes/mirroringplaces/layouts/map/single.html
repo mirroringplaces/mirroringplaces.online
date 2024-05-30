@@ -12,7 +12,7 @@
 
     <h4>
         {{ range sort .CurrentSection.Pages "File.Path" }}
-        <a href="{{ .RelPermalink }}">&#9661;</a>
+        <a href="{{ .RelPermalink }}">{{ .Params.chapterSymbol | safeHTML }}</a>
         {{ end }}
     </h4>
 

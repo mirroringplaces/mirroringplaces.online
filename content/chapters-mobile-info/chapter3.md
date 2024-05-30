@@ -4,11 +4,11 @@ draft: false
 title: Scene 1
 
 params:
-  cssClassSuffix: "scenes scenes1"
+  cssClassSuffix: "scenes chapter3"
 
 ---
 
-<h2 class="yellow">Scene &#9508;:</h2>
+## Chapter &#9747;:
 
 ### Augmented Reality
 
