@@ -13,5 +13,6 @@ params:
 <h2 class="green">Kapitel &#9737;:</h2>
 <h3 class="green">Scene 2: Trofæ</h3>
 <canvas id="c"></canvas>
-<p>Her er et objekt lavet ud af plastik og en form for metallisk materiale. I bunden sidder et metal-skilt over noget plastik eller træ, i toppen er en figur, som forestiller et menneske, der løber med en bold. Den repræsenterer nogen, som har vundet et særligt spil. Objektet bærer på en fars minde om hans datter, som plejede at spille det spil. Han gemmer på objektet for at huske hende, huske den tid, som er gået, mens hun er vokset op. Tiden er gået, den har gjort plads til nye perspektiver, den har fortrængt deres kulturer. Måske repræsenterer det hér objekt en slags præstation. Men hvis præstation? Hans? Hendes? Deres? Den er en påmindelse om at nå et mål.</p>
+
+Her er et objekt lavet ud af plastik og en form for metallisk materiale. I bunden sidder et metal-skilt over noget plastik eller træ, i toppen er en figur, som forestiller et menneske, der løber med en bold. Den repræsenterer nogen, som har vundet et særligt spil. Objektet bærer på en fars minde om hans datter, som plejede at spille det spil. Han gemmer på objektet for at huske hende, huske den tid, som er gået, mens hun er vokset op. Tiden er gået, den har gjort plads til nye perspektiver, den har fortrængt deres kulturer. Måske repræsenterer det hér objekt en slags præstation. Men hvis præstation? Hans? Hendes? Deres? Den er en påmindelse om at nå et mål.
 

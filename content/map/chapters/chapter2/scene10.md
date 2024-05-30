@@ -14,4 +14,5 @@ params:
 <h2 class="green">Chapter &#9661;:</h2>
 <h3 class="green">Scene 10: Dog</h3>
 <canvas id="c"></canvas>
-<p>Boobie, the dog, was supposed to stay for a while, but Boobie merged with other creatures and they could no longer go by alone, each to their own side. Boobie was a dog to be rescued, but it ended up rescuing them so much more than they could initially realize.</p>
+
+Boobie, the dog, was supposed to stay for a while, but Boobie merged with other creatures and they could no longer go by alone, each to their own side. Boobie was a dog to be rescued, but it ended up rescuing them so much more than they could initially realize.
