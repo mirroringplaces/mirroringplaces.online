@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/5_bottle_opener/5_bottle_opener.gltf"
 ---
 ## Chapter &#9747;:
-<h3>Scene 17: Cobblestone</h3>
+### Scene 17: Cobblestone
 <canvas id="c"></canvas>
 
 A cobblestone taken from the pavement by a teenager soon to become an adult, figuring out his own decisions, figuring out his own questions, confronted with the world. Not honor nor forgive. Raising the matters of an identity, an ideology, a position to be taken, a mission to be fulfilled. In creation. A morphing line, willing to form definitions of what it is to be oneself, always in relation to whatever else. Underneath the pavement, there is the sea.

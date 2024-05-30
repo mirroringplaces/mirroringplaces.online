@@ -11,7 +11,7 @@ params:
 
 ---
 ## Chapter &#9747;:
-<h3 class="green">Scene 14: Computer Board</h3>
+### Scene 14: Computer Board
 <canvas id="c"></canvas>
 
 A very basic yet complex system of computing equipment. A little board with programming shortcuts on it, which made this life possible for a young boy. This little board holds the keys that opened the portals for that boy to reprogram his perspective of the world, and made him find his paths on writing new codes for his own life.

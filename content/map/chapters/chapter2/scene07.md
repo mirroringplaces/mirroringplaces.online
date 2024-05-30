@@ -11,7 +11,7 @@ params:
 
 ---
 ## Chapter &#9661;:
-<h3>Scene 7: Tupilac/Seal</h3>
+### Scene 7: Tupilac/Seal
 <canvas id="c"></canvas>
 
 That is a carved amulet.  It is made out of bones. It is given to protect a person, a family, a newborn. It's an ancient craft, made by the people cultivating connections to the invisible, to the other side of the mirror.
