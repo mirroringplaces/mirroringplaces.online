@@ -298,15 +298,15 @@ article.scenes {
 
         #prismaScenes {
             position: absolute;
-            top: 26%;
-            left: 32%;
+            top: 50%;
+            left: 58%;
             text-align: center;
             animation: textIconSize 2s infinite;
         }
 
         #wellScenes {
             position: absolute;
-            top: 38%;
+            top: 36%;
             left: 56%;
             text-align: center;
             animation: textIconSize 2s infinite;
@@ -314,8 +314,8 @@ article.scenes {
 
         #antennaScenes {
             position: absolute;
-            top: 50%;
-            left: 50%;
+            top: 24%;
+            left: 33%;
             text-align: center;
             animation: textIconSize 2s infinite;
         }
@@ -382,7 +382,7 @@ article.scenes {
 
 article.chapter1 {
     h1, h2, h3, .sceneNav {
-        @extend .blue;
+        @extend .orange;
         *,
         *:visited,
         *:active {
@@ -394,11 +394,11 @@ article.chapter1 {
 
 article.chapter2 {
     h1, h2, h3, .sceneNav {
-        @extend .orange;
+        @extend .dPink;
         *,
         *:visited,
         *:active {
-            @extend .orange;
+            @extend .dPink;
         }
   }
 }
@@ -478,7 +478,7 @@ footer {
 
         li.active {
             a {
-                color: rgb(0, 255, 0);
+                color: rgb(0, 225, 0);
             }
         }
 
