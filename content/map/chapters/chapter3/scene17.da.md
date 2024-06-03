@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/17_chandelier/17_chandelier.gltf"
 ---
 ## Kapitel &#8516;:
-### Scene 17: Lysekrone
+### Scene 17: Antik lysekrone
 <canvas id="c"></canvas>
 
-En rund genstand, sandsynligvis lavet af metal og glas, ser ud til at hænge et sted. Dens unikke form ligner noget fra en anden tid, fra en forventet fremtid, og samtidig minder den hende om hendes tidligere liv. Den oplyser hendes vej og illuminerer de skjulte hjørner af hendes sind. Her tænker hun over sine rødder og reflekterer over sine mål. Hun ser på sit hjem for at forstå sin egen identitet, hun udforsker det private for at forstå, hvad hun mener i det offentlige. Under lampens lys finder hun sit eget hjem.
+Som barn ville hun vandre gennem rum fyldt med antikviteter indsamlet af hendes bedsteforældre, og drømme om alle de potentielle verdener, de kunne rumme. Det var en af hendes yndlingsbeskæftigelser, hun kunne bruge timer i drømmene. Hun ville forestille sig genstanden hænge fra loftet i et stort slot med dens mange dråber af krystaller i komplekse, harmoniske formationer, næsten gennemsigtige. Hvordan lysstrålerne i rummet ville blive forvrænget. Hun beholdt lysekronen gennem sit liv, i dag har hun den hængende i sit hjem. Den er en portal, en vogter, et vindue, som hun kan se ind i fortiden gennem. Her kan hun komme i kontakt med fantasien hos sit barne-jeg, huske, hvordan verden føltes endnu ukendt, og følelsen af livets kraft, før det folder sig ud.

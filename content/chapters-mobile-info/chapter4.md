@@ -12,7 +12,7 @@ params:
 
 ### Augmented Reality
 
-<p>1. Navigate to the spot of Lundtoftegade 23 and The End of the story<br><br>
+<p>1. Navigate to Lundtoftegade 23 to get The End of the story<br><br>
 2. Use your phone to capture the QR code<br><br>
 3. Find the objects displayed in the Augmented Reality and use headphones to get the best sound experience</p>
 
