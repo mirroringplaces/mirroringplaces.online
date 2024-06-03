@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/14_computer_board/14_computer_board.gltf"
 
 ---
-## Kapitel &#9747;:
+## Kapitel &#8516;:
 ### Scene 14: Computerkort
 <canvas id="c"></canvas>
 

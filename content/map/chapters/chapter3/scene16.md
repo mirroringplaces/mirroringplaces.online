@@ -11,7 +11,7 @@ params:
   gltfsource: "/3dmodels/16_cobblestone/16_cobblestone.gltf"
 
 ---
-## Chapter &#9747;:
+## Chapter &#8516;:
 ### Scene 16: Cooking Pot
 <canvas id="c"></canvas>
 

@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/5_bottle_opener/textures"
   gltfsource: "/3dmodels/5_bottle_opener/5_bottle_opener.gltf"
 ---
-## Chapter &#9747;:
+## Chapter &#8516;:
 ### Scene 17: Cobblestone
 <canvas id="c"></canvas>
 
