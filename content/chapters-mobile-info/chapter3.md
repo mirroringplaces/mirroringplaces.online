@@ -8,11 +8,11 @@ params:
 
 ---
 
-## Chapter &#9747;:
+## Chapter &#8516;:
 
 ### Augmented Reality
 
-<p>1. Navigate to the spot of the sculpture The Antenna<br><br>
+<p>1. Navigate to the spot of the sculpture called The Antenna<br><br>
 2. Use your phone to capture the QR code<br><br>
 3. Find the objects displayed in the Augmented Reality and use headphones to get the best sound experience</p>
 

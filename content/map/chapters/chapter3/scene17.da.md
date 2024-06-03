@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/5_bottle_opener/textures"
   gltfsource: "/3dmodels/5_bottle_opener/5_bottle_opener.gltf"
 ---
-## Kapitel &#9747;:
+## Kapitel &#8516;:
 ### Scene 17: Lysekrone
 <canvas id="c"></canvas>
 

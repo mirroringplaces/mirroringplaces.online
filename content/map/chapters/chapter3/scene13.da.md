@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/1_soccer_shoes/1_shoes.gltf"
 
 ---
-## Kapitel &#9747;:
+## Kapitel &#8516;:
 ### Scene 13: Teleskop
 <canvas id="c"></canvas>
 
