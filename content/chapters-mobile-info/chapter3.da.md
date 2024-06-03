@@ -12,8 +12,7 @@ params:
 
 ### Augmented Reality
 
-<p>1. Gå til lokaliteten for skulpturen som hedder The Antenna<br><br>
-2. Brug telefonen til at læse QR koden<br><br>
-3. Find the objects displayed in the Augmented Reality<br><br>
-    Find objekterne i augmented reality universet og brug høretelefoner for at få den bedste lytteoplevelse</p>
+<p>1. Gå til lokaliteten for skulpturen, som hedder The Antenna<br><br>
+2. Brug telefonen til at læse QR-koden<br><br>
+3. Find objekterne i augmented reality-universet og brug høretelefoner for at få den bedste lytteoplevelse</p>
 

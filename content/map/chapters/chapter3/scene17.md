@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/17_chandelier/17_chandelier.gltf"
 ---
 ## Chapter &#8516;:
-### Scene 17: Cobblestone
+### Scene 17: Chandelier- antique
 <canvas id="c"></canvas>
 
-A cobblestone taken from the pavement by a teenager soon to become an adult, figuring out his own decisions, figuring out his own questions, confronted with the world. Not honor nor forgive. Raising the matters of an identity, an ideology, a position to be taken, a mission to be fulfilled. In creation. A morphing line, willing to form definitions of what it is to be oneself, always in relation to whatever else. Underneath the pavement, there is the sea.
+As a child she would wander through those rooms, filled with antiques collected by her grandparents, and she would dream of all the possible worlds that they could contain. This was one of her favorites and she could spend hours dreaming with it. She would envision it hanging on the ceiling of a very big castle, holding its multiple drops of crystals, layered in a complex and harmonic shape, almost transparent, slightly distorting the rays of light. She kept it through her life and she has it hanging in her house. It is a portal, it is a guardian, it is a window through which she can look into the past,  get in contact with the imagination of her child-self, remember the world yet unknown, the power of life before it unfolds.
