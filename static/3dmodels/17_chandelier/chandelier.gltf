@@ -89,7 +89,7 @@
         {
             "mimeType" : "image/jpeg",
             "name" : "Textured_mesh_1",
-            "uri" : "Textured_mesh_1.jpg"
+            "uri" : "texture.jpg"
         }
     ],
     "accessors" : [
@@ -140,7 +140,7 @@
     "buffers" : [
         {
             "byteLength" : 1044180,
-            "uri" : "_chandelier.bin"
+            "uri" : "17_chandelier.bin"
         }
     ]
 }

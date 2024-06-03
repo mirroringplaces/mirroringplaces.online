@@ -5,9 +5,9 @@ title: Scene 12
 
 params:
   chapterSymbol: "&#9661;"
-  cssClassSuffix: "scenes"
-  textures: "/3dmodels/6_painting/textures"
-  gltfsource: "/3dmodels/6_painting/6_painting.gltf"
+  cssClassSuffix: "scenes chapter2"
+  textures: "/3dmodels/12_canudos/textures"
+  gltfsource: "/3dmodels/12_canudos/12_canudos.gltf"
 ---
 ## Chapter &#9661;:
 ### Scene 12: Canudos - Tututuremas  Bixiga
