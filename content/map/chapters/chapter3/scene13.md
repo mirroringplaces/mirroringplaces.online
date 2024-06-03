@@ -6,8 +6,8 @@ title: Scene 13
 params:
   chapterSymbol: "&#9747;"
   cssClassSuffix: "scenes chapter3"
-  textures: "/3dmodels/1_soccer_shoes/textures"
-  gltfsource: "/3dmodels/1_soccer_shoes/1_shoes.gltf"
+  textures: "/3dmodels/13_telescope/textures"
+  gltfsource: "/3dmodels/13_telescope/13_telescope.gltf"
 
 ---
 ## Chapter &#8516;:

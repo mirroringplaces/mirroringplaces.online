@@ -21,19 +21,29 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "model_New_Qlone_20240218_162753807.001",
+            "name" : "Textured_mesh_1",
             "rotation" : [
-                0.7071068286895752,
+                0.1717805415391922,
+                0.07142524421215057,
+                0.0036661827471107244,
+                0.982535719871521
+            ],
+            "scale" : [
+                0.038287267088890076,
+                0.03828726336359978,
+                0.03828726336359978
+            ],
+            "translation" : [
                 0,
-                0,
-                0.7071067094802856
+                2.3711836338043213,
+                0
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "material0.001",
+            "name" : "Textured_mesh_1",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 0
@@ -44,7 +54,7 @@
     ],
     "meshes" : [
         {
-            "name" : "model_New_Qlone_20240218_162753807.001",
+            "name" : "Textured_mesh_1",
             "primitives" : [
                 {
                     "attributes" : {
@@ -78,46 +88,46 @@
     "images" : [
         {
             "mimeType" : "image/jpeg",
-            "name" : "texture",
+            "name" : "Textured_mesh_1",
             "uri" : "texture.jpg"
         }
     ],
     "accessors" : [
         {
             "componentType" : 5126,
-            "count" : 21920,
+            "count" : 145459,
             "max" : [
-                0.5162079930305481,
-                0.5087590217590332,
-                -0.10666999965906143
+                23.819334030151367,
+                31.69415283203125,
+                30.326974868774414
             ],
             "min" : [
-                -0.4441330134868622,
-                -0.4833199977874756,
-                -0.3797470033168793
+                -38.37245559692383,
+                -20.114898681640625,
+                -31.374752044677734
             ],
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 21920,
+            "count" : 145459,
             "type" : "VEC3"
         },
         {
             "componentType" : 5126,
-            "count" : 21920,
+            "count" : 145459,
             "type" : "VEC2"
         },
         {
-            "componentType" : 5123,
-            "count" : 22455,
+            "componentType" : 5125,
+            "count" : 311160,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 156642,
+            "byteLength" : 1044178,
             "byteOffset" : 0
         }
     ],
@@ -129,8 +139,8 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 156644,
-            "uri" : "13- telescope.bin"
+            "byteLength" : 1044180,
+            "uri" : "17_chandelier.bin"
         }
     ]
 }
