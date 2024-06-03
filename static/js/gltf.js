@@ -9,6 +9,11 @@ import {
     GLTFLoader
 } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
 
+import {
+    DRACOLoader
+} from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/DRACOLoader.js";
+
+
 function main() {
 
     const canvas = document.querySelector('#c');
@@ -40,6 +45,7 @@ function main() {
         const planeSize = 40;
 
         const loader = new THREE.TextureLoader();
+
         const texture = loader.load(document.getElementsByName('textures')[0].content);
         texture.wrapS = THREE.RepeatWrapping;
         texture.wrapT = THREE.RepeatWrapping;
@@ -111,6 +117,12 @@ function main() {
     {
 
         const gltfLoader = new GLTFLoader();
+
+        // Optional: Provide a DRACOLoader instance to decode compressed mesh data
+        const dracoLoader = new DRACOLoader();
+        dracoLoader.setDecoderPath( 'https://www.gstatic.com/draco/v1/decoders/' );
+        gltfLoader.setDRACOLoader( dracoLoader );
+
         gltfLoader.load(document.getElementsByName('gltfsource')[0].content, (gltf) => {
 
             const root = gltf.scene;
