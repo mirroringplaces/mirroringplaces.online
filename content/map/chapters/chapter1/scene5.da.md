@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/5_bottle_opener/textures"
   gltfsource: "/3dmodels/5_bottle_opener/5_bottle_opener.gltf"
 ---
-## Kapitel &#9737;:
+## Kapitel &#9737;
 ### Scene 5: Oplukker
 <canvas id="c"></canvas>
 

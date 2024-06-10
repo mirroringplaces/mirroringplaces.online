@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/9_bracelet/9_bracelet.gltf"
 
 ---
-## Chapter &#9661;:
+## Chapter &#9661;
 ### Scene 9: Bracelet
 <canvas id="c"></canvas>
 

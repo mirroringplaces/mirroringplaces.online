@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/5_bottle_opener/textures"
   gltfsource: "/3dmodels/5_bottle_opener/5_bottle_opener.gltf"
 ---
-## Chapter &#9737;:
+## Chapter &#9737;
 ### Scene 5: Bottle Opener
 <canvas id="c"></canvas>
 

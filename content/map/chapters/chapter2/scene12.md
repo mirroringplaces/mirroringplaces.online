@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/12_canudos/textures"
   gltfsource: "/3dmodels/12_canudos/12_canudos.gltf"
 ---
-## Chapter &#9661;:
+## Chapter &#9661;
 ### Scene 12: Canudos - Tututuremas  Bixiga
 <canvas id="c"></canvas>
 

@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/3_medal/3_medal.gltf"
 
 ---
-## Kapitel &#9737;:
+## Kapitel &#9737;
 ### Scene 3: Medaljer
 <canvas id="c"></canvas>
 

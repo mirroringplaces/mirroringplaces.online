@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/17_chandelier/textures"
   gltfsource: "/3dmodels/17_chandelier/17_chandelier.gltf"
 ---
-## Kapitel &#8516;:
+## Kapitel &#8516;
 ### Scene 17: Antik lysekrone
 <canvas id="c"></canvas>
 

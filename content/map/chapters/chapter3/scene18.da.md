@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/18_brick/textures"
   gltfsource: "/3dmodels/18_brick/18_brick.gltf"
 ---
-## Chapter &#8516;:
+## Chapter &#8516;
 ### Scene 18: Mursten
 <canvas id="c"></canvas>
 

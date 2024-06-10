@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/15_cooking_pot/15_cooking_pot.gltf"
 
 ---
-## Chapter &#8516;:
+## Chapter &#8516;
 ### Scene 15: Cooking Pot
 <canvas id="c"></canvas>
 

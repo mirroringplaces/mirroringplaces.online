@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/1_soccer_shoes/1_soccer_shoes.gltf"
 
 ---
-## Kapitel &#9737;:
+## Kapitel &#9737;
 ### Scene 1: Sko
 <canvas id="c"></canvas>
 
