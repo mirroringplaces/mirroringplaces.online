@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/13_telescope/13_telescope.gltf"
 
 ---
-## Kapitel &#8516;:
+## Kapitel &#8516;
 ### Scene 13: Teleskop
 <canvas id="c"></canvas>
 

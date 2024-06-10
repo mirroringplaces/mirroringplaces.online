@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/2_trophy/2_trophy.gltf"
 
 ---
-## Kapitel &#9737;:
+## Kapitel &#9737;
 ### Scene 2: Trofæ
 <canvas id="c"></canvas>
 

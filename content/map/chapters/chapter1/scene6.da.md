@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/6_painting/textures"
   gltfsource: "/3dmodels/6_painting/6_painting.gltf"
 ---
-## Kapitel &#9737;:
+## Kapitel &#9737;
 ### Scene 6: Maleri
 <canvas id="c"></canvas>
 

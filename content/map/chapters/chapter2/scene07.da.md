@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/7_tupilac/7_tupilac.gltf"
 
 ---
-## Kapitel &#9661;:
+## Kapitel &#9661;
 ### Scene 7: Tupilac
 <canvas id="c"></canvas>
 

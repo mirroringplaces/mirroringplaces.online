@@ -11,7 +11,7 @@ params:
   gltfsource: "/3dmodels/16_cobblestone/16_cobblestone.gltf"
 
 ---
-## Chapter &#8516;:
+## Chapter &#8516;
 ### Scene 16: Cobblestone
 <canvas id="c"></canvas>
 

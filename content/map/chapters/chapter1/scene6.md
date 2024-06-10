@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/6_painting/textures"
   gltfsource: "/3dmodels/6_painting/6_painting.gltf"
 ---
-## Chapter &#9737;:
+## Chapter &#9737;
 ### Scene 6: Painting
 <canvas id="c"></canvas>
 

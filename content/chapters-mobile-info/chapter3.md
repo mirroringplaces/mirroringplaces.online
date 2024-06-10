@@ -8,7 +8,7 @@ params:
 
 ---
 
-## Chapter &#8516;:
+## Chapter &#8516;
 
 ### Augmented Reality
 
