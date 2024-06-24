@@ -35,3 +35,10 @@ params:
      <p>I open this time capsule and these memories emerge to me! They appear as images that carry feelings and I can describe them as they come to me; I become part of the ruins of a civilization constructed upon things, from which what lingers is the idea of a place built by the relations that have, through all the layers of time, insisted on being here.</p>
  </div>
  <div class="lH"></div>
+ <div id=story_menu class="front">
+ <p><a href="map/chapters/chapter1/scene1" class="orange">Chapter &#9737;</a></p>
+ <p><a href="map/chapters/chapter2/scene07" class="dPink">Chapter &#9661;</a></p>
+ <p><a href="map/chapters/chapter3/scene13" class="yellow">Chapter &#8516;</a></p>
+ <p><a href="map/chapters/chapter4/scene23" class="black">The end</a></p>
+</div>
+ 

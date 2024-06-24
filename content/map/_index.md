@@ -15,7 +15,9 @@ params:
 
   <img src="/images/Mirroring_map32.png" id="map">
 
-  <p><a href="{{< ref "/" >}}" id="beginning">The Beginning</a></p>
+  <p id="beginning"><a href="{{< ref "/" >}}" >The Story</a><br><a href="{{< ref "/map/chapters/chapter4/scene23" >}}">
+    The End
+    </a></p>
 
   <div id="prismaScenes">
       <a href="{{< ref "/map/chapters/chapter2/scene07" >}}" class="map-icon">
@@ -24,19 +26,15 @@ params:
   </div>
 
   <div id="wellScenes">
-      <a href="{{< ref "/map/chapters/chapter1/scene1" >}}" class="map-icon blue">
+      <a href="{{< ref "/map/chapters/chapter1/scene1" >}}" class="map-icon">
         <p id="well" class="orange">&#9737;</p>
       </a>
   </div>
   <div id=antennaScenes>
-      <a href="{{< ref "/map/chapters/chapter3/scene13" >}}" class="map-icon yellow">
+      <a href="{{< ref "/map/chapters/chapter3/scene13" >}}" class="map-icon">
         <p id="antenna" class="yellow">&#8516;</p>
       </a>
   </div>
-
-  <p><a href="{{< ref "/map/chapters/chapter4/scene23" >}}" id="end">
-    The End
-    </a></p>
 
 </div>
 
