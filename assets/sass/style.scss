@@ -219,8 +219,8 @@ article.about {
     background-color: white;
     padding: 20px;
     padding-bottom: 100px;
-    
-    
+
+
     img {
         margin-bottom: 15px;
     }
@@ -262,6 +262,27 @@ article.story {
         z-index: 0;
 
     }
+
+    #story_menu {
+        margin-bottom: 25px;
+        position: relative;
+        color: black;
+        z-index: 50;
+
+        p {
+            font-size: 14pt;
+            font-weight: 600;
+            text-decoration: underline;
+            color: black;
+        }
+
+        a,
+        a:visited,
+        a:active {
+            text-decoration: none;
+            color: black;
+        }
+    }
 }
 
 /* MAP & SCENE PAGES */
@@ -283,17 +304,26 @@ article.scenes {
         a:active {
             text-decoration: none;
         }
-        
+
         a.map-icon {
-          font-weight: bold;
+            font-weight: bold;
         }
 
         @keyframes textIconSize {
 
-          0% { transform: scale(1); }
-          50% {transform: scale(1.1); }
-          100% {transform: scale(1); }
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
         }
+
         /* Use @-webkit-keyframes for Safari/Chrome */
 
         #prismaScenes {
@@ -322,20 +352,19 @@ article.scenes {
 
         #beginning {
             position: absolute;
-            font-size: 20px;
-            bottom: 105px;
+            font-size: 14px;
+            bottom: 50px;
             text-decoration: underline;
-            color: rgb(0,255,0);
+            color: black;
+
+            a,
+            a:visited,
+            a:active {
+                text-decoration: none;
+                color: black;
+            }
         }
 
-        #end {
-            position: absolute;
-            font-size: 20px;
-            top: 90px;
-            right: 0px;
-            text-decoration: underline;
-            color: rgb(0,255,0);
-        }
     }
 
     canvas {
@@ -363,17 +392,19 @@ article.scenes {
         a {
             text-decoration: none;
         }
-        
+
         .chapters-menu {
             padding-bottom: 20px;
+
             item {
                 display: block;
                 font-size: 18pt;
                 margin-top: 10px;
+
                 a,
                 a:visited,
                 a:active {
-                   text-decoration: underline;
+                    text-decoration: underline;
                 }
             }
         }
@@ -381,46 +412,68 @@ article.scenes {
 }
 
 article.chapter1 {
-    h1, h2, h3, .sceneNav {
+
+    h1,
+    h2,
+    h3,
+    .sceneNav {
         @extend .orange;
+
         *,
         *:visited,
         *:active {
             @extend .orange;
         }
-  }
+    }
 
 }
 
 article.chapter2 {
-    h1, h2, h3, .sceneNav {
+
+    h1,
+    h2,
+    h3,
+    .sceneNav {
         @extend .dPink;
+
         *,
         *:visited,
         *:active {
             @extend .dPink;
         }
-  }
+    }
 }
+
 article.chapter3 {
-    h1, h2, h3, .sceneNav {
+
+    h1,
+    h2,
+    h3,
+    .sceneNav {
         @extend .yellow;
+
         *,
         *:visited,
         *:active {
             @extend .yellow;
         }
-  }
+    }
 }
+
 article.chapter4 {
-    h1, h2, h3, .sceneNav {
+
+    h1,
+    h2,
+    h3,
+    .sceneNav {
         @extend .green;
+
         *,
         *:visited,
         *:active {
             @extend .green;
         }
-  }
+    }
 }
 
 /* FOOTER */
@@ -433,7 +486,7 @@ footer {
     position: sticky;
 
     @media only screen and (max-width: 450px) {
-      position: fixed;
+        position: fixed;
     }
 
     menu {
@@ -464,7 +517,8 @@ footer {
             }
         }
 
-        @media only screen and (max-width: 950px), only screen and (max-height: 800px) {
+        @media only screen and (max-width: 950px),
+        only screen and (max-height: 800px) {
             li {
                 padding: 0;
 
