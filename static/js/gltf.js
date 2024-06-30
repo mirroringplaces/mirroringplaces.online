@@ -32,13 +32,13 @@ function main() {
     const controls = new OrbitControls(camera, canvas);
     controls.target.set(0, 5, 0);
     controls.autoRotate = true;
-    controls.zoomSpeed = 0; // stopper zoom funktionen
-    controls.rotateSpeed = 0;
+    /*controls.zoomSpeed = 0; // stopper zoom funktionen
+    controls.rotateSpeed = 0;*/
 
 
 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color('black');
+    scene.background = new THREE.Color('white');
 
     {
 
@@ -86,7 +86,7 @@ function main() {
 
     }
 
-    function frameArea(sizeToFitOnScreen, boxSize, boxCenter, camera) {
+    /*function frameArea(sizeToFitOnScreen, boxSize, boxCenter, camera) {
 
         const halfSizeToFitOnScreen = sizeToFitOnScreen * 0.5;
         const halfFovY = THREE.MathUtils.degToRad(camera.fov * .5);
@@ -112,7 +112,7 @@ function main() {
         // point the camera to look at the center of the box
         camera.lookAt(boxCenter.x, boxCenter.y, boxCenter.z);
 
-    }
+    }*/
 
     {
 
