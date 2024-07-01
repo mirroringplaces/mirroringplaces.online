@@ -86,7 +86,7 @@ function main() {
 
     }
 
-    /*function frameArea(sizeToFitOnScreen, boxSize, boxCenter, camera) {
+    function frameArea(sizeToFitOnScreen, boxSize, boxCenter, camera) {
 
         const halfSizeToFitOnScreen = sizeToFitOnScreen * 0.5;
         const halfFovY = THREE.MathUtils.degToRad(camera.fov * .5);
@@ -112,7 +112,7 @@ function main() {
         // point the camera to look at the center of the box
         camera.lookAt(boxCenter.x, boxCenter.y, boxCenter.z);
 
-    }*/
+    }
 
     {
 
@@ -156,7 +156,7 @@ function main() {
         if (needResize) {
 
             //renderer.setSize(width, height, false);
-            renderer.setSize(640,320, false);
+            renderer.setSize(640,480, false);
         }
 
         return needResize;
