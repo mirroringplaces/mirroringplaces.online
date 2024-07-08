@@ -32,13 +32,13 @@ function main() {
     const controls = new OrbitControls(camera, canvas);
     controls.target.set(0, 5, 0);
     controls.autoRotate = true;
-    controls.zoomSpeed = 0; // stopper zoom funktionen
-    controls.rotateSpeed = 0;
+    /*controls.zoomSpeed = 0; // stopper zoom funktionen
+    controls.rotateSpeed = 0;*/
 
 
 
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color('black');
+    scene.background = new THREE.Color('white');
 
     {
 
@@ -156,7 +156,7 @@ function main() {
         if (needResize) {
 
             //renderer.setSize(width, height, false);
-            renderer.setSize(640,320, false);
+            renderer.setSize(640,480, false);
         }
 
         return needResize;
