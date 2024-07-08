@@ -11,7 +11,7 @@ params:
   gltfsource: "/3dmodels/4_little_statues/4_little_statues.gltf"
 
 ---
-## Chapter &#9661;:
+## Chapter &#9661;
 ### Scene 10: Dog
 <canvas id="c"></canvas>
 

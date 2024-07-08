@@ -9,7 +9,7 @@ params:
   textures: "/3dmodels/17_chandelier/textures"
   gltfsource: "/3dmodels/17_chandelier/17_chandelier.gltf"
 ---
-## Chapter &#8516;:
+## Chapter &#8516;
 ### Scene 17: Chandelier- antique
 <canvas id="c"></canvas>
 

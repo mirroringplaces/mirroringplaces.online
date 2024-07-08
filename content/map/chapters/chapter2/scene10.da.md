@@ -11,7 +11,7 @@ params:
   gltfsource: "/3dmodels/4_little_statues/4_little_statues.gltf"
 
 ---
-## Kapitel &#9661;:
+## Kapitel &#9661;
 ### Scene 10: Hund
 <canvas id="c"></canvas>
 

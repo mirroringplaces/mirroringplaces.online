@@ -10,7 +10,7 @@ params:
   gltfsource: "/3dmodels/9_bracelet/9_bracelet.gltf"
 
 ---
-## Kapitel &#9661;:
+## Kapitel &#9661;
 ### Scene 9: Armbånd
 <canvas id="c"></canvas>
 

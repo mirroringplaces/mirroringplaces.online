@@ -11,7 +11,7 @@ params:
   gltfsource: "/3dmodels/4_little_statues/4_little_statues.gltf"
 
 ---
-## Kapitel &#9737;:
+## Kapitel &#9737;
 ### Scene 4: Små statuer
 <canvas id="c"></canvas>
 
