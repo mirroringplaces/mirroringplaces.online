@@ -32,8 +32,8 @@ function main() {
     const controls = new OrbitControls(camera, canvas);
     controls.target.set(0, 5, 0);
     controls.autoRotate = true;
-    controls.zoomSpeed = 0; // stopper zoom funktionen
-    controls.rotateSpeed = 0;
+    /*controls.zoomSpeed = 0; // stopper zoom funktionen
+    controls.rotateSpeed = 0;*/
 
 
 

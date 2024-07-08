@@ -15,7 +15,7 @@ params:
 
   <img src="/images/Mirroring_map32.png" id="map">
 
-  <p id="beginning"><a href="{{< ref "/" >}}" >The Story</a><br><a href="{{< ref "/map/chapters/chapter4/scene23" >}}">
+  <p id="beginning"><a href="{{< ref "/" >}}" >The Beginning</a><br><a href="{{< ref "/map/chapters/chapter4/scene23" >}}">
     The End
     </a></p>
 

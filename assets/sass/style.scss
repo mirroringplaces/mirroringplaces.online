@@ -193,6 +193,7 @@ p {
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
+    font-size: 12pt;
 }
 
 ul li {
@@ -352,8 +353,8 @@ article.scenes {
 
         #beginning {
             position: absolute;
-            font-size: 14px;
-            bottom: 50px;
+            font-size: 18px;
+            bottom: 0px;
             text-decoration: underline;
             color: black;
 
@@ -373,7 +374,7 @@ article.scenes {
     }
 
     p {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
 
     .sceneNav {
