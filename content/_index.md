@@ -7,9 +7,10 @@ params:
   cssClassSuffix: "story"
 
 ---
-<h2>Chapter 0:<br>
-    The<br>
-    Beginning</h2>
+### Chapter 0
+
+## The Beginning
+
 <img src="/images/shamanObj3.png">
 <img src="/images/Mirroring_map_frame.png" class="stickyMap front">
 <div class="textBox">
@@ -36,9 +37,9 @@ params:
  </div>
  <div class="lH"></div>
  <div id=story_menu class="front">
- <p><a href="map/chapters/chapter1/scene1" class="orange">Chapter &#9737;</a></p>
- <p><a href="map/chapters/chapter2/scene07" class="dPink">Chapter &#9661;</a></p>
- <p><a href="map/chapters/chapter3/scene13" class="yellow">Chapter &#8516;</a></p>
- <p><a href="map/chapters/chapter4/scene23" class="black">The end</a></p>
+ <h4><a href="map/chapters/chapter1/scene1" class="orange">Chapter &#9737;</a></h4>
+ <h4><a href="map/chapters/chapter2/scene07" class="dPink">Chapter &#9661;</a></h4>
+ <h4><a href="map/chapters/chapter3/scene13" class="yellow">Chapter &#8516;</a></h4>
+ <h4><a href="map/chapters/chapter4/scene23" class="black">The end</a></h4>
 </div>
  
