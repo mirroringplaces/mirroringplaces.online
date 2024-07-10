@@ -115,6 +115,7 @@ header {
     top: 0;
     z-index: 100;
 
+    //Titel "Mirroring Place"
     h1 {
         display: block;
         padding: 15px;
@@ -134,7 +135,7 @@ header {
         font-style: normal;
         background-color: deeppink;
         color: black;
-        width: 45px;
+        width: 50px;
         height: 30px;
         border: 1px solid black;
     }
@@ -149,6 +150,7 @@ header {
 }
 
 /* TEKST */
+//Titel "Mirroring Place"
 h1 {
     padding: 15px 0;
     font-family: "DRAGON HUNTER", sans-serif;
@@ -161,6 +163,7 @@ h1 {
     text-transform: uppercase;
 }
 
+//Kapitel overskrift
 h2 {
     padding: 3px 0;
     font-family: "Bauhaus", sans-serif;
@@ -170,23 +173,26 @@ h2 {
     line-height: 1.2;
 }
 
+//Kapiteloverskrift
 h3 {
     padding: 3px 0;
     padding-left: 0px;
     font-family: "Bauhaus", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 18pt;
+    font-size: 20pt;
     line-height: 1.2;
 }
 
+//Kapitelpunkter
 h4 {
     padding: 3px 0;
     padding-left: 0px;
     font-family: "Space Mono", monospace;
     font-weight: 800;
     font-style: normal;
-    font-size: 18pt;
+    font-size: 16pt;
+    margin: 0;
 }
 
 p {
@@ -220,7 +226,6 @@ article.about {
     background-color: white;
     padding: 20px;
     padding-bottom: 100px;
-
 
     img {
         margin-bottom: 15px;
@@ -265,17 +270,10 @@ article.story {
     }
 
     #story_menu {
-        margin-bottom: 25px;
-        position: relative;
         color: black;
         z-index: 50;
-
-        p {
-            font-size: 14pt;
-            font-weight: 600;
-            text-decoration: underline;
-            color: black;
-        }
+        text-decoration: underline;
+        margin-bottom: 20px;
 
         a,
         a:visited,
@@ -365,6 +363,31 @@ article.scenes {
                 color: black;
             }
         }
+
+        #map_menu {
+            color: black;
+            z-index: 50;
+            text-decoration: underline;
+            margin-bottom: 20px;
+
+            h4 {
+                padding: 3px 0;
+                padding-left: 0px;
+                font-family: "Space Mono", monospace;
+                font-weight: 800;
+                font-style: normal;
+                font-size: 16pt;
+                margin: 0;
+            }
+
+            a,
+            a:visited,
+            a:active {
+                text-decoration: none;
+                color: black;
+            }
+        }
+
 
     }
 

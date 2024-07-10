@@ -14,10 +14,11 @@ params:
 <div id="mapFolder">
 
   <img src="/images/Mirroring_map32.png" id="map">
-
-  <p id="beginning"><a href="{{< ref "/" >}}" >Begyndelsen</a><br><a href="{{< ref "/map/chapters/chapter4/scene23" >}}">
+<div id="map_menu">
+  <h4 id="beginning"><a href="{{< ref "/" >}}" >Begyndelsen</a><br><a href="{{< ref "/map/chapters/chapter4/scene23" >}}">
     Slutningen
-    </a></p>
+    </a></h4>
+    </div>
 
   <div id="prismaScenes">
       <a href="{{< ref "/map/chapters/chapter2/scene07" >}}" class="map-icon">

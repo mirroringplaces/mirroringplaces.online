@@ -6,8 +6,6 @@ title: Om
 params:
   cssClassSuffix: "about"
 ---
-
-## Om projektet:
 ## En Spejling af Lokationer: En arkæologi af minder
 ### af Rodrigo Andreolli
 

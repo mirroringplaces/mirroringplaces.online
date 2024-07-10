@@ -11,8 +11,8 @@ params:
   gltfsource: "/3dmodels/4_little_statues/4_little_statues.gltf"
 
 ---
-## Kapitel &#9661;
-### Scene 10: Hund
+### Kapitel &#9661;
+## Scene 10: Hund
 <canvas id="c"></canvas>
 
 Det var meningen, at hunden Boobie kun skulle blive et stykke tid. Men Boobie fusionerede med andre væsner, og pludselig kunne de ikke længere være hver for sig. Boobie var en hund, der skulle reddes, men den endte med at redde dem - mere, end de nogensinde kunne have forestillet sig.

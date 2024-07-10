@@ -7,9 +7,8 @@ params:
   cssClassSuffix: "about"
   
 ---
-
-## About:
-## Mirroring Places: An Archeology of Memories
+## Mirroring Places:
+## An Archeology of Memories
 ### by Rodrigo Andreolli
 
 <img src="/images/14_cloud.png">

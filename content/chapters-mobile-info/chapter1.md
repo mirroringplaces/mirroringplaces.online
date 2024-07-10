@@ -8,9 +8,9 @@ params:
 
 ---
 
-## Chapter &#9737;
+### Chapter &#9737;
 
-### Augmented Reality
+## Augmented Reality
 
 <p>1. Navigate to the spot of the sculpture called The Well<br><br>
 2. Use your phone to capture the QR code<br><br>

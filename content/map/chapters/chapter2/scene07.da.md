@@ -10,8 +10,8 @@ params:
   gltfsource: "/3dmodels/7_tupilac/7_tupilac.gltf"
 
 ---
-## Kapitel &#9661;
-### Scene 7: Tupilac
+### Kapitel &#9661;
+## Scene 7: Tupilac
 <canvas id="c"></canvas>
 
 Amuletten er udskåret af knogle. Den gives i gave for at beskytte en særlig person, en familie, en nyfødt. Det er et ældgammelt håndværk skabt af mennesker, der dyrker forbindelserne til det usynlige, forbindelsen til den anden side.
