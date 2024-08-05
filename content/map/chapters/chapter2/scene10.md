@@ -7,8 +7,8 @@ params:
   chapterSymbol: "&#9661;"
   cssClassSuffix: "scenes chapter2"
 
-  textures: "/3dmodels/4_little_statues/textures"
-  gltfsource: "/3dmodels/4_little_statues/4_little_statues.gltf"
+  textures: "/3dmodels/10_dog/textures"
+  gltfsource: "/3dmodels/10_dog/10_dog2.gltf"
 
 ---
 ### Chapter &#9661;
