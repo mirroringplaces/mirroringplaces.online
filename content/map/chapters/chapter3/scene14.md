@@ -2,6 +2,7 @@
 date: "2024-05-01"
 draft: false
 title: Scene 14
+weight: 14
 
 params:
   chapterSymbol: "&#9747;"
