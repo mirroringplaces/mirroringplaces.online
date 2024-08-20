@@ -349,26 +349,12 @@ article.scenes {
             animation: textIconSize 2s infinite;
         }
 
-        #beginning {
-            position: absolute;
-            font-size: 18px;
-            bottom: 0px;
-            text-decoration: underline;
-            color: black;
-
-            a,
-            a:visited,
-            a:active {
-                text-decoration: none;
-                color: black;
-            }
-        }
-
         #map_menu {
+            position: absolute;
+            bottom: 20px;
             color: black;
             z-index: 50;
             text-decoration: underline;
-            margin-bottom: 20px;
 
             h4 {
                 padding: 3px 0;
