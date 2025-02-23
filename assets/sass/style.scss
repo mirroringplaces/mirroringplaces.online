@@ -232,6 +232,12 @@ article.about {
     }
 }
 
+/* Main article */
+article.main {
+    background-color: white;
+    padding: 20px;
+}
+
 /* STORY */
 article.story {
     background-color: white;
@@ -553,19 +559,25 @@ footer {
             }
         }
 
-        li.menu-scenes {
+        li.menu-story {
+            background-image: url("/images/storyWhite.svg");
+
+            &.active {
+                background-image: url("/images/storyGreen.svg");
+            }
+        }
+        li.menu-map-lund {
             background-image: url("/images/mapWhite.svg");
 
             &.active {
                 background-image: url("/images/mapGreen.svg");
             }
         }
-
-        li.menu-story {
-            background-image: url("/images/storyWhite.svg");
+        li.menu-map-bix {
+            background-image: url("/images/mapWhite.svg");
 
             &.active {
-                background-image: url("/images/storyGreen.svg");
+                background-image: url("/images/mapGreen.svg");
             }
         }
     }

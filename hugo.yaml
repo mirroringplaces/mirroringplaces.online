@@ -30,15 +30,15 @@ languages:
       - name: "Om"
         url: "/da/about/"
         pre: "menu-about"
+        weight: 3
+      - name: "Lund"
+        url: "/da/story-lund/"
+        pre: "menu-story"
         weight: 1
-      - name: "Historie"
-        url: "/da/"
+      - name: "Bix"
+        url: "/da/story-bix/"
         pre: "menu-story"
         weight: 2
-      - name: "Kort"
-        url: "/da/map/"
-        pre: "menu-scenes"
-        weight: 3
   en:
     title: "Mirroring Places"
     params:
@@ -52,13 +52,13 @@ languages:
       - name: "About"
         url: "/about/"
         pre: "menu-about"
+        weight: 3
+      - name: "Lund"
+        url: "/story-lund/"
+        pre: "menu-story"
         weight: 1
-      - name: "Story"
-        url: "/"
+      - name: "Bix"
+        url: "/story-bix/"
         pre: "menu-story"
         weight: 2
-      - name: "Map"
-        url: "/map/"
-        pre: "menu-scenes"
-        weight: 3
 

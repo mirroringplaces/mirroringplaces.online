@@ -31,7 +31,7 @@ params:
       </a>
   </div>
   <div id="map_menu">
-  <h4><a href="{{< ref "/" >}}" >The Beginning</a><br><a href="{{< ref "/map/chapters/chapter4/scene23" >}}">
+  <h4><a href="{{< ref "/" >}}" >The Beginning</a><br><a href="{{< ref "/map-lund/chapters/chapter4/scene23" >}}">
     The End</a></h4>
     </div>
 </div>
