@@ -68,7 +68,7 @@
 
               {{ if $show_bix_map }}
                 <li class="menu-map-bix {{ if $bix_map_active }}active{{ end }}">
-                  <a href="/{{ $.Lang }}/map-bix/">Slet og indsæt kort i CSS</a>
+                  <a href="/{{ if not (eq $.Lang "en") }}{{ $.Lang }}{{ end }}/map-bix/">Slet og indsæt kort i CSS</a>
                 </li>
               {{ end }}
 
