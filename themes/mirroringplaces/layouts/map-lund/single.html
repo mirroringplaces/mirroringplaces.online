@@ -1,0 +1,54 @@
+{{ define "extrameta" }}
+<meta name="textures" content="{{ .Params.textures }}" />
+<meta name="gltfsource" content="{{ .Params.gltfsource }}" />
+{{ end }}
+
+
+{{ define "main" }}
+
+{{ .Content }}
+
+<div class="sceneNav">
+
+    <h4>
+        {{ range sort .CurrentSection.Pages "File.Path" }}
+        <a href="{{ .RelPermalink }}">{{ .Params.chapterSymbol | safeHTML }}</a>
+        {{ end }}
+    </h4>
+
+    <h4>
+
+        {{ if .NextInSection }}
+
+        <a href="{{ .NextInSection.Permalink }}">&#8678;</a>
+
+        {{ end }}
+
+        {{ if .PrevInSection }}
+
+        <a href="{{ .PrevInSection.Permalink }}">&#8680;</a>
+
+        {{ end }}
+
+    </h4>
+
+    <menu class="chapters-menu">
+        {{ if eq $.Site.Language.LanguageName "English" }}
+        <item><a href="/map/chapters/chapter1/scene1">Chapter &#9737;</a></item>
+        <item><a href="/map/chapters/chapter2/scene07">Chapter &#9661;</a></item>
+        <item><a href="/map/chapters/chapter3/scene13">Chapter &#8516;</a></item>
+        <item><a href="/map/chapters/chapter4/scene23">The end</a></item>
+        {{ else }}
+        <item><a href="/{{ .Site.LanguageCode }}/map/chapters/chapter1/scene1">Chapter &#9737;</a></item>
+        <item><a href="/{{ .Site.LanguageCode }}/map/chapters/chapter2/scene07">Chapter &#9661;</a></item>
+        <item><a href="/{{ .Site.LanguageCode }}/map/chapters/chapter3/scene13">Chapter &#8516;</a></item>
+        <item><a href="/{{ .Site.LanguageCode }}/map/chapters/chapter4/scene23">The end</a></item>
+        {{ end }}
+    </menu>
+
+</div>
+
+
+<script src="/js/gltf.js" type="module"></script>
+
+{{ end }}
