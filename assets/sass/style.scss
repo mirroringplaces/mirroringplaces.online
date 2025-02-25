@@ -47,6 +47,10 @@ body {
     position: relative;
     overflow-x: hidden;
 
+    &.main {
+        background-image: none;
+    }
+    
     &.about {
         background-image: url('/images/background_about.png');
     }
@@ -171,6 +175,7 @@ h2 {
     font-style: normal;
     font-size: 30pt;
     line-height: 1.2;
+    text-align: center;
 }
 
 //Kapiteloverskrift
@@ -182,6 +187,7 @@ h3 {
     font-style: normal;
     font-size: 20pt;
     line-height: 1.2;
+    text-align: center;
 }
 
 //Kapitelpunkter
@@ -236,10 +242,26 @@ article.about {
 article.main {
     background-color: white;
     padding: 20px;
+    
+    .textBox {
+        padding: 7px;
+        margin: 30px;
+        background-color: white;
+        z-index: 50;
+        position: relative;
+    }
+
+    .textBoxLB {
+        padding: 50px;
+        margin: 30px;
+        background-color: white;
+        z-index: 1000;
+        text-align: center;
+    }
 }
 
 /* STORY */
-article.story {
+article.story, article.main {
     background-color: white;
     padding: 20px;
 
@@ -248,6 +270,12 @@ article.story {
         position: sticky;
         top: 40px;
     }
+    
+    .stickyMapB {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 20px;
+    }
 
     .textBox {
         padding: 7px;
@@ -255,6 +283,14 @@ article.story {
         background-color: white;
         z-index: 50;
         position: relative;
+    }
+
+    .textBoxLB {
+        padding: 50px;
+        margin: 30px;
+        background-color: white;
+        z-index: 1000;
+        text-align: center;
     }
 
     .shaman {
@@ -566,18 +602,20 @@ footer {
                 background-image: url("/images/storyGreen.svg");
             }
         }
+
         li.menu-map-lund {
-            background-image: url("/images/mapWhite.svg");
+            background-image: url("/images/lund_map.svg");
 
             &.active {
-                background-image: url("/images/mapGreen.svg");
+                background-image: url("/images/lund_mapGreen.svg");
             }
         }
+
         li.menu-map-bix {
-            background-image: url("/images/mapWhite.svg");
+            background-image: url("/images/bixiga_map.svg");
 
             &.active {
-                background-image: url("/images/mapGreen.svg");
+                background-image: url("/images/bixiga_mapGreen.svg");
             }
         }
     }

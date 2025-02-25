@@ -37,9 +37,9 @@ params:
  </div>
  <div class="lH"></div>
  <div id=story_menu class="front">
- <h4><a href="map/chapters/chapter1/scene1" class="orange">Chapter &#9737;</a></h4>
- <h4><a href="map/chapters/chapter2/scene07" class="dPink">Chapter &#9661;</a></h4>
- <h4><a href="map/chapters/chapter3/scene13" class="yellow">Chapter &#8516;</a></h4>
- <h4><a href="map/chapters/chapter4/scene23" class="black">The end</a></h4>
+ <h4><a href="map-lund/chapters/chapter1/scene1.md" class="black">Chapter &#9737;</a></h4>
+ <h4><a href="map-lund/chapters/chapter2/scene07.md" class="black">Chapter &#9661;</a></h4>
+ <h4><a href="map-lund/chapters/chapter3/scene13.md" class="black">Chapter &#8516;</a></h4>
+ <h4><a href="map-lund/chapters/chapter4/scene23.md" class="black">The end</a></h4>
 </div>
  
