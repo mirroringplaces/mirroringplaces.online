@@ -50,7 +50,7 @@ body {
     &.main {
         background-image: none;
     }
-    
+
     &.about {
         background-image: url('/images/background_about.png');
     }
@@ -242,7 +242,7 @@ article.about {
 article.main {
     background-color: white;
     padding: 20px;
-    
+
     .textBox {
         padding: 7px;
         margin: 30px;
@@ -261,7 +261,8 @@ article.main {
 }
 
 /* STORY */
-article.story, article.main {
+article.story,
+article.main {
     background-color: white;
     padding: 20px;
 
@@ -270,7 +271,7 @@ article.story, article.main {
         position: sticky;
         top: 40px;
     }
-    
+
     .stickyMapB {
         position: -webkit-sticky;
         position: sticky;
@@ -542,13 +543,14 @@ footer {
 
     menu {
         width: 100%;
-        display: table-row;
+        display: flex;
         text-align: center;
+        align-items: center;
 
         li {
             display: table-cell;
             width: 33%;
-            padding: 0 15px;
+            padding: 0 0;
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
@@ -559,7 +561,7 @@ footer {
                 min-height: 50px;
                 line-height: 50px;
                 display: inline-block;
-                padding: 10px;
+                padding: 10px 25px;
                 min-width: 100px;
                 color: #fff;
                 font-family: "Space Mono", monospace;
@@ -603,19 +605,37 @@ footer {
             }
         }
 
-        li.menu-map-lund {
+        li.menu-story-lund {
             background-image: url("/images/lund_map.svg");
+
+            a {
+                min-height: 120px;
+                line-height: 50px;
+            }
 
             &.active {
                 background-image: url("/images/lund_mapGreen.svg");
             }
         }
 
-        li.menu-map-bix {
+        li.menu-story-bix {
             background-image: url("/images/bixiga_map.svg");
 
+            a {
+                min-height: 80px;
+                line-height: 50px;
+            }
+            
             &.active {
                 background-image: url("/images/bixiga_mapGreen.svg");
+            }
+        }
+
+        li.menu-map {
+            background-image: url("/images/map.svg");
+
+            &.active {
+                background-image: url("/images/mapGreen.svg");
             }
         }
     }

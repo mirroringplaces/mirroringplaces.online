@@ -53,12 +53,43 @@ languages:
         url: "/about/"
         pre: "menu-about"
         weight: 3
-      - name: "Lund"
+      # Names containing the word null are ignored
+      - name: "null1"
         url: "/story-lund/"
+        pre: "menu-story-lund"
+        weight: 2
+      - name: "null2"
+        url: "/story-bix/"
+        pre: "menu-story-bix"
+        weight: 1
+        
+        
+pt:
+    title: "Arqueologias da memória"
+    params:
+      description: "Mirroring places skins of memories emerges on the surfaces on the bodies."
+    weight: 2
+    # First Hugo looks in your post front matter for an images value (images: [""])
+    # Then Hugo searchs for image page resources with feature, cover or thumbnail in their name. These are images files under a directory that matches the post (e.g. content\posts\first-post)
+    # If no images are found, Hugo looks for images (images: [""]) in your site config
+    # If no image if found, then an image-less Twitter summary card is used instead of summary_large_image
+    # https://digitaldrummerj.me/hugo-preview-when-sharing-twitter/
+    params:
+      images: ["/images/some_card_pt.png"]
+    LanguageName: Português
+    menu:
+      nav:
+      - name: "Sobre"
+        url: "/pt/about/"
+        pre: "menu-about"
+        weight: 3
+      - name: "Lund"
+        url: "/pt/story-lund/"
         pre: "menu-story"
         weight: 1
       - name: "Bix"
-        url: "/story-bix/"
+        url: "/pt/story-bix/"
         pre: "menu-story"
         weight: 2
+        
 

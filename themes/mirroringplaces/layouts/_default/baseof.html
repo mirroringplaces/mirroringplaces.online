@@ -59,7 +59,7 @@
               {{ $currentPage := . }}
               {{ $atURL := $currentPage.RelPermalink }}
 
-              <!-- Show either Bixita or Lundtofte map depending on which page we are on -->
+              <!-- Show either Bixiga or Lundtofte map depending on which page we are on -->
               {{ $bix_map_active := (strings.Contains $currentPage.Permalink "/map-bix/") }}
               {{ $lund_map_active := (strings.Contains $currentPage.Permalink "/map-lund/") }}
 
@@ -67,14 +67,14 @@
               {{ $show_lund_map := or $lund_map_active (strings.Contains $currentPage.Permalink "/story-lund/") }}
 
               {{ if $show_bix_map }}
-                <li class="menu-map-bix {{ if $bix_map_active }}active{{ end }}">
-                  <a href="/{{ if not (eq $.Lang "en") }}{{ $.Lang }}{{ end }}/map-bix/">Slet og indsæt kort i CSS</a>
+                <li class="menu-map {{ if $bix_map_active }}active{{ end }}">
+                  <a href="/{{ if not (eq $.Lang "en") }}{{ $.Lang }}/{{ end }}map-bix/">Map</a>
                 </li>
               {{ end }}
 
               {{ if $show_lund_map }}
-                <li class="menu-map-lund {{ if $lund_map_active }}active{{ end }}">
-                  <a href="/{{ $.Lang }}/map-lund/">Slet og indsæt kort i CSS</a>
+                <li class="menu-map {{ if $lund_map_active }}active{{ end }}">
+                  <a href="/{{ if not (eq $.Lang "en") }}{{ $.Lang }}/{{ end }}map-lund/">Map</a>
                 </li>
               {{ end }}
 
@@ -84,7 +84,7 @@
                   {{ $active = or $active (eq .Name $currentPage.Title) }}
                   {{ $active = or $active (and (eq .Pre "menu-scenes") (strings.Contains $currentPage.Permalink "/map/chapters/")) }}
                 <li class="{{ .Pre }} {{ if $active }}active{{ end }}">
-                  <a href="{{ .URL }}">{{ .Name }}</a>
+                  <a href="{{ .URL }}">{{ if in .Name "null" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ else }}{{ .Name }}{{ end }}</a>
                 </li>
               {{ end }}
           </menu>
