@@ -31,8 +31,16 @@ params:
       </a>
   </div>
   <div id="map_menu">
-  <h4><a href="{{< ref "/" >}}" >The Beginning</a><br><a href="{{< ref "/map-lund/chapters/chapter4/scene23" >}}">
-    The End</a></h4>
+  <h4><a href="map-bix/chapters/cezalpina/scene1.md" class="black">I - cezalpina</a></h4>
+     <h4><a href=".." class="black">II - genealogia</a></h4>
+    <h4><a href=".." class="black">III - rio Bixiga</a></h4>
+     <h4><a href=".." class="black">IV - Saracura</a></h4>
+     <h4><a href=".." class="black">V - Portão</a></h4>
+     <h4><a href=".." class="black">VII - mãe preta</a></h4>
+     <h4><a href=".." class="black">VIII - chapéu</a></h4>
+     <h4><a href=".." class="black">IX - Afrika</a></h4>
+     <h4><a href=".." class="black">X - um ponto.</a></h4>
+     <h4><a href=".." class="black">o fio</a></h4>
     </div>
 </div>
 
