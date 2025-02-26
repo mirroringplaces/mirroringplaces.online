@@ -10,31 +10,32 @@ params:
 ### Chapter 0
 
 ## The Beginning
-
+<div class="stickyOff">
 <img src="/images/shamanObj.png" width="100%">
 <img src="/images/12_bixiga_contour.png" id="imgTheater" class="stickyMapB">
 <div class="textBox">
-    <p>Estou caminhando por este lugar e fazendo anotações sobre as coisas que vejo, sobre as coisas que encontro. Nada parece ser permanente aqui. Como um estrangeiro, um estranho vindo de outro lugar, tento descobrir minhas relações com este espaço. Mas é como se eu, fruto dessa terra, tivesse estado o tempo todo aqui. Olho para o chão, sinto o ar, sinto a água correndo além dos meus pés e em pequenas partículas no ar (inalação profunda)... Posso sentir o cheiro da presença de tanta vida que está passando.</p>
+    <p>I am walking through this place and taking notes about the things I see, about the things I find. Nothing seems to be permanent here. Like a foreigner, an alien coming from another place, I try to figure out my relations to this space. I look at the ground, I feel the air, I sense the water running by beyond my feet and in small particles in the air (deep inhalation)... I can smell the presence of so much life that is passing by.</p>
 </div>
 <div class="sH"></div>
 <img src="/images/11_bixiga_yellow_ground.png" id="imgYellow" class="stickyMapB">
 <img src="/images/14_bixiga_contructions.png" id="imgConst" class="stickyMapB">
 <div class="textBox">
-   <p>Viajo muito além da velocidade da luz, então tudo aqui é lento para mim, para os meus olhos, mas por meio de um senso de extrema empatia, sinto como é se mover como uma pedra, como uma placa tectônica flutuando no núcleo derretido deste planeta, sustentando onde este pedaço de terra está.</p>
+   <p>I travel way beyond the speed of light, so everything here is slow to me, to my eyes, but through a sense of extreme empathy, I feel what it is like to move like a stone, like a tectonic plate floating on the melting core of this planet, holding up where this piece of land stands.</p>
  </div>
  <img src="/images/15_bixiga_green_2.png" id="imgGreen" class="stickyMapB">
  <div class="textBox">
-    <p>Em meu caminho, encontro esses objetos que são como restos de uma cápsula do tempo, pois guardam em suas superfícies e em seus materiais vestígios que revelam memórias daqueles que cultivam esse espaço.</p>
+    <p>On my path, I find these objects that are like remains of a time capsule, as they keep on their surfaces and in their materials, traces of data revealing memories from the ones who have once cultivated this space.</p>
  </div>
  <img src="/images/8_bixiga_green_1.png" id="imgGreen" class="stickyMapB">
  <div  class="textBox">
-    <p>O tempo e o espaço estão dobrados. O passado e o futuro estão acontecendo ao mesmo tempo: o presente. E diferentes lugares neste globo se tocam, como uma mão toca a outra, como minha pele toca o ar, como meus pés tocam o chão.</p>
+    <p>Time and space are folded. Past and future are now happening at the same time: present. And different places on this globe touch each other, like one hand touches another; like my skin touches the air; like my feet touch the ground.</p>
   </div>
   <img src="/images/9_bixiga_river.png" id="imgWater" class="stickyMapB">
   <div class="textBox">
-     <p>Abro essa cápsula do tempo e essas lembranças surgem para mim! Elas aparecem como imagens que carregam sentimentos e eu posso descrevê-las à medida que me vêm à mente; eu me torno parte das ruínas de uma civilização construída sobre coisas, das quais o que permanece é a ideia de um território construído por relações que, através de todas as camadas do tempo, insistem em estar aqui.</p>
+     <p>I open this time capsule and these memories emerge to me! They appear as images that carry feelings and I can describe them as they come to me; I become part of the ruins of a civilization constructed upon things, from which what lingers is the idea of a place built by the relations that have, through all the layers of time, insisted on being here.</p>
  </div>
 <div class="lH"></div>
+</div>
 <div id=story_menu class="front">
     <h4><a href="map-bix/chapters/cezalpina/scene1.md" class="black">I - cezalpina</a></h4>
      <h4><a href=".." class="black">II - genealogia</a></h4>

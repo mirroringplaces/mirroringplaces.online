@@ -10,7 +10,7 @@ params:
 ### Chapter 0
 
 ## The Beginning
-
+<div class="stickyOff">
 <img src="/images/shamanObj3.png">
 <img src="/images/Mirroring_map_frame.png" class="stickyMap front">
 <div class="textBox">
@@ -36,6 +36,7 @@ params:
      <p>I open this time capsule and these memories emerge to me! They appear as images that carry feelings and I can describe them as they come to me; I become part of the ruins of a civilization constructed upon things, from which what lingers is the idea of a place built by the relations that have, through all the layers of time, insisted on being here.</p>
  </div>
  <div class="lH"></div>
+ </div>
  <div id=story_menu class="front">
  <h4><a href="map-lund/chapters/chapter1/scene1.md" class="black">Chapter &#9737;</a></h4>
  <h4><a href="map-lund/chapters/chapter2/scene07.md" class="black">Chapter &#9661;</a></h4>

@@ -8,8 +8,8 @@ params:
 
 ---
 
-### Welcome to
-## Mirroring Places 
+### Bem-vindo a
+## Arqueologias da memória 
 
 <img src="images/shamanObj.png" width="100%" class="stickyMap" id="imgShaman">
 <div class="textBox">
