@@ -47,6 +47,10 @@ body {
     position: relative;
     overflow-x: hidden;
 
+    &.main {
+        background-image: none;
+    }
+
     &.about {
         background-image: url('/images/background_about.png');
     }
@@ -171,6 +175,7 @@ h2 {
     font-style: normal;
     font-size: 30pt;
     line-height: 1.2;
+    text-align: center;
 }
 
 //Kapiteloverskrift
@@ -182,6 +187,7 @@ h3 {
     font-style: normal;
     font-size: 20pt;
     line-height: 1.2;
+    text-align: center;
 }
 
 //Kapitelpunkter
@@ -232,8 +238,31 @@ article.about {
     }
 }
 
+/* Main article */
+article.main {
+    background-color: white;
+    padding: 20px;
+
+    .textBox {
+        padding: 7px;
+        margin: 30px;
+        background-color: white;
+        z-index: 50;
+        position: relative;
+    }
+
+    .textBoxLB {
+        padding: 50px;
+        margin: 30px;
+        background-color: white;
+        z-index: 1000;
+        text-align: center;
+    }
+}
+
 /* STORY */
-article.story {
+article.story,
+article.main {
     background-color: white;
     padding: 20px;
 
@@ -243,12 +272,26 @@ article.story {
         top: 40px;
     }
 
+    .stickyMapB {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 20px;
+    }
+
     .textBox {
         padding: 7px;
         margin: 30px;
         background-color: white;
         z-index: 50;
         position: relative;
+    }
+
+    .textBoxLB {
+        padding: 50px;
+        margin: 30px;
+        background-color: white;
+        z-index: 1000;
+        text-align: center;
     }
 
     .shaman {
@@ -500,13 +543,14 @@ footer {
 
     menu {
         width: 100%;
-        display: table-row;
+        display: flex;
         text-align: center;
+        align-items: center;
 
         li {
             display: table-cell;
             width: 33%;
-            padding: 0 15px;
+            padding: 0 0;
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
@@ -517,7 +561,7 @@ footer {
                 min-height: 50px;
                 line-height: 50px;
                 display: inline-block;
-                padding: 10px;
+                padding: 10px 25px;
                 min-width: 100px;
                 color: #fff;
                 font-family: "Space Mono", monospace;
@@ -553,19 +597,45 @@ footer {
             }
         }
 
-        li.menu-scenes {
-            background-image: url("/images/mapWhite.svg");
-
-            &.active {
-                background-image: url("/images/mapGreen.svg");
-            }
-        }
-
         li.menu-story {
             background-image: url("/images/storyWhite.svg");
 
             &.active {
                 background-image: url("/images/storyGreen.svg");
+            }
+        }
+
+        li.menu-story-lund {
+            background-image: url("/images/lund_map.svg");
+
+            a {
+                min-height: 120px;
+                line-height: 50px;
+            }
+
+            &.active {
+                background-image: url("/images/lund_mapGreen.svg");
+            }
+        }
+
+        li.menu-story-bix {
+            background-image: url("/images/bixiga_map.svg");
+
+            a {
+                min-height: 80px;
+                line-height: 50px;
+            }
+            
+            &.active {
+                background-image: url("/images/bixiga_mapGreen.svg");
+            }
+        }
+
+        li.menu-map {
+            background-image: url("/images/map.svg");
+
+            &.active {
+                background-image: url("/images/mapGreen.svg");
             }
         }
     }
