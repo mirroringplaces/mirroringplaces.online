@@ -42,7 +42,7 @@ params:
     <h4><a href="{{< ref "map-bix/chapters/iii-rioBixiga/scene1.md" >}}" class="black">III - rio Bixiga</a></h4>
      <h4><a href="{{< ref "map-bix/chapters/iv-saracura/scene1.md" >}}" class="black">IV - Saracura</a></h4>
      <h4><a href=".." class="black">V - Portão</a></h4>
-     <h4><a href=".." class="black">VII - mãe preta</a></h4>
+     <h4><a href="{{< ref "map-bix/chapters/vii-mae_preta/scene1.md" >}}" class="black">VII - mãe preta</a></h4>
      <h4><a href=".." class="black">VIII - chapéu</a></h4>
      <h4><a href=".." class="black">IX - Afrika</a></h4>
      <h4><a href=".." class="black">X - um ponto.</a></h4>
