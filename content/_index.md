@@ -9,7 +9,8 @@ params:
 ---
 
 ### Welcome to
-## Mirroring Places 
+## Mirroring Places
+## This page is under construction
 
 <img src="images/shamanObj.png" width="100%" class="stickyMap" id="imgShaman">
 <div class="textBox">

@@ -1,63 +1,61 @@
 ---
 date: "2024-05-01"
 draft: false
-title: Scene 23
+title: iv - saracura 1
+weight: 1
 
 params:
   cssClassSuffix: "scenes chapter4"
 
-  textures: "/3dmodels/23_otas/textures"
-  gltfsource: "/3dmodels/23_otas/23_otas.gltf"
+  textures: "/3dmodels/bix_iv_saracura/textures"
+  gltfsource: "/3dmodels/bix_iv_saracura/capacete.gltf"
 
 ---
-## IV - Saracura - scene 1
+### scene 1
+## IV - Saracura 
+<canvas id="c"></canvas>
 <br>
 <audio controls class="">
-<source src="audio/Andreolli-Bixiga_Luciana-01.mp3"> type="audio/mpeg">Your browser does not support the audio element.
+    <source src="/audio/SUB_TEXTO.m4a"> type="audio/mpeg">Your browser does not support the audio element.
 </audio>
-<br><br>
-<img src="/images/saracura_tool1.jpeg" width="100%"><br><br>
-                <img src="/images/saracura_tool2.jpeg" width="100%"><br><br>
-                <img src="/images/saracura_tool3.jpeg" width="100%"><br><br>
-                <img src="/images/saracura_tool4.jpeg" width="100%"><br><br>
-                <img src="/images/saracura_tool5.jpeg" width="100%"><br><br>
-                <img src="/images/saracura_tool6.jpeg" width="100%"><br><br>
-                <img src="/images/saracura_tool7.jpeg" width="100%"><br><br>
-                <img src="/images/saracura_tool8.jpeg" width="100%"><br><br>
-                <img src="/images/saracura_tool9.jpeg" width="100%"><br><br>
-                <img src="/images/saracura_tool10.jpeg" width="100%"><br><br>
-<div class="textBox">
-<h3>Saracura -<br>Luciana Araújo</h3>
- <p>I'm Luciana Araújo, I'm a journalist, I've lived in Bixiga since 2007, December 2007. I've been an activist in the Unified Black Movement and the March of Black Women of São Paulo and, since 2022, in Mobiliza Saracura Vai-Vai, which here in the neighborhood seeks to rescue the memory that this was a territory that had as its first population nucleus a rebellious black population resistant to enslavement, but rescuing memory very much from the perspective that memory for us is future, very much linked to guaranteeing the right to continue in this territory.</p><br>
+<h3>Saracura -<br>Gisele Brito</h3>
 
-<p>Can I go on? Is everything all right there? What, did something happen? No, just the sound of the rain, but everything's fine.</p><br>  
+<p> Well, my name is Gisele Brito. I work at the Peregum Black Reference Institute, which has been part of the Mobiliza Saracura, Vai-Vai movement since the beginning. Peregum is a black movement organization that grew out of a community-based movement called Uneafro. And Uneafro has always had a... A space here in Bexiga, and people who are part of it have historical connections with it.</p><br>
 
-<p>Because... The two great hallmarks of Bixiga, in my opinion, are precisely a community way of life that has a lot to do with the perspective that in African philosophy, the philosophy of our original continent, speaks a lot about how ‘we are because our surroundings are’. </p><br>
+<p>And this neighborhood has always been a place where the black movement has been active. So the MNU (Unified Black Movement) had its first headquarters here, several publishing houses, bookstores, other very important political spaces, SECAM had its headquarters here in Bexiga. This persistence of the Quilombo has always been produced like this, right? By a space that hosted these black organizations that brought people here from various regions.</p><br>
 
-<p>It's completely opposite to the Western point-of-view that ‘I recognize myself based on my differences with others’.  So I think this is a very important characteristic that hasn't yet been removed from the neighborhood. And the other characteristic is exactly the conflict with this, which is a history of violent evictions of poor and black people.<br>
-From the erasure of a quilombo that already had some degree of study in the fields of recognized sciences within the university, the dissemination in journalism of documents from the City Council that referred to this quilombo, in the neighbourhood that became known internationally as the Italian quarter, through a process that is very emblematic of a whitening project led by the Brazilian state,  which intended to exterminate us.Today, since 2022, we have been fighting for the preservation of the Quilombo archaeological site, and if we look backwards and forwards, the symbol of the mobilization is the Sankofa, the idea of drinking from the past to build the future, and the idea that memory is the future.</p> <br>
+<p>I think it's very difficult to maintain an articulation that speaks out loud and doesn't take a step backwards saying that it's an articulation around a racial issue. It can be many things on its own. It can be an articulation for memory for preservation for various things that would be more popular and would bring more people together.</p><br>
 
-<p>That quilombola population, the original one, the quilombo in the strict sense of the concept that we were taught in schools, a first important wave of expulsion there is directly marked with one of the main signs of the so-called development of the city, which was the construction of 9 de Julho avenue, when the flow from Paulista avenue began to descend into the central region, there was a hole in the woods, there was nothing there, and from the moment 9 de Julho was built, there are records of this, including official documentary photos from the City Museum, photos from the Museum of the Faculty of Public Health, because the discourse was always a hygienist-sanitarist discourse.</p><br>
+<p>The main concern is to maintain a connection with the neighborhood, which distributes pamphlets at the market, which puts up posters in the street, which goes to the samba to speak and ideas are exchanged at the bar table. I think this is incredible, very, very important. It's only possible because it's a quilombo. Since 2022, an archaeological site has been discovered during the construction process of the line that until now would have been called 14 Bis which is a station on line 6 Laranja which is the first complete PPP of the São Paulo metro. Both the project and the operation of the station will be carried out in a “Public-Private Partnership”. This means that the state assumes various responsibilities and someone else will profit from it, basically. These are PPP models.</p><br>
 
-<p>Let's develop, put an end to the polluted riverbank where the poor and blacks gather.  And then you have a succession of episodes that it's scandalous that aren't more prominent in the daily experience of what is known about Bixiga, because then you have the process of widening Rui Barbosa Street, that abolitionist who had the abolition documents burned to ensure that no one asked for compensation,  in this process you have a new wave of evictions, then you have the process, still in the 1950s, of both the first widening of Rui Barbosa and the construction of the Japurá building, opposite to the Town Hall, which was one of the largest tenements in the region, and at the time one of the largest tenements in the city of São Paulo.</p><br>
+<p>So, when the site was discovered, based on information from a person who had connections with the neighborhood, a call was made within the neighborhood groups via Uneafro, which had connections here with the neighborhood, and we started to get together. The site is exactly where Vai-vai used to be. In order to build the station, they removed Vai-vai. We call it removal regardless of whether there was a formal contract, whether there was a negotiation. Because the simple choice of that place where Vai-vai used to be as a place to pass through, to have a station, constitutes violence, right?</p><br>
 
-<p>Then there was the process of opening the Radial ring road, from 23rd Street to Jandaia Street, which also led to a series of evictions and violent removals, and which later went down in history with the revitalization of the so-called Arcos do Jânio (Jânio's Arches). Then, again, you have the Vila Itororó process, which ironically became a reference center for racial equality after more than 70 families, most of them black, were removed to build a cultural center. Then there was the removal process in the Conde de São Joaquim area, which gave rise to two CDHUs (government-funded low-income housing), one facing the other, and which, despite being projects for the low-income population, didn't even cover all the people who had been removed from the tenements and boarding houses they had on that street, for various reasons of not fitting the criteria required to enter CDHU financing.</p><br> 
+<p>It's only the lack of recognition of Vai-vai's historic social value that puts the demand to remove that space in the planning of a line that has been planned for years and years and years, right?
+It's not recognized, it's not valued, and this recognition doesn't happen because it's an organization of the black community, a space of political, cultural and economic articulation that needs to be removed, right?</p><br>
 
-<p>In the 1970s, I forgot to mention, when the Minhocão was built, tearing the neighborhood in two. Vai-vai itself lost its first headquarters on July 14 street, and several members and people were removed from Bixiga during that period, giving rise to what is now the neighborhood of Cidade Tiradentes (in the city outskirts, east zone).</p><br> 
+<p>So we started to organize around the site, from the very beginning we warned that there was a quilombo, that it was perhaps the heart of a large quilombo, a quilombo in the sense that it was before the end of slavery, but that the place was important, it was a persistent quilombo in the sense that relations...</p><br>
 
-<p>And now, finally, there's this process of excavating the subway, which has led to the discovery of an archaeological site that my personal assessment is that was only publicized because it reached us, and not for us as individuals, but for the community, because…</p><br>
+<p>So everything there was important, so we began to point this out. This wasn't present in the documentation that we explored. It went far beyond this black presence in the territory, it was barely mentioned. The neighbourhood wasn't characterized as a black territory. So we began to work on this, and after a few months we had access to the site for the first time. So we went to see this place grow, these areas are growing a lot because of our pressure. And when we go there, it's a very crazy scenario.</p><br>
 
-<p>It's important to note that the discovery of the site was not officially publicized until an archaeologist mentioned in the research was notified that his work had been mentioned in the research and made the gesture of looking for people who live in Bixiga and work on racial issues.</p><br>
+<p>Since I'm not a resident of Bixiga, I don't have such a vivid memory of what that area was like. But when we go with people who are here in the neighborhood… since they were children, and today they're 60, 70, 80 years old, they remember it like this, they say, ah, here was the stage, here was I don't know what, here was the parking lot, here was my house at another time, here was... So it's a place that has many layers of memory of its existence, but now you get there, it's a bit of a wilderness, with gigantic machines, lots of mud, a space there that contrasts a bit with what's around it.</p><br>
 
-<p>And he said, “Are you aware that they've found a quilombo site in Bixiga? And we weren't. And this process was very interesting, because the day the news arrived was the day Walter Taverna died. So we were a bit... You can't go out on the day of the death of such an important and beloved figure in the neighborhood.</p><br>
+<p>Normally, these trips to the site are programmed, we have to, they're informed beforehand, we have to inform those who are going beforehand. We have to inform them of their shoe size so that they can get a boot, there are a series of clothing rules that some of us have to comply with and others don't. And we get there, we have to inform them of our shoe size so that we can get a boot. And when we get there, we have to put on the helmet, the boots and the vest.  And this helmet, which is the same one the workers wear, is a helmet that doesn't fit my head, my hair. So it doesn't close. In fact, I feel more at risk with it than ever, because it keeps falling on my face. It conforms the bodies that are there, because the workers who have hair like mine certainly they have to make a thousand maneuvers there in order to be safe, but it's also a conformation of the body, of the body, of ideas. I think that for me it's a bit of a metaphor.</p><br> 
 
-<p>So we talked to some of our closest friends, but that's only when we get together to talk. That was a Sunday, June 8th. And we talked about it here and there, and we set up a meeting for Monday the 13th, a week later.  In a week... This meeting brought together more than 60 people, various organizations and institutions that work in the neighborhood, that work in the black movement, here or not, nationally, the Catholic Church, the Afro Pastoral of the Catholic Church, the Povo de Santo (candomble practitioners), and it also shows how much, although institutionally and formally, the state tries to erase the black aspect and history of the trace all the time, how much it is latent in its own process of everyday ways of life, we talk about it a lot, right?</p><br>
+<p>When we started making the incidents people said “no, that's fine, there's no doubt that there's a site here. We guarantee that there's a quilombo". Many people politically supported the existence of a quilombo, but nobody supported the materiality of the quilombo.</p><br>
 
-<p>You're in the city center, but you have very strong community relations. You have a series of festivities that are festivities built from inside, not that official thing that comes and limits people to go as guests, many festivities with a conscious community perspective and you have a concentration of black institutions that once existed here that many people don't even know about.</p><br> 
+<p>People often said that a quilombo doesn't leave any materiality. This is an important moment, because this history is alive in the neighborhood. People are here telling this story, experiencing it, this story is alive in the lyrics of the plots, in the dramaturgies, this story is alive. What's different, perhaps, and what is politically difficult to afford, is materiality, the right to materiality.</p><br>
 
-<p>Even the current resistance to real state speculation advance that is trying to destroy and tear down not all the old properties, but those where people still live in collective housing and which also have this perspective of building collective sociability and which is, once again, treated in a hygienist way to exchange a collective dwelling in a small room for a 19-square-meter studio to be sold for half a million.</p><br>
+<p>The right is to have a museum that has things in it. You have to imagine a living person who has a daily life, a cultural, religious, economic life, who will leave behind a key, will leave behind any object. I think it's very important to value oral memory, but it's also very significant that there was so much resistance to us having a material memory.</p><br>
 
-<p>The difference is whether you're in a community, if you're with poor black people, or if you have someone who can pay half a million to stay in an Airbnb for the weekend.</p><br> 
+<p>As more materialities and artifacts appear at the site, it becomes very clear to me that, whatever happened there, the people who lived there, at whatever time, experienced some kind of violence, because the things that are being found there are not keys that you forget about.They are things that have too much emotional value, too much spiritual value and too much economic value to be left behind. People couldn't take those things with them. And I'm a journalist by training, I've been a reporter for many years and I've been to many removals. In removal scenarios, of spaces that are being removed occupations removed and so on. And it's the same thing, it's very similar to what people leave behind, it's very similar to how the wall falls.</p><br>
 
-<p>It's very connected and that's why, for us, memory is so much the future.</p>
-</div>
+<p>It's really crazy when we associate Saracura Vai-Vai with this Sankofa thing, because it's very Sankofa, it's very Sankofeira. In the sense that the processes of canalizing the river, the infrastructure that was set up there, this is a hypothesis that needs to be researched, it has a lot, it intentionally took black people away from there. And that maybe they were black people who even had conditions, but regardless, what we see is that the same thing is being done today. So an infrastructure… To improve and develop a territory, the canalization of a river, an important avenue, an urban infrastructure that brings improvements to a place. It's the same with the arrival of the metro. So, the same kind of logical argument removes an important space for the population to articulate. It's no coincidence that it was the black population that was there.</p><br>
+
+<p>We can see today, from the amount of religious objects that have been found, that this was a space where religious practices took place. We need to understand if it was on a private domestic scale, if it was in a... <br>
+But this kind of thing sets up something that is very similar to what the Vai-Vai is also for the territory, which is a space for cultural political articulation, elaboration. So you use the same thing from the point of view of...of urban thinking.  I think it's a very emblematic case to show how history repeats itself. If you don't reveal the tricks of developmentalism, the idea that progress can pass over everything… But it's not over everything and anyone, it's always over the same people, with the same kind of overlapping argument. Bixiga is clearly a periphery and it has been incorporated into the city as it receives public and private investment that.. it's definitely going to stop being this strange place that's kind of an annex to the center, which is a center, but there are some things that aren't. ... ..</p><br>
+
+<p>When this black urbanity that still persists here, which is what drives it, I think, is what makes this articulation strong. This articulation is only strong because the quilombo persists here. As Beatriz Nascimento says, this quilombo is a strategy, a social technology that keeps articulating itself. 
+And that's why people manage to do it...</p><br>
+
+<p>We are managing to stay together and powerful during this period with a popular agenda.</p><br>
+
