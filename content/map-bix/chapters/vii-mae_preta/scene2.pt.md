@@ -1,17 +1,17 @@
 ---
 date: "2024-05-01"
 draft: false
-title: Scene 23
+title: mãe preta scene 2
 
 params:
-  cssClassSuffix: "scenes chapter4"
+  cssClassSuffix: "scenes mae_preta"
 
-  textures: "/3dmodels/23_otas/textures"
-  gltfsource: "/3dmodels/23_otas/23_otas.gltf"
+  textures: "/3dmodels/bix_vii_mae_preta_biblia1/texture"
+  gltfsource: "/3dmodels/bix_vii_mae_preta_biblia1/biblia_aberta_s_fundo.gltf"
 
 ---
 ### Cena 2
-## VII - mãe_preta
+## VII - mãe preta
 <canvas id="c"></canvas>
 <br>
 <audio controls class="">

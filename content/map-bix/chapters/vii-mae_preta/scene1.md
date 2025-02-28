@@ -1,17 +1,17 @@
 ---
 date: "2024-05-01"
 draft: false
-title: Scene 23
+title: mãe preta scene 1
 
 params:
-  cssClassSuffix: "scenes chapter4"
+  cssClassSuffix: "scenes mae preta"
 
   textures: "/3dmodels/bix_vii_mae_preta/texture"
   gltfsource: "/3dmodels/bix_vii_mae_preta/foto.gltf"
 
 ---
 ### Scene 1
-## VII - mãe_preta
+## VII - mãe preta
 <canvas id="c"></canvas>
 <p>/ Maria Eunice Oliveira Santos, I'm 77 years old, I wasn't born in Bixiga, I'm from Minas Gerais, I came here when I was 3 years old, my parents came from Piranguinho, Minas Gerais, and here my parents had 3 more children, so we are 6 siblings. Of course, with my parents I moved around various neighborhoods until I arrived here, in Bixiga.</p><br>
 

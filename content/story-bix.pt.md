@@ -7,9 +7,9 @@ params:
   cssClassSuffix: "story"
 
 ---
-### Chapter 0
+### Capítulo 0
 
-## The Beginning
+## O Começo
 
 <img src="/images/shamanObj.png" width="100%">
 <img src="/images/12_bixiga_contour.png" id="imgTheater" class="stickyMapB">
@@ -45,5 +45,5 @@ params:
      <h4><a href=".." class="black">VIII - chapéu</a></h4>
      <h4><a href=".." class="black">IX - Afrika</a></h4>
      <h4><a href=".." class="black">X - um ponto.</a></h4>
-     <h4><a href=".." class="black">o fio</a></h4>
+     <h4><a href="{{< ref "map-bix/chapters/o-fio/scene1.md" >}}" class="black">o fio</a></h4>
 </div>

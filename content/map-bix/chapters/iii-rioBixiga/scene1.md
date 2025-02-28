@@ -5,13 +5,13 @@ title: Scene 1
 weight: 1
 
 params:
-  cssClassSuffix: "scenes chapter3"
-  textures: "/3dmodels/13_telescope/textures"
-  gltfsource: "/3dmodels/13_telescope/13_telescope.gltf"
+  cssClassSuffix: "scenes rio_Bixiga"
+  gltfsource: "/3dmodels/bix_iii_riobixiga/rio_teste_2.gltf"
 
 ---
+### Scene 1
 ## III. Rio Bixiga
-<div class="canvas3d"></div>
+<canvas id="c"></canvas>
 <br>
 <audio controls autoplay class="">
     <source src="audio/RIO_BIXIGA.mp3"> type=" audio/mpeg">Your browser does not support the audio element.

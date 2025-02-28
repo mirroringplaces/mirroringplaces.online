@@ -46,6 +46,6 @@ params:
      <h4><a href=".." class="black">VIII - chapéu</a></h4>
      <h4><a href=".." class="black">IX - Afrika</a></h4>
      <h4><a href=".." class="black">X - um ponto.</a></h4>
-     <h4><a href=".." class="black">o fio</a></h4>
+     <h4><a href="{{< ref "map-bix/chapters/o-fio/scene1.md" >}}" class="black">o fio</a></h4>
 </div>
  

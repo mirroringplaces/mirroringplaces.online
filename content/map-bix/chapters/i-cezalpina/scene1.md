@@ -2,17 +2,16 @@
 date: "2024-05-01"
 draft: false
 title: Scene 1
-weight: 2
+weight: 1
 
 params:
-  chapterSymbol: "&#9737;"
-  cssClassSuffix: "scenes chapter1"
-  textures: "/3dmodels/1_soccer_shoes/textures"
-  gltfsource: "/3dmodels/1_soccer_shoes/1_soccer_shoes.gltf"
+  cssClassSuffix: "scenes cezalpina"
+  textures: "/3dmodels/bix_i_cezalpina/textures"
+  gltfsource: "/3dmodels/bix_i_cezalpina/otas.gltf"
 
 ---
 ## I - cezalpina
-<div class="canvas3d"></div>
+<canvas id="c"></canvas>
 <br>
 <audio controls class="">
     <source src="/audio/SUB_TEXTO.m4a"> type="audio/mpeg">Your browser does not support the audio element.
