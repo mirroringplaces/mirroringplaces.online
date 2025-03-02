@@ -17,7 +17,7 @@ params:
 <audio controls class="">
     <source src="/audio/Andreolli-Bixiga_Paulo.mp3"> type="audio/mpeg">Your browser does not support the audio element.
 </audio>
-<h3>Chapéu - Bixiga _ Paulo Santiago</h3>
+<h3>Chapéu - Bixiga<br>Paulo Santiago</h3>
 <p>Bom, meu nome é Paulo Santiago de Augustinis, tenho 78 anos e meu contato inicial com Bixiga foi na década de 60. Eu morei com a minha família na Rua Paim, número 340. Hoje é fundo de uma escola, que existe lá naquela região. A minha lembrança de algum objeto, de alguma coisa importante que marcou a minha vida foi o chapeuzinho do Adoniran Barbosa que foi doado pela dona Matilde, que ela fez uma doação do chapéu e mais algumas coisas, isqueiro, algumas coisas do Adoniran, depois do falecimento dele.</p>
 
 <p>Esse material está guardado no Museu do Bixiga, eu sou um dos fundadores do museu. E, inclusive, depois nós fizemos um busto do Adoniran, que está na Praça Dom Orione.  Eu vejo o Bixiga como que tem todas as condições de ser um bairro muito importante para São Paulo, ele já é.</p>
