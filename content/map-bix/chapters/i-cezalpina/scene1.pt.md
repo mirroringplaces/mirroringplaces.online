@@ -6,6 +6,7 @@ weight:
 
 params:
   cssClassSuffix: "scenes cezalpina"
+  
   textures: "/3dmodels/bix_i_cezalpina/textures"
   gltfsource: "/3dmodels/bix_i_cezalpina/otas.gltf"
 

@@ -1,10 +1,10 @@
 ---
 date: "2024-05-01"
 draft: false
-title: iv - saracura 1
+title: scene 1
 
 params:
-  cssClassSuffix: "scenes chapter4"
+  cssClassSuffix: "scenes saracura"
 
   textures: "/3dmodels/bix_iv_saracura/textures"
   gltfsource: "/3dmodels/bix_iv_saracura/capacete.gltf"

@@ -6,10 +6,12 @@ weight: 1
 
 params:
   cssClassSuffix: "scenes cezalpina"
+  
   textures: "/3dmodels/bix_i_cezalpina/textures"
   gltfsource: "/3dmodels/bix_i_cezalpina/otas.gltf"
 
 ---
+### Scene 1
 ## I - cezalpina
 <canvas id="c"></canvas>
 <br>

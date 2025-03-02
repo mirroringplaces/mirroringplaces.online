@@ -1,10 +1,11 @@
 ---
 date: "2024-05-01"
 draft: false
-title: Scene 23
+title: Scene 1
+weight: 1
 
 params:
-  cssClassSuffix: "scenes chapter4"
+  cssClassSuffix: "scenes portao"
 
   textures: "/3dmodels/bix_v_portao/texture"
   gltfsource: "/3dmodels/bix_v_portao/portao_1.gltf"

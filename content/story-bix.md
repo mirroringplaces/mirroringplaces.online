@@ -43,9 +43,8 @@ params:
      <h4><a href="{{< ref "map-bix/chapters/iv-saracura/scene1.md" >}}" class="black">IV - Saracura</a></h4>
      <h4><a href="{{< ref "map-bix/chapters/v_Portao/scene1.md" >}}" class="black">V - Portão</a></h4>
      <h4><a href="{{< ref "map-bix/chapters/vii-mae_preta/scene1.md" >}}" class="black">VII - mãe preta</a></h4>
-     <h4><a href=".." class="black">VIII - chapéu</a></h4>
+     <h4><a href="{{< ref "map-bix/chapters/viii_chapeu/scene1.md" >}}" class="black">VIII - chapéu</a></h4>
      <h4><a href=".." class="black">IX - Afrika</a></h4>
-     <h4><a href=".." class="black">X - um ponto.</a></h4>
      <h4><a href="{{< ref "map-bix/chapters/o-fio/scene1.md" >}}" class="black">o fio</a></h4>
 </div>
  
