@@ -16,7 +16,6 @@ params:
 <audio controls class="">
     <source src="/audio/SUB_TEXTO.m4a"> type="audio/mpeg">Your browser does not support the audio element.
 </audio>
-<div class="textBox">
 <p>The space is empty.<br>
 Silence.<br>
 The light is pale, whitish.<br>
@@ -76,6 +75,5 @@ They see and look deeply at each person's god.<br>
 And that's where the enchantment comes from.<br>
 (subtext prologue for the Bacchae by Catherine Hirsch, Zé Celso, Denise Assunção)
 </p>
-</div>
 
 

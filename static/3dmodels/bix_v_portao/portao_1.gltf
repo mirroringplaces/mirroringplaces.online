@@ -1,0 +1,256 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "model_Portao tim amarelo_20250202_124247552.001",
+            "rotation" : [
+                0.5768847465515137,
+                0.4089062213897705,
+                0.515114963054657,
+                0.4844132959842682
+            ],
+            "scale" : [
+                0.001022836659103632,
+                0.001022836659103632,
+                0.001022836659103632
+            ],
+            "translation" : [
+                0.09038269519805908,
+                0.5541914701461792,
+                0
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "model_Portao tim azul_20250202_124129044",
+            "rotation" : [
+                -0.6608805656433105,
+                0.2560232877731323,
+                0.6859220862388611,
+                -0.16492360830307007
+            ],
+            "scale" : [
+                0.0010263833682984114,
+                0.0010263833682984114,
+                0.0010263833682984114
+            ],
+            "translation" : [
+                0.08003970980644226,
+                0.4806491434574127,
+                0.060512226074934006
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "material0.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "material0.002",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "model_Portao tim amarelo_20250202_124247552.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "model_Portao tim azul_20250202_124129044",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "texture",
+            "uri" : "texture.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "texture",
+            "uri" : "texture-1.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 19761,
+            "max" : [
+                422.26263427734375,
+                400.9693908691406,
+                9.0191650390625
+            ],
+            "min" : [
+                -578.3099365234375,
+                -318.3363952636719,
+                -20.288818359375
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 19761,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 19761,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 19761,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 20901,
+            "max" : [
+                488.308349609375,
+                533.7462768554688,
+                8.6011962890625
+            ],
+            "min" : [
+                -430.67974853515625,
+                -570.0451049804688,
+                -19.76849365234375
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 20901,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 20901,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 20901,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 237132,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 237132,
+            "byteOffset" : 237132
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 158088,
+            "byteOffset" : 474264
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39522,
+            "byteOffset" : 632352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 250812,
+            "byteOffset" : 671876
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 250812,
+            "byteOffset" : 922688
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 167208,
+            "byteOffset" : 1173500
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 41802,
+            "byteOffset" : 1340708
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1382512,
+            "uri" : "portao 1.bin"
+        }
+    ]
+}
