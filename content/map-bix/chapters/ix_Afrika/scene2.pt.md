@@ -6,8 +6,8 @@ title: Scene 1
 params:
   cssClassSuffix: "scenes afrika"
 
-  textures: "/3dmodels/bix_ix_painting/texture"
-  gltfsource: "/3dmodels/bix_ix_painting/quadro.gltf"
+  textures: "/3dmodels/bix_ix_woodenBox/texture"
+  gltfsource: "/3dmodels/bix_ix_woodenBox/caIxa.gltf"
 
 ---
 ### Cena 2
