@@ -44,7 +44,7 @@ params:
      <h4><a href="{{< ref "map-bix/chapters/v_Portao/scene1.md" >}}" class="black">V - Portão</a></h4>
      <h4><a href="{{< ref "map-bix/chapters/vii-mae_preta/scene1.md" >}}" class="black">VII - mãe preta</a></h4>
      <h4><a href="{{< ref "map-bix/chapters/viii_chapeu/scene1.md" >}}" class="black">VIII - chapéu</a></h4>
-     <h4><a href=".." class="black">IX - Afrika</a></h4>
+     <h4><a href="{{< ref "map-bix/chapters/ix_Afrika/scene1.md" >}}" class="black">IX - Afrika</a></h4>
      <h4><a href="{{< ref "map-bix/chapters/o-fio/scene1.md" >}}" class="black">The end</a></h4>
 </div>
  
