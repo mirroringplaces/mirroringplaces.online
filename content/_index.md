@@ -14,15 +14,17 @@ params:
 
 <img src="images/shamanObj.png" width="100%" class="stickyMap" id="imgShaman">
 <div class="textBox">
-<p>The page is under struction and will be finished for the opening of the exhibition <i>Mirroring Places</i> in Bixiga, Sao Paolo on the 9th March...This is a page about the project Mirroring Places also called Arqueologias da memória. Here you can enter into two different worlds of stories and explorations. One located in Lundtoftegade kvarteret/Copenhagen and one in Bixiga/Sao Paolo...</p>
+    <p>Mirroring Places, an archeology of memories / Arqueologias da Memória, o espaço e seus duplos is a hypermedia choreography that takes place in two locations, in the Bixiga - Bela Vista neighborhood in São Paulo and in Lundtoftegade in Copenhagen. Created from interviews with inhabitants of these two territories, this exhibition is made up of sculptures and panels physically installed in the locations and a digital archive that links memories, objects and spaces.</p><br>
+<p>Choose which territory's archive you want to access by clicking on the silhouettes below; then browse through the scenes and chapters indicated on the maps and in the captions.</p><br>
+<p>To access the exhibition as an augmented reality experience, visit the locations and find the access codes on the sculptures and panels installed. For more information on where and when to find these installations, continue browsing.
+</p>
 </div>
-<div class="sH"></div>
 <div class="textBoxLB">
     <img src="images/lundtofteXL.png" width="100%" class="zoom-in-out-element">
     <br>
     <h3>Lundtoftegade</h3>
 </div>
-<br><br><br><br><br><br>
+<br><br>
 <div class="textBoxLB">
     <img src="images/bixiga_L.png" width="100%" class="zoom-in-out-element">
     <br>        
