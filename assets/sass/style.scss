@@ -336,12 +336,6 @@ article.scenes {
         margin-bottom: 15px;
     }
 
-    .canvas3d {
-        background-color: black;
-        width: 100%;
-        height: 200px;
-    }
-
     #mapFolder {
         position: relative;
         margin-top: -100px;
@@ -426,6 +420,22 @@ article.scenes {
                 text-decoration: none;
                 color: black;
             }
+        }
+    }
+
+    .stickyOff {
+        .stickyMap {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 40px;
+        }
+
+        .textBox {
+            padding: 7px;
+            margin: 30px;
+            background-color: white;
+            z-index: 50;
+            position: relative;
         }
 
 
