@@ -62,9 +62,8 @@ languages:
         url: "/story-bix/"
         pre: "menu-story-bix"
         weight: 1
-        
-        
-pt:
+
+  pt:
     title: "Arqueologias da memória"
     params:
       description: "Mirroring places skins of memories emerges on the surfaces on the bodies."
@@ -83,13 +82,13 @@ pt:
         url: "/pt/about/"
         pre: "menu-about"
         weight: 3
-      - name: "Lund"
+      - name: "null1"
         url: "/pt/story-lund/"
-        pre: "menu-story"
+        pre: "menu-story-lund"
         weight: 1
-      - name: "Bix"
+      - name: "null2"
         url: "/pt/story-bix/"
-        pre: "menu-story"
+        pre: "menu-story-bix"
         weight: 2
         
 
