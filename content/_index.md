@@ -20,13 +20,13 @@ params:
 </p>
 </div>
 <div class="textBoxLB">
-    <img src="images/lundtofteXL.png" width="100%" class="zoom-in-out-element">
+    <img src="/images/lundtofteXL.png" width="100%" class="zoom-in-out-element">
     <br>
     <h3>Lundtoftegade</h3>
 </div>
 <br><br>
 <div class="textBoxLB">
-    <img src="images/bixiga_L.png" width="100%" class="zoom-in-out-element">
+    <img src="/images/bixiga_L.png" width="100%" class="zoom-in-out-element">
     <br>        
     <h3>Bixiga</h3>
 </div>

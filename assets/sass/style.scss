@@ -314,7 +314,7 @@ article.main {
 
     #story_menu {
         color: black;
-        z-index: 50;
+        z-index: 500;
         text-decoration: underline;
         margin-bottom: 20px;
 
@@ -563,14 +563,15 @@ footer {
     }
 
     menu {
-        width: 100%;
+        width: 95%;
+        margin-left: 10px;
         display: flex;
         text-align: center;
         align-items: center;
 
         li {
-            display: table-cell;
-            width: 33%;
+            flex-grow: 1;
+            flex-basis: 0;
             padding: 0 0;
             background-size: contain;
             background-repeat: no-repeat;
@@ -583,7 +584,6 @@ footer {
                 line-height: 50px;
                 display: inline-block;
                 padding: 10px 25px;
-                min-width: 100px;
                 color: #fff;
                 font-family: "Space Mono", monospace;
                 font-size: 16px;
