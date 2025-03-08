@@ -7,8 +7,7 @@ params:
   cssClassSuffix: "story"
 
 ---
-### Kapitel 0:
-
+### Lundtoftegade
 ## Begyndelsen
 <img src="/images/shamanObj3.png">
 <img src="/images/Mirroring_map_frame.png" class="stickyMap front">
@@ -35,7 +34,7 @@ params:
      <p>Jeg åbner tidskapslen, og minderne åbenbarer sig for mig. Minderne findes i form af billeder, der bærer på følelser, og jeg kan beskrive dem, når de kommer til mig. Jeg bliver en del af ruinerne af en civilisation bygget op af ting. Herfra opstår en idé. Idéen om et sted, bygget op af relationer, som gennem alle tidens lag har insisteret på at være her.</p>
  </div>
  <div class="lH"></div>
- <div id=story_menu class="front">
+ <div class="story_menu front">
  <h4><a href="map/chapters/chapter1/scene1" class="orange">Kapitel &#9737;</a></h4>
  <h4><a href="map/chapters/chapter2/scene07" class="dPink">Kapitel &#9661;</a></h4>
  <h4><a href="map/chapters/chapter3/scene13" class="yellow">Kapitel &#8516;</a></h4>

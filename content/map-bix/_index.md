@@ -12,7 +12,7 @@ params:
 ---
 <div id="mapFolderBix">
 <img src="/images/14_bixiga_contructions.png" id="map">
-<div id="map_menu">
+<div id="story_menu">
     <h4><a href="{{< ref "map-bix/chapters/i-cezalpina/scene1.md" >}}" class="black">I - cezalpina</a></h4>
     <!--genealogia-->
     <h4><a href="{{< ref "map-bix/chapters/ii-genealogia/scene1.md" >}}" class="black">II - genealogia</a></h4>

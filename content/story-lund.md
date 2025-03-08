@@ -7,8 +7,7 @@ params:
   cssClassSuffix: "story"
 
 ---
-### Chapter 0
-
+### Lundtoftegade
 ## The Beginning
 <div class="stickyOff">
 <img src="/images/shamanObj3.png">
@@ -37,7 +36,7 @@ params:
  </div>
  <div class="lH"></div>
  </div>
- <div id=story_menu class="front">
+ <div class="story_menu front">
  <h4><a href="{{< ref"map-lund/chapters/chapter1/scene1.md" >}}" class="black">Chapter &#9737;</a></h4>
  <h4><a href="{{< ref "map-lund/chapters/chapter2/scene07.md" >}}" class="black">Chapter &#9661;</a></h4>
  <h4><a href="{{< ref "map-lund/chapters/chapter3/scene13.md" >}}" class="black">Chapter &#8516;</a></h4>

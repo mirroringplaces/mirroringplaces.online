@@ -227,6 +227,35 @@ ul {
     list-style-type: square;
 }
 
+//Overflow tekstboks
+.textBox {
+    padding: 7px;
+    margin: 30px;
+    background-color: white;
+    z-index: 50;
+    position: relative;
+}
+
+//Story menu
+.story_menu {
+    color: black;
+    z-index: 500;
+    text-decoration: underline;
+    margin-bottom: 20px;
+
+    a,
+    a:visited,
+    a:active {
+        text-decoration: none;
+        color: black;
+    }
+
+    @media only screen and (max-width: 450px) {
+
+        margin-bottom: 100px;
+    }
+}
+
 /* ABOUT */
 article.about {
     background-color: white;
@@ -480,25 +509,27 @@ article.scenes {
         text-align: center;
         margin-bottom: 15px;
 
-        h4 {
-            font-size: 30pt;
-            margin-bottom: 0px;
-            margin-top: 0px;
-            color: rgb(0, 255, 0);
-            line-height: 0.8;
-        }
-
         a {
             text-decoration: none;
         }
 
-        .chapters-menu {
+        .story_menu {
             padding-bottom: 20px;
 
             item {
-                display: block;
-                font-size: 18pt;
-                margin-top: 10px;
+                font-size: 16pt;
+                color: black;
+                z-index: 500;
+                text-decoration: underline;
+
+                padding: 3px 0;
+                padding-left: 0px;
+                font-family: "Space Mono", monospace;
+                font-weight: 800;
+                font-style: normal;
+                margin: 0;
+                margin-bottom: 200px;
+
 
                 a,
                 a:visited,
@@ -508,71 +539,10 @@ article.scenes {
                 }
             }
 
-        }
-    }
-}
+            @media only screen and (max-width: 450px) {
 
-article.chapter1 {
-
-    h1,
-    h2,
-    h3,
-    .sceneNav {
-        @extend .orange;
-
-        *,
-        *:visited,
-        *:active {
-            @extend .orange;
-        }
-    }
-
-}
-
-article.chapter2 {
-
-    h1,
-    h2,
-    h3,
-    .sceneNav {
-        @extend .dPink;
-
-        *,
-        *:visited,
-        *:active {
-            @extend .dPink;
-        }
-    }
-}
-
-article.chapter3 {
-
-    h1,
-    h2,
-    h3,
-    .sceneNav {
-        @extend .yellow;
-
-        *,
-        *:visited,
-        *:active {
-            @extend .yellow;
-        }
-    }
-}
-
-article.chapter4 {
-
-    h1,
-    h2,
-    h3,
-    .sceneNav {
-        @extend .green;
-
-        *,
-        *:visited,
-        *:active {
-            @extend .green;
+                margin-bottom: 100px;
+            }
         }
     }
 }
