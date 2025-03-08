@@ -6,8 +6,8 @@ title: mãe preta scene 1
 params:
   cssClassSuffix: "scenes mae preta"
 
-  textures: "/3dmodels/bix_vii_mae_preta/texture"
-  gltfsource: "/3dmodels/bix_vii_mae_preta/foto.gltf"
+  textures: "/3dmodels/bix_vii_mae_preta_foto/texture"
+  gltfsource: "/3dmodels/bix_vii_mae_preta_foto/foto.gltf"
 
 ---
 ### Scene 1
