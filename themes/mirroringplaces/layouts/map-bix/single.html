@@ -9,51 +9,28 @@
 {{ .Content }}
 
 <div class="sceneNav">
-
-    <h4>
-        {{ range sort .CurrentSection.Pages "File.Path" }}
-        <a href="{{ .RelPermalink }}">{{ .Params.chapterSymbol | safeHTML }}</a>
-        {{ end }}
-    </h4>
-
-    <h4>
-
-        {{ if .NextInSection }}
-
-        <a href="{{ .NextInSection.Permalink }}">&#8678;</a>
-
-        {{ end }}
-
-        {{ if .PrevInSection }}
-
-        <a href="{{ .PrevInSection.Permalink }}">&#8680;</a>
-
-        {{ end }}
-
-    </h4>
-
-    <menu class="chapters-menu">
+    <menu class="story_menu">
         {{ if eq $.Site.Language.LanguageName "English" }}
-        <item><a href="/map-bix/chapters/i-cezalpina/scene1">I - cezalpina</a></item>
-        <item><a href="/map-bix/chapters/ii-genealogia/scene1">II - genealogia</a></item>
-        <item><a href="/map-bix/chapters/iii-rioBixiga/scene1">III - rio Bixiga</a></item>
-        <item><a href="/map-bix/chapters/iv-saracura/scene1">IV - Saracura</a></item>
-        <item><a href="/map-bix/chapters/v-portao/scene1">V - Portão</a></item>
-        <item><a href="/map-bix/chapters/vi-bestiario/scene1">VI - bestiário</a></item>
-        <item><a href="/map-bix/chapters/vii-mae_preta/scene1">VII - mãe preta</a></item>
-        <item><a href="/map-bix/chapters/viii-chapeu/scene1">VIII - chapéu</a></item>
-        <item><a href="/map-bix/chapters/ix-afrika/scene1">IX - Afrika</a></item>
-        <item><a href="/map-bix/chapters/o-fio/scene1">The End</a></item>
+        <item><a href="/map-bix/chapters/i-cezalpina/scene1">I - cezalpina</a></item><br>
+        <item><a href="/map-bix/chapters/ii-genealogia/scene1">II - genealogia</a></item><br>
+        <item><a href="/map-bix/chapters/iii-rioBixiga/scene1">III - rio Bixiga</a></item><br>
+        <item><a href="/map-bix/chapters/iv-saracura/scene1">IV - Saracura</a></item><br>
+        <item><a href="/map-bix/chapters/v-portao/scene1">V - Portão</a></item><br>
+        <item><a href="/map-bix/chapters/vi-bestiario/scene1">VI - bestiário</a></item><br>
+        <item><a href="/map-bix/chapters/vii-mae_preta/scene1">VII - mãe preta</a></item><br>
+        <item><a href="/map-bix/chapters/viii-chapeu/scene1">VIII - chapéu</a></item><br>
+        <item><a href="/map-bix/chapters/ix-afrika/scene1">IX - Afrika</a></item><br>
+        <item><a href="/map-bix/chapters/o-fio/scene1">The End</a></item><br>
         {{ else }}
-        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/i-cezalpina/scene1">I - cezalpina</a></item>
-        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/ii-genealogia/scene1">II - genealogia</a></item>
-        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/iii-rioBixiga/scene1">III - rio Bixiga</a></item>
-        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/iv-saracura/scene1">IV - Saracura</a></item>
-        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/v-portao/scene1">V - Portão</a></item>
-        <item><a href="..">VI - bestiário</a></item>
-        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/vii-mae_preta/scene1">VII - mãe preta</a></item>
-        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/viii-chapeu/scene1">VIII - chapéu</a></item>
-        <item><a href="/map-bix/chapters/ix-afrika/scene1">IX - Afrika</a></item>
+        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/i-cezalpina/scene1">I - cezalpina</a></item><br>
+        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/ii-genealogia/scene1">II - genealogia</a></item><br>
+        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/iii-rioBixiga/scene1">III - rio Bixiga</a></item><br>
+        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/iv-saracura/scene1">IV - Saracura</a></item><br>
+        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/v-portao/scene1">V - Portão</a></item><br>
+        <item><a href="/map-bix/chapters/vi-bestiario/scene1">VI - bestiário</a></item>
+        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/vii-mae_preta/scene1">VII - mãe preta</a></item><br>
+        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/viii-chapeu/scene1">VIII - chapéu</a></item><br>
+        <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/ix-afrika/scene1">IX - Afrika</a></item><br>
         <item><a href="/{{ .Site.LanguageCode }}/map-bix/chapters/o-fio/scene1">o fio</a></item>
         {{ end }}
     </menu>
