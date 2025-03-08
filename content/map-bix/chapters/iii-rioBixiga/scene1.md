@@ -16,7 +16,6 @@ params:
 <audio controls autoplay class="">
     <source src="audio/RIO_BIXIGA.mp3"> type=" audio/mpeg">Your browser does not support the audio element.
 </audio>
-<div class="textBox">
 <p>Hahahahahaha-ha-ha-ha, I can hear a laugh from here
 just the humor, this earthquake,<br>
 all the water inside<br>
@@ -46,4 +45,3 @@ take possession of the face of the earth<br>
 fulfill your destiny as the vanguard of all that is alive<br>
 avenge your poisoned body<br>
 </p>
-</div>
