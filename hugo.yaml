@@ -31,13 +31,13 @@ languages:
         url: "/da/about/"
         pre: "menu-about"
         weight: 3
-      - name: "Lund"
+      - name: "null1"
         url: "/da/story-lund/"
-        pre: "menu-story"
+        pre: "menu-story-lund"
         weight: 1
-      - name: "Bix"
-        url: "/da/story-bix/"
-        pre: "menu-story"
+      - name: "null2"
+        url: "/story-bix/"
+        pre: "menu-story-bix"
         weight: 2
   en:
     title: "Mirroring Places"
