@@ -34,11 +34,11 @@ languages:
       - name: "null1"
         url: "/da/story-lund/"
         pre: "menu-story-lund"
-        weight: 1
+        weight: 2
       - name: "null2"
         url: "/story-bix/"
         pre: "menu-story-bix"
-        weight: 2
+        weight: 1
   en:
     title: "Mirroring Places"
     params:
@@ -85,10 +85,10 @@ languages:
       - name: "null1"
         url: "/pt/story-lund/"
         pre: "menu-story-lund"
-        weight: 1
+        weight: 2
       - name: "null2"
         url: "/pt/story-bix/"
         pre: "menu-story-bix"
-        weight: 2
+        weight: 1
         
 
