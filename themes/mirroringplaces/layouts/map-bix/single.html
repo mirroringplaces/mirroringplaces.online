@@ -9,6 +9,29 @@
 {{ .Content }}
 
 <div class="sceneNav">
+   <h4>
+        {{ range sort .CurrentSection.Pages "File.Path" }}
+        <a href="{{ .RelPermalink }}">{{ .Params.chapterSymbol | safeHTML }}</a>
+        {{ end }}
+    </h4>
+
+    <h4>
+
+        {{ if .NextInSection }}
+
+        <a href="{{ .NextInSection.Permalink }}">&#8678;</a>
+
+        {{ end }}
+
+        {{ if .PrevInSection }}
+
+        <a href="{{ .PrevInSection.Permalink }}">&#8680;</a>
+
+        {{ end }}
+
+    </h4>
+   
+   
     <menu class="story_menu">
         {{ if eq $.Site.Language.LanguageName "English" }}
         <item><a href="/map-bix/chapters/i-cezalpina/scene1">I - cezalpina</a></item><br>
