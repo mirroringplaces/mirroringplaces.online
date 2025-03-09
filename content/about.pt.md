@@ -68,3 +68,13 @@ Graphic design: Daniel Kairoz, Rodrigo Andreolli<br><br>
 Agradecimentos especiais pelo suporte/ Thanks for the support of Teatro Oficina, AKB København - Lundtoftegade and Fablab RUC - Bo Thorning, Nikolaj Møbius, Nicolas Padfield and Sara Daugbjer<br><br>
 
 <p>All images used and not specifically credited in the documental compositions of the work are part of Teatro Oficina’s archive, in case of restrictions, credits and copyrights please contact : project.rodrigo@gmail.com</p>
+
+Scene I - Subtexto de Bacantes _ lido por Catherine Hirsch<br>
+Scene II - Genealogia do Parque _ texto de Marilia Pirajú,  Rodrigo Andreolli / video de Igor Marotti e Roderick Himeros/ Imagens acervo Uzyna Uzona <br>
+Scene III -  música de Guilherme Calzavara e Marilia Pirajú<br>
+Scene IV - Luciana Araújo (Saracura Vai-Vai)  e Gisele Brito (Instituto Peregun, Uniafro, Saracura Vai-Vai)
+Scene V - Tim - Luiz Ernani - (Mumbi - Museu Memoria do Bixiga)<br>
+Scene VI -Texto de Maitê Bueno, lido por Vick Nefertiti_ imagem no painel reprodução de trecho de pintura de Surubim Feliciano da Paixão<br>
+Scene VII - Nice (Pastoral Afro Achiropota)<br>
+Scene VIII - Paulo Santiago (Museu Memoria do Bixiga)<br>
+Scene IX - Yannick Dellas (Centro Cultural Afrika)<br>
