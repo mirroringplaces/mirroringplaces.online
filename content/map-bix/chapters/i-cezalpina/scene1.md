@@ -75,7 +75,7 @@ With great pleasure.<br>
 The Olympos of the Maenads and Dionysos is the audience.<br>
 They see and look deeply at each person's god.<br>
 And that's where the enchantment comes from.<br>
-(subtext prologue for the Bacchae by Catherine Hirsch, Zé Celso, Denise Assunção)
+(subtext prologue for the Bacchae by Catherine Hirsch)
 </p>
 
 

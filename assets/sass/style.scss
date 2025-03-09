@@ -110,6 +110,8 @@ body {
     }
 }
 
+// * HEADER * //
+
 header {
     display: block;
     text-align: center;
@@ -201,6 +203,18 @@ h4 {
     margin: 0;
 }
 
+h5 {
+    padding: 3px 0;
+    padding-left: 0px;
+    font-family: "Space Mono", monospace;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 10pt;
+    float: right;
+    margin: 0;
+}
+
+/* BRØDTEKST */
 p {
     font-family: "Space Mono", monospace;
     font-weight: 400;
@@ -208,6 +222,7 @@ p {
     font-size: 12pt;
 }
 
+/* KNAP TEKST */
 ul li {
     font-family: "Space Mono", monospace;
     font-weight: 400;
@@ -220,14 +235,13 @@ contentScene li {
     font-family: "Space Mono", monospace;
     font-weight: 400;
     font-style: normal;
-
 }
 
 ul {
     list-style-type: square;
 }
 
-//Overflow tekstboks
+/* TEKSTBOX TEKST */
 .textBox {
     padding: 7px;
     margin: 30px;
@@ -251,7 +265,6 @@ ul {
     }
 
     @media only screen and (max-width: 450px) {
-
         margin-bottom: 100px;
     }
 }
@@ -267,7 +280,7 @@ article.about {
     }
 }
 
-/* Main article */
+/* MAIN ARTICLE / MIRRORING PLACES HEADER */
 article.main {
     background-color: white;
     padding: 20px;

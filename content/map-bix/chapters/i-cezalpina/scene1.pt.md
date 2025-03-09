@@ -75,6 +75,6 @@ Com muito prazer.<br>
 O Olympo das mênades e de Dionyzos é a platéia.<br>
 Eles vêem e olham rhealmente pro deus de cada pessoa.<br>
 E daí nasce o encantamento.<br>
-    (subtexto de Bacantes, Catherine Hirsch, Zé Celso, <p>Denise Assunção)</p>
+(subtexto de Bacantes, Catherine Hirsch)</p>
 
 </div>
