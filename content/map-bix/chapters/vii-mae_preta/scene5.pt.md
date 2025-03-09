@@ -13,6 +13,10 @@ params:
 ### Cena 5
 ## VII - mãe preta
 <canvas id="c"></canvas>
+<br>
+<audio controls class="">
+<source src="audio/_Nice-bairro.mp3"> type="audio/mpeg">Your browser does not support the audio element.
+</audio>
 <p>/ Quando eu morava ali na Paulista, eu vi toda essa demolição de várias mansões para hoje ser esses edifícios maravilhosos. Então eu peguei toda essa trajetória do bonde subindo, do paralelipípedo desse lado de baixo, aquelas mulheres super elegantes que nós éramos na época, vestido abaixo do joelho, os homens de chapéu de terno a pasta, meu pai usava uma pasta para carregar a marmita. Parecia industrial, aquele terno de giz risquinha de giz, chapéu panamá.</p><br>
 
 <p>E o guarda-chuva que a gente não negava porque São Paulo era São Paulo da garoa e todo dia garoava, era uma neblina terrível. Então eu peguei essa parte aqui também, que as crianças brincavam na rua, as mammas colocavam as cadeiras nas calçadas, e aí as crianças ficavam brincando de pique, de rolimã, de peteca, de bola.</p><br>
