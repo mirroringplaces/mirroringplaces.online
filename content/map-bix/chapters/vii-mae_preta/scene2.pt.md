@@ -17,5 +17,5 @@ params:
 <audio controls class="">
 <source src="audio/_Nice-igreja.mp3"> type="audio/mpeg">Your browser does not support the audio element.
 </audio>
-<br><br>
+<br>
 <p>/  A Bíblia que o Padre Toninho, ele queria que eu fosse catequista. E eu falei, ah, Padre Toninho, não dá pra ser catequista. Esqueci tudo do batismo, de coisa da Bíblia. No outro domingo seguinte, ele chegou e falou, ó, tá aqui a Bíblia, você vai começar a ler. E hoje eu carrego essa Bíblia. Sou missionária e sou ministra da Eucaristia.</p>

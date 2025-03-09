@@ -28,7 +28,6 @@ params:
 <img src="/images/saracura_tool8.jpeg" width="100%"><br><br>
 <img src="/images/saracura_tool9.jpeg" width="100%"><br><br>
 <img src="/images/saracura_tool10.jpeg" width="100%"><br><br>
-<div class="textBox">
 <h3>Saracura -<br>Luciana Araújo</h3>
 <p>Sou Luciana Araújo, sou jornalista,  vivo no Bexiga desde 2007, dezembro de 2007.Atuo como militante do Movimento Negro Unificado e da Marcha de Mulheres Negras de São Paulo e, desde 2022, no Mobiliza Saracura Vai-Vai, que aqui no bairro busca resgatar a memória, a memória de que esse foi um território que teve como seu primeiro núcleo populacional uma população negra rebelada e resistente à escravização, mas resgatar a memória muito na perspectiva de que memória para nós é futuro, muito atrelado à garantia do direito de continuar nesse território.</p>
 
