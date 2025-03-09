@@ -16,7 +16,7 @@ params:
     <h4><a href="{{< ref "map-bix/chapters/i-cezalpina/scene1.md" >}}" class="black">I - cezalpina</a></h4>
     <!--genealogia-->
     <h4><a href="{{< ref "map-bix/chapters/ii-genealogia/scene1.md" >}}" class="black">II - genealogia</a></h4>
-    <h4><a href="{{< ref "map-bix/chapters/iii-rioBixiga/scene1.md" >}}" class="black">III - rio Bixiga</a></h4>
+    <h4><a href="{{< ref "map-bix/chapters/iii-riobixiga/scene1.md" >}}" class="black">III - rio Bixiga</a></h4>
     <h4><a href="{{< ref "map-bix/chapters/iv-saracura/scene1.md" >}}" class="black">IV - Saracura</a></h4>
     <h4><a href="{{< ref "map-bix/chapters/v-portao/scene1.md" >}}" class="black">V - Portão</a></h4>
     <h4><a href="{{< ref "map-bix/chapters/vi-bestiario/scene1.md" >}}" class="black">VI - Bestiário</a></h4>

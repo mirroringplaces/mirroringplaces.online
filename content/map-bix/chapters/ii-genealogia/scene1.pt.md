@@ -16,6 +16,7 @@ params:
     <source src="/audio/Andreolli-Bixiga_Parque-do-Rio-Bixiga.mp3"> type="audio/mpeg">Your browser does not support the audio element.
 </audio>
 <h3>Genealogia<br>Parque Do Rio Bixiga</h3>
+<h5>Texto de Marília Pirajú, lido por Marília Pirajú e Rodrigo Andreolli </h5>
 <img src="/images/1b_chacara_do_bixiga.png">
 <br>
 <img src="/images/3_oficina_60.png">

@@ -13,6 +13,10 @@ params:
 ### Scene 5
 ## VII - mãe preta
 <canvas id="c"></canvas>
+<br>
+<audio controls class="">
+<source src="audio/_Nice-bairro.mp3"> type="audio/mpeg">Your browser does not support the audio element.
+</audio>
 <p>/ When I lived there in Paulista, I saw all the demolition of various mansions so that today there are these wonderful buildings. So I took in the whole trajectory of the streetcar going up, the parallelepiped on this side below, those super elegant women we were at the time, dresses below the knee, the men in their hats, suits and briefcases, my father used a briefcase to carry his lunch. He looked like an industrialist, that pinstriped suit, the panama hat.</p><br>
 
 <p>And the umbrella, which we didn't deny because São Paulo was the São Paulo of the drizzle and every day it drizzled, it was terribly foggy. So I picked up this part here too, where the children played in the street, the mammas would put chairs on the sidewalks, and then the children would play catch, bogie, birdie, ball.</p><br>

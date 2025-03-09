@@ -17,5 +17,5 @@ params:
 <audio controls class="">
 <source src="audio/_Nice-igreja.mp3"> type="audio/mpeg">Your browser does not support the audio element.
 </audio>
-<br><br>
+<br>
 <p>/ The Bible.  Father Toninho, he wanted me to be a catechist. And I said, oh, Father Toninho, I can't be a catechist. I've forgotten everything about baptism and the Bible. The following Sunday, he came in and said, oh, here's the Bible, you're going to start reading it. And today I carry that Bible. I'm a missionary and an Eucharistic minister.</p>

@@ -10,7 +10,7 @@ params:
 
 ---
 ### Scene 1
-## III. Rio Bixiga
+## III - Rio Bixiga
 <canvas id="c"></canvas>
 <br>
 <audio controls autoplay class="">

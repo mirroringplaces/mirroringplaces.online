@@ -11,7 +11,7 @@ params:
 
 ---
 ### Scene 1
-## IX. Afrika
+## IX - Afrika
 <canvas id="c"></canvas>
 <br>
 <audio controls class="">

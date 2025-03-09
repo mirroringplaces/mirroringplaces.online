@@ -14,3 +14,7 @@ params:
 ### Cena 3
 ## IV - Saracura 
 <canvas id="c"></canvas>
+<br>    
+<audio controls class="">
+<source src="audio/Andreolli-Bixiga_Luciana-02.mp3"> type="audio/mpeg">Your browser does not support the audio element.
+</audio>

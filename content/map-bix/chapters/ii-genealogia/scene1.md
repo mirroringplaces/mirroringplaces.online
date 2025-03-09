@@ -16,6 +16,7 @@ params:
     <source src="/audio/Andreolli-Bixiga_Parque-do-Rio-Bixiga.mp3"> type="audio/mpeg">Your browser does not support the audio element.
 </audio>
 <h3>Genealogy<br>Bixiga River Park</h3>
+<h5>Text by Marília Pirajú, red by Marília Pirajú and Rodrigo Andreolli</h5>
 <img src="/images/1b_chacara_do_bixiga.png">
 <br>
 <img src="/images/3_oficina_60.png">

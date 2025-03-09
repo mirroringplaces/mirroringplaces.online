@@ -25,7 +25,6 @@ params:
 <img src="/images/saracura_tool8.jpeg" width="100%"><br><br>
 <img src="/images/saracura_tool9.jpeg" width="100%"><br><br>
 <img src="/images/saracura_tool10.jpeg" width="100%"><br><br>
-<div class="textBox">
 <h3>Saracura -<br>Luciana Araújo</h3>
  <p>I'm Luciana Araújo, I'm a journalist, I've lived in Bixiga since 2007, December 2007. I've been an activist in the Unified Black Movement and the March of Black Women of São Paulo and, since 2022, in Mobiliza Saracura Vai-Vai, which here in the neighborhood seeks to rescue the memory that this was a territory that had as its first population nucleus a rebellious black population resistant to enslavement, but rescuing memory very much from the perspective that memory for us is future, very much linked to guaranteeing the right to continue in this territory.</p>
 
@@ -59,4 +58,3 @@ From the erasure of a quilombo that already had some degree of study in the fiel
 <p>The difference is whether you're in a community, if you're with poor black people, or if you have someone who can pay half a million to stay in an Airbnb for the weekend.</p> 
 
 <p>It's very connected and that's why, for us, memory is so much the future.</p>
-</div>
