@@ -21,14 +21,14 @@ params:
 </div>
 
 <div class="textBoxLB">
-   <a href="{{< ref "https://mirroringplaces.online/story-lund/" >}}" class="black">
+   <a href="story-lund.md" class="black">
     <img src="/images/lundtofteXL.png" width="100%" class="zoom-in-out-element">
     <br>
     <h3>Lundtoftegade</h3></a>
 </div>
 <br><br>
 <div class="textBoxLB">
-   <a href="{{< ref "https://mirroringplaces.online/story-bix/" >}}" class="black">
+   <a href="story-bix.md" class="black">
     <img src="/images/bixiga_L.png" width="100%" class="zoom-in-out-element">
     <br>        
        <h3>Bixiga</h3></a>
