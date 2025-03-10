@@ -37,7 +37,6 @@ params:
   <div class="lH"></div>
 
 </div>
-
 <div class="story_menu front">
     <h4><a href="{{< ref "map-bix/chapters/i-cezalpina/scene1.md" >}}" class="black">I - cezalpina</a></h4>
     <!--genealogia-->

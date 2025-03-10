@@ -19,16 +19,19 @@ params:
 <p>To access the exhibition as an augmented reality experience, visit the locations and find the access codes on the sculptures and panels installed. For more information on where and when to find these installations, continue browsing.
 </p>
 </div>
+
 <div class="textBoxLB">
+   <a href="{{< ref "https://mirroringplaces.online/story-lund/" >}}" class="black">
     <img src="/images/lundtofteXL.png" width="100%" class="zoom-in-out-element">
     <br>
-    <h3>Lundtoftegade</h3>
+    <h3>Lundtoftegade</h3></a>
 </div>
 <br><br>
 <div class="textBoxLB">
+   <a href="{{< ref "https://mirroringplaces.online/story-bix/" >}}" class="black">
     <img src="/images/bixiga_L.png" width="100%" class="zoom-in-out-element">
     <br>        
-    <h3>Bixiga</h3>
+       <h3>Bixiga</h3></a>
 </div>
 <div class="lH"></div>
 
